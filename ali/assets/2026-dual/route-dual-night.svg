@@ -163,4 +163,71 @@
 <g data-layer="attribution"><text class="source" x="22" y="84">地形：Mapzen；SRTM terrain data courtesy of the U.S. Geological Survey｜路线与湖岸：© OpenStreetMap contributors（ODbL 1.0）｜WGS84 数据，经 Web Mercator 绘制｜非实时导航</text>
 <text class="source" x="22" y="104">数据边界｜地形只解释地势；路线为已缓存 OSRM/OSM 几何，不含实时封路、施工、管制、接驳或可停车性。</text></g>
 </g>
+
+<g class="geo-context" data-layer="scenery" aria-hidden="true">
+  <defs>
+    <linearGradient id="ridgeShade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9b46a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#8a6f3d" stop-opacity="0.3"/>
+    </linearGradient>
+    <radialGradient id="lakeglow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#4e91a8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d2c38" stop-opacity="0.05"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Himalayan ridgeline along the southern edge of the map -->
+  <g class="ridge" aria-label="喜马拉雅山脉">
+    <path d="M120,860 L180,830 L250,855 L310,828 L390,860 L470,832 L550,858 L640,830 L720,860 L800,834 L880,858 L960,832 L1040,858 L1120,830 L1200,858 L1280,834 L1360,858 L1480,832"
+          fill="none" stroke="url(#ridgeShade)" stroke-width="1.6" stroke-linecap="round" opacity="0.85"/>
+    <text x="470" y="890" fill="#b8b2a5" font-size="11" letter-spacing="0.35em" text-anchor="start">喜 马 拉 雅 山 脉</text>
+  </g>
+
+  <!-- Gangdisê / Nyenchen Tanglha ridgeline in the north -->
+  <g class="ridge" aria-label="冈底斯-念青唐古拉">
+    <path d="M160,180 L240,210 L330,185 L420,215 L510,190 L600,218 L680,195 L760,222 L840,200 L920,225 L1020,205 L1120,228 L1230,210 L1330,232 L1430,215"
+          fill="none" stroke="url(#ridgeShade)" stroke-width="1.6" stroke-linecap="round" opacity="0.85"/>
+    <text x="560" y="170" fill="#b8b2a5" font-size="11" letter-spacing="0.35em">冈 底 斯 · 念 青 唐 古 拉 山 脉</text>
+  </g>
+
+  <!-- Lakes, coasted-by shape: rendered as stylized ellipses with coastline curves -->
+  <g class="lakes" opacity="0.95">
+    <!-- 玛旁雍措 (Manasarovar) ~ NE direction of Kailash -->
+    <g class="lake-area" aria-label="玛旁雍措">
+      <ellipse cx="1380" cy="765" rx="32" ry="18" fill="url(#lakeglow)" stroke="#4e91a8" stroke-width="0.8"/>
+      <path d="M1355,763 Q1372,748 1390,760 T1425,765" fill="none" stroke="#6eaabd" stroke-width="1" opacity="0.6"/>
+      <text x="1380" y="800" fill="#6eaabd" font-size="10" text-anchor="middle" letter-spacing="0.1em">玛旁雍措</text>
+    </g>
+    <!-- 拉昂措 (Rakshastal) ~ west of Kailash -->
+    <g class="lake-area" aria-label="拉昂措">
+      <ellipse cx="316" cy="498" rx="24" ry="12" fill="url(#lakeglow)" stroke="#4e91a8" stroke-width="0.8"/>
+      <text x="316" y="525" fill="#6eaabd" font-size="10" text-anchor="middle" letter-spacing="0.1em">拉昂措</text>
+    </g>
+    <!-- 羊卓雍措 (Yamdrok) ~ east, north-west of Lhasa -->
+    <g class="lake-area" aria-label="羊卓雍措">
+      <path d="M1420,510 Q1450,505 1460,520 Q1465,540 1450,548 Q1430,556 1415,545 Q1405,528 1420,510 Z"
+            fill="url(#lakeglow)" stroke="#4e91a8" stroke-width="0.8"/>
+      <text x="1440" y="585" fill="#6eaabd" font-size="10" text-anchor="middle" letter-spacing="0.1em">羊卓雍措</text>
+    </g>
+    <!-- 色林措 (Siling) -->
+    <g class="lake-area" aria-label="色林措">
+      <ellipse cx="693" cy="252" rx="30" ry="15" fill="url(#lakeglow)" stroke="#4e91a8" stroke-width="0.8"/>
+      <text x="693" y="285" fill="#6eaabd" font-size="10" text-anchor="middle" letter-spacing="0.1em">色林措</text>
+    </g>
+    <!-- 纳木措 (Namtso) -->
+    <g class="lake-area" aria-label="纳木措">
+      <ellipse cx="1240" cy="640" rx="28" ry="16" fill="url(#lakeglow)" stroke="#4e91a8" stroke-width="0.8"/>
+      <path d="M1220,637 Q1235,625 1250,634 T1278,641" fill="none" stroke="#6eaabd" stroke-width="1" opacity="0.6"/>
+      <text x="1240" y="672" fill="#6eaabd" font-size="10" text-anchor="middle" letter-spacing="0.1em">纳木措</text>
+    </g>
+  </g>
+
+  <!-- Geographic side notes / region anchors -->
+  <g class="region-notes" fill="#85806f" font-size="10" letter-spacing="0.2em">
+    <text x="120" y="280">藏北高原</text>
+    <text x="1450" y="180">阿里西部</text>
+    <text x="920" y="810">后 藏 · 日 喀 则</text>
+  </g>
+</g>
+
 </svg>
