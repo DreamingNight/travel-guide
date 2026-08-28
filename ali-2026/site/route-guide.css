@@ -185,6 +185,13 @@ a:focus-visible {
   letter-spacing: 0.14em;
 }
 
+.hero-byline {
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+}
+
 .page-shell {
   display: grid;
   grid-template-columns: 260px minmax(0, 850px);
