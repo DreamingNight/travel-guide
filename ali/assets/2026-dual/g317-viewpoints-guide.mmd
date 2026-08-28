@@ -1,0 +1,66 @@
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, sans-serif","primaryTextColor":"#20343a","lineColor":"#42616a","clusterBkg":"#fbf8f0","clusterBorder":"#d9d4c6","edgeLabelBackground":"#fffdf7"},"flowchart":{"curve":"basis","htmlLabels":true,"nodeSpacing":26,"rankSpacing":44}}}%%
+flowchart TB
+  intro["G317北线逐日景观导航<br/><small>道路顺序示意，不表达湖岸精确形状</small>"]:::intro
+
+  subgraph day7["D7 · 10/1　狮泉河 → 改则　487.6 km｜约 7.5–8.5 h 纯驾"]
+    direction LR
+    d7a["狮泉河<br/><small>08:10 出发</small>"]:::town --> d7b["革吉<br/><small>补油 · 短休</small>"]:::town
+    d7b --> d7c["聂尔措<br/><small>左侧 · 5–10 min</small>"]:::pass
+    d7c --> d7d["别若则措<br/><small>左侧 · 5–10 min</small>"]:::pass
+    d7d --> d7e["物玛措 / 达热布措<br/><small>有停车港湾才停 · 10–15 min</small>"]:::primary
+    d7e --> d7f["改则<br/><small>天黑前入住</small>"]:::town
+    d7e -. "不下主路" .-> d7x["湖岸 · 沙洲 · 土路机位<br/><small>不导航 · 不追无人机视角</small>"]:::cut
+  end
+
+  subgraph day8["D8 · 10/2　改则 → 尼玛　338.8 km｜约 5.5–6.5 h 纯驾"]
+    direction LR
+    d8a["改则<br/><small>08:10 出发</small>"]:::town --> d8b["洞措<br/><small>左侧 · 10–15 min</small>"]:::primary
+    d8b --> d8c["G317高原宽谷<br/><small>湖盆 · 盐碱地 · 公路本身</small>"]:::route
+    d8c --> d8d["尼玛<br/><small>补油 · 复核次日天气</small>"]:::town
+    d8b -. "不为航拍下道" .-> d8x["大地之树 / 湖边星空机位<br/><small>地面辨识弱 · 土路风险</small>"]:::cut
+  end
+
+  subgraph day9["D9 · 10/3　尼玛 → 色林措 → 班戈　333.9 km｜约 6–7 h 纯驾"]
+    direction LR
+    d9a["尼玛<br/><small>08:10 出发</small>"]:::town --> d9b["达则措<br/><small>左侧 · 车内看 / 5 min</small>"]:::pass
+    d9b --> d9c["恰规措<br/><small>右侧 · 5–10 min</small>"]:::pass
+    d9c --> d9d["色林措 G317 观景区<br/><small>主停 · 45–60 min</small>"]:::primary
+    d9d --> d9e["班戈措<br/><small>远看 · 不下湖岸</small>"]:::pass
+    d9e --> d9f["班戈<br/><small>约 4715 m 最高住宿夜</small>"]:::town
+    d9d -. "不进主线" .-> d9x["学嘎尔 · 美人尖 · 多嘎 · G562 S弯<br/><small>入口 / 支路 / 徒步 / 无人机依赖</small>"]:::cut
+  end
+
+  subgraph day10["D10 · 10/4　班戈 → 纳木措南岸 → 当雄　220.8 km｜约 5–6 h 纯驾"]
+    direction LR
+    d10a["班戈<br/><small>08:00 出发</small>"]:::town --> d10b["巴木措<br/><small>高位主路 · 10–15 min</small>"]:::primary
+    d10b --> d10c["纳木措游客中心<br/><small>正规停车 · 核验换乘</small>"]:::primary
+    d10c --> d10d["扎西半岛<br/><small>开放才摆渡 · 总预算 2–3 h</small>"]:::conditional
+    d10d --> d10e["那根拉<br/><small>正式停车区 · 5–10 min</small>"]:::pass
+    d10e --> d10f["当雄<br/><small>约 4285 m · 下撤住宿</small>"]:::town
+    d10c -. "不进入" .-> d10x["圣象天门 · 当果拉 · 免费野机位<br/><small>非执行线 / 合同与路况风险</small>"]:::cut
+  end
+
+  intro --> d7a
+  d7f ==> d8a
+  d8d ==> d9a
+  d9f ==> d10a
+
+  legend["● 主停　● 顺路看　● 条件升级　✕ 删除支线<br/><small>只在正规停车空间停靠；不驶入湿地、盐壳、草场车辙或湖岸便道</small>"]:::legend
+  d10f --> legend
+  verify["出发前复核<br/><small>天气 · 实时路况 · 景区开放/摆渡 · 租车合同与保险</small>"]:::verify
+  legend --> verify
+
+  classDef intro fill:#20343a,stroke:#20343a,color:#ffffff,stroke-width:2px,font-size:22px,font-weight:700;
+  classDef town fill:#edf1f2,stroke:#52656c,color:#20343a,stroke-width:2px,font-weight:650;
+  classDef primary fill:#dff2ed,stroke:#16856f,color:#125848,stroke-width:3px,font-weight:700;
+  classDef pass fill:#fff1cf,stroke:#c28a2c,color:#725116,stroke-width:2px,font-weight:650;
+  classDef conditional fill:#e7eff8,stroke:#2d6f9d,color:#244f73,stroke-width:2px,stroke-dasharray:6 3,font-weight:650;
+  classDef route fill:#f1edf7,stroke:#7652a6,color:#513b70,stroke-width:2px,font-weight:650;
+  classDef cut fill:#fff3f1,stroke:#b34f43,color:#8e3e35,stroke-width:2px,stroke-dasharray:7 4,font-weight:650;
+  classDef legend fill:#fffdf7,stroke:#c7bda8,color:#20343a,stroke-width:1.5px;
+  classDef verify fill:#f7eadf,stroke:#a94f36,color:#713323,stroke-width:2px,font-weight:650;
+
+  style day7 fill:#fffaf1,stroke:#d8c99f,stroke-width:2px
+  style day8 fill:#f5f8f4,stroke:#c4d5cb,stroke-width:2px
+  style day9 fill:#f2f6f9,stroke:#b9ccda,stroke-width:2px
+  style day10 fill:#f5f3f8,stroke:#c9bfd7,stroke-width:2px

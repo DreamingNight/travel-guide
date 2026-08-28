@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">羊卓雍措路线决策：经典G349主线与东岸舍弃线</title>
+  <desc id="desc">按经纬度比例绘制的羊卓雍措路线决策图。经典G349主线依次经过1号、2号、3号观景台和浪卡子；喀庆拉、鲁日拉、日托寺所在东岸线路置灰并标为本次不走。拉萨出发走东岸净增约149.4公里，泽当出发净增约132.0公里，预计额外驾驶3.5至4.5小时。</desc>
+  <metadata>
+    POI positions: AMap GCJ-02, checked 2026-08-28. Road geometry: OSRM/OpenStreetMap after coordinate conversion to WGS84. The lake silhouette is schematic. This figure is not a navigation map and does not establish current access, parking legality, opening hours, fees, or traffic conditions.
+  </metadata>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf1"/>
+      <stop offset="1" stop-color="#edf4f1"/>
+    </linearGradient>
+    <linearGradient id="mainCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e5f4f2"/>
+      <stop offset="1" stop-color="#f8fbf8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#17353a" flood-opacity="0.14"/>
+    </filter>
+    <marker id="arrowMain" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#176b72"/>
+    </marker>
+    <marker id="arrowMuted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8b9294"/>
+    </marker>
+    <marker id="arrowThin" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#60777b"/>
+    </marker>
+    <clipPath id="mapClip">
+      <rect x="60" y="156" width="1010" height="646" rx="22"/>
+    </clipPath>
+    <style>
+      .cn { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", "Hiragino Sans GB", Arial, sans-serif; }
+      .title { font-size: 39px; font-weight: 760; fill: #20343a; letter-spacing: .3px; }
+      .subtitle { font-size: 18px; fill: #607176; }
+      .eyebrow { font-size: 14px; font-weight: 760; fill: #176b72; letter-spacing: 1.4px; }
+      .panelTitle { font-size: 24px; font-weight: 760; fill: #20343a; }
+      .body { font-size: 17px; fill: #31484d; }
+      .small { font-size: 14px; fill: #65767a; }
+      .tiny { font-size: 12px; fill: #728186; }
+      .pointLabel { font-size: 16px; font-weight: 720; fill: #20343a; paint-order: stroke; stroke: #fffdf8; stroke-width: 5px; stroke-linejoin: round; }
+      .mutedLabel { font-size: 15px; font-weight: 700; fill: #6f7779; paint-order: stroke; stroke: #fffdf8; stroke-width: 5px; stroke-linejoin: round; }
+      .metric { font-size: 29px; font-weight: 780; fill: #a94f36; }
+      .metricLabel { font-size: 14px; fill: #765f55; }
+      .route { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#paper)"/>
+  <text class="cn eyebrow" x="64" y="48">YAMDROK ROUTE DECISION · 2026-09</text>
+  <text class="cn title" x="64" y="92">羊卓雍措怎么走：经典西线留，东岸线删</text>
+  <text class="cn subtitle" x="64" y="126">1号＋2号形成完整视角；3号看排队决定。东岸三点不是去日喀则的顺路加点。</text>
+  <g transform="translate(1326 46)">
+    <rect width="210" height="58" rx="15" fill="#20343a"/>
+    <text class="cn" x="105" y="25" text-anchor="middle" font-size="12" font-weight="700" fill="#dce9e6">最终选择</text>
+    <text class="cn" x="105" y="46" text-anchor="middle" font-size="19" font-weight="760" fill="#ffffff">经典 G349 西线</text>
+  </g>
+
+  <!-- Geographic decision panel. Points and road geometry are projected from WGS84. -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="156" width="1010" height="646" rx="22" fill="#fffdf8" stroke="#d8e0dc"/>
+  </g>
+  <g clip-path="url(#mapClip)">
+    <rect x="60" y="156" width="1010" height="646" fill="#fbfaf6"/>
+
+    <!-- light geographic grid -->
+    <g stroke="#dfe6e3" stroke-width="1">
+      <path d="M221.2 156V802 M503.5 156V802 M785.9 156V802"/>
+      <path d="M60 249.6H1070 M60 382.2H1070 M60 514.8H1070 M60 647.4H1070"/>
+    </g>
+    <g class="cn tiny">
+      <text x="221.2" y="790" text-anchor="middle">90.4°E</text>
+      <text x="503.5" y="790" text-anchor="middle">90.6°E</text>
+      <text x="785.9" y="790" text-anchor="middle">90.8°E</text>
+      <text x="74" y="254">29.3°N</text>
+      <text x="74" y="387">29.2°N</text>
+      <text x="74" y="520">29.1°N</text>
+      <text x="74" y="653">29.0°N</text>
+    </g>
+
+    <!-- Lake silhouette is intentionally schematic, not extracted shoreline data. -->
+    <g fill="none" stroke="#a9dce3" stroke-linecap="round" stroke-linejoin="round" opacity="0.52">
+      <path d="M205 548 C285 509 355 470 445 486 C527 501 579 554 663 568 C751 584 843 568 929 548" stroke-width="76"/>
+      <path d="M428 486 C476 445 493 414 519 381" stroke-width="52"/>
+      <path d="M624 561 C591 610 570 670 548 744" stroke-width="64"/>
+      <path d="M744 574 C800 621 853 645 917 654" stroke-width="48"/>
+    </g>
+    <text class="cn" x="585" y="550" text-anchor="middle" font-size="22" font-weight="760" fill="#287f90" opacity="0.78">羊卓雍措</text>
+    <text class="cn tiny" x="585" y="572" text-anchor="middle" fill="#3e8794">湖体轮廓仅作方位示意</text>
+
+    <!-- East-shore rejected route: OSRM geometry, Qaqingla → Rurila → Ritu → back to No.1. -->
+    <path class="route" d="M934.6,567.3 L939.9,561.7 L941.6,567.2 L957.1,563.4 L948.1,566.7 L954.2,588.0 L957.8,593.1 L952.0,574.5 L966.0,594.0 L964.1,600.4 L968.9,598.3 L967.6,602.9 L971.9,593.8 L972.5,604.6 L977.6,603.7 L974.1,607.3 L980.7,605.8 L990.8,618.6 L981.7,631.2 L955.7,628.8 L939.0,643.5 L928.5,628.8 L912.2,633.2 L888.0,628.0 L886.4,634.2 L904.0,654.6 L886.4,634.2 L888.0,628.0 L873.3,626.4 L843.2,606.8 L803.1,612.0 L776.1,604.1 L766.0,596.9 L761.4,580.2 L758.3,584.1 L756.8,577.6 L745.4,576.5 L699.9,541.2 L690.9,514.8 L693.8,502.5 L672.0,489.9 L735.6,481.8 L740.5,472.3 L744.1,476.5 L749.8,458.5 L742.5,457.4 L745.1,442.8 L739.2,442.4 L748.9,441.0 L738.8,440.0 L753.9,438.4 L742.7,433.2 L760.8,432.8 L756.6,431.4 L767.0,425.9 L761.7,422.2 L783.7,417.4 L816.0,397.6 L819.9,375.6 L802.9,287.8 L722.3,275.0 L704.0,221.1 L673.8,203.3 L646.6,203.4 L626.0,212.2 L629.8,251.8 L550.3,274.3 L532.4,293.2 L537.7,329.6 L560.2,343.2 L537.2,346.0 L552.9,352.8 L541.7,355.7 L560.6,357.4 L546.7,357.7 L548.0,366.4 L555.6,359.9 L564.4,365.4 L553.1,364.5 L559.6,383.8 L528.2,389.8" stroke="#fffdf8" stroke-width="13" opacity="0.92"/>
+    <path class="route" d="M934.6,567.3 L939.9,561.7 L941.6,567.2 L957.1,563.4 L948.1,566.7 L954.2,588.0 L957.8,593.1 L952.0,574.5 L966.0,594.0 L964.1,600.4 L968.9,598.3 L967.6,602.9 L971.9,593.8 L972.5,604.6 L977.6,603.7 L974.1,607.3 L980.7,605.8 L990.8,618.6 L981.7,631.2 L955.7,628.8 L939.0,643.5 L928.5,628.8 L912.2,633.2 L888.0,628.0 L886.4,634.2 L904.0,654.6 L886.4,634.2 L888.0,628.0 L873.3,626.4 L843.2,606.8 L803.1,612.0 L776.1,604.1 L766.0,596.9 L761.4,580.2 L758.3,584.1 L756.8,577.6 L745.4,576.5 L699.9,541.2 L690.9,514.8 L693.8,502.5 L672.0,489.9 L735.6,481.8 L740.5,472.3 L744.1,476.5 L749.8,458.5 L742.5,457.4 L745.1,442.8 L739.2,442.4 L748.9,441.0 L738.8,440.0 L753.9,438.4 L742.7,433.2 L760.8,432.8 L756.6,431.4 L767.0,425.9 L761.7,422.2 L783.7,417.4 L816.0,397.6 L819.9,375.6 L802.9,287.8 L722.3,275.0 L704.0,221.1 L673.8,203.3 L646.6,203.4 L626.0,212.2 L629.8,251.8 L550.3,274.3 L532.4,293.2 L537.7,329.6 L560.2,343.2 L537.2,346.0 L552.9,352.8 L541.7,355.7 L560.6,357.4 L546.7,357.7 L548.0,366.4 L555.6,359.9 L564.4,365.4 L553.1,364.5 L559.6,383.8 L528.2,389.8" stroke="#92999b" stroke-width="6" stroke-dasharray="11 11" marker-end="url(#arrowMuted)"/>
+
+    <!-- Classic route: No.1 → No.2 → No.3 → Langkazi. -->
+    <path class="route" d="M528.2,389.8 L536.8,399.4 L525.6,392.4 L512.4,398.4 L507.7,391.1 L496.4,399.0 L432.4,400.4 L352.9,446.6 L335.3,448.8 L275.7,475.9 L271.5,484.7 L210.2,525.3 L174.3,500.2 L158.3,493.4 L149.4,496.8 L213.5,545.4 L209.6,571.2 L219.3,597.3 L219.2,617.9 L202.7,635.7 L215.2,658.0 L212.2,669.7 L223.8,681.1 L215.8,684.9" stroke="#fffdf8" stroke-width="15"/>
+    <path class="route" d="M528.2,389.8 L536.8,399.4 L525.6,392.4 L512.4,398.4 L507.7,391.1 L496.4,399.0 L432.4,400.4 L352.9,446.6 L335.3,448.8 L275.7,475.9 L271.5,484.7 L210.2,525.3 L174.3,500.2 L158.3,493.4 L149.4,496.8 L213.5,545.4 L209.6,571.2 L219.3,597.3 L219.2,617.9 L202.7,635.7 L215.2,658.0 L212.2,669.7 L223.8,681.1 L215.8,684.9" stroke="#176b72" stroke-width="8" marker-end="url(#arrowMain)"/>
+
+    <!-- Incoming direction is outside this focused map. -->
+    <path d="M742 194 C692 231 625 285 566 348" fill="none" stroke="#60777b" stroke-width="2.5" stroke-dasharray="5 6" marker-end="url(#arrowThin)"/>
+    <g transform="translate(714 182)">
+      <rect x="0" y="0" width="270" height="45" rx="12" fill="#ffffff" stroke="#ccd8d5"/>
+      <text class="cn" x="135" y="19" text-anchor="middle" font-size="13" fill="#607176">图外来向</text>
+      <text class="cn" x="135" y="37" text-anchor="middle" font-size="16" font-weight="730" fill="#31484d">A 拉萨 / B 泽当</text>
+    </g>
+
+    <!-- Main-route labels and points. -->
+    <g>
+      <circle cx="528.1" cy="389.8" r="10" fill="#f0a33a" stroke="#fffdf8" stroke-width="4"/>
+      <circle cx="528.6" cy="397.8" r="7" fill="#176b72" stroke="#fffdf8" stroke-width="3"/>
+      <circle cx="474.4" cy="398.5" r="7" fill="#176b72" stroke="#fffdf8" stroke-width="3"/>
+      <circle cx="215.7" cy="684.9" r="9" fill="#20343a" stroke="#fffdf8" stroke-width="4"/>
+
+      <path d="M524 383 L482 335" stroke="#66787b" stroke-width="1.5"/>
+      <text class="cn pointLabel" x="474" y="324" text-anchor="end">1号｜岗巴拉高位</text>
+      <text class="cn small" x="474" y="344" text-anchor="end">全湖折线 · 20–30分钟 · 最后保留</text>
+
+      <path d="M535 403 L579 439" stroke="#66787b" stroke-width="1.5"/>
+      <text class="cn pointLabel" x="588" y="444">2号｜半山</text>
+      <text class="cn small" x="588" y="464">湖湾＋盘山路 · 15–20分钟</text>
+
+      <path d="M468 404 L433 438" stroke="#66787b" stroke-width="1.5"/>
+      <text class="cn pointLabel" x="425" y="447" text-anchor="end">3号｜近湖</text>
+      <text class="cn small" x="425" y="467" text-anchor="end">仅不排队时10–15分钟</text>
+
+      <text class="cn pointLabel" x="192" y="711" text-anchor="end">浪卡子</text>
+      <text class="cn small" x="192" y="732" text-anchor="end">再赴江孜 → 日喀则</text>
+    </g>
+
+    <!-- East-shore points are muted and crossed out. -->
+    <g>
+      <circle cx="934.6" cy="570.3" r="8" fill="#a6adaf" stroke="#fffdf8" stroke-width="3"/>
+      <circle cx="957.6" cy="593.4" r="8" fill="#a6adaf" stroke="#fffdf8" stroke-width="3"/>
+      <circle cx="903.3" cy="653.2" r="8" fill="#a6adaf" stroke="#fffdf8" stroke-width="3"/>
+      <text class="cn mutedLabel" x="918" y="549" text-anchor="end">喀庆拉</text>
+      <text class="cn mutedLabel" x="979" y="585">鲁日拉</text>
+      <text class="cn mutedLabel" x="889" y="681" text-anchor="end">日托寺</text>
+      <g transform="translate(744 688)">
+        <rect width="276" height="54" rx="14" fill="#f3f1ed" stroke="#b7babb"/>
+        <circle cx="29" cy="27" r="15" fill="#a94f36"/>
+        <path d="M21 19L37 35 M37 19L21 35" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+        <text class="cn" x="54" y="23" font-size="15" font-weight="760" fill="#70493e">东岸独立线路</text>
+        <text class="cn" x="54" y="42" font-size="18" font-weight="780" fill="#70493e">本次不走</text>
+      </g>
+    </g>
+
+    <g transform="translate(92 186)">
+      <rect width="232" height="68" rx="14" fill="#edf7f5" stroke="#b8d7d3"/>
+      <path d="M22 23H58" stroke="#176b72" stroke-width="7" stroke-linecap="round" marker-end="url(#arrowMain)"/>
+      <text class="cn" x="75" y="28" font-size="15" font-weight="740" fill="#176b72">经典G349主线</text>
+      <path d="M22 49H58" stroke="#92999b" stroke-width="5" stroke-dasharray="8 7" stroke-linecap="round"/>
+      <text class="cn" x="75" y="54" font-size="15" font-weight="700" fill="#747c7e">东岸舍弃线</text>
+    </g>
+  </g>
+
+  <!-- Decision panel -->
+  <g filter="url(#shadow)">
+    <rect x="1098" y="156" width="438" height="646" rx="22" fill="#fffdf8" stroke="#d8e0dc"/>
+  </g>
+  <text class="cn eyebrow" x="1130" y="197">EXECUTION CALL</text>
+  <text class="cn panelTitle" x="1130" y="230">当天只做一件事</text>
+  <text class="cn body" x="1130" y="258">把羊湖主观景窗留在顺路西线，</text>
+  <text class="cn body" x="1130" y="282">并在天黑前抵达日喀则。</text>
+
+  <g transform="translate(1125 308)">
+    <rect width="384" height="157" rx="18" fill="url(#mainCard)" stroke="#9bcac4"/>
+    <rect x="18" y="18" width="76" height="29" rx="14" fill="#176b72"/>
+    <text class="cn" x="56" y="38" text-anchor="middle" font-size="13" font-weight="760" fill="#fff">采用</text>
+    <text class="cn" x="18" y="79" font-size="25" font-weight="790" fill="#174f55">1号 ＋ 2号</text>
+    <text class="cn" x="18" y="108" font-size="16" fill="#365f63">3号仅在不排队时加入</text>
+    <text class="cn" x="18" y="136" font-size="15" font-weight="720" fill="#a45b2c">删减顺序：3号 → 2号 → 1号</text>
+  </g>
+
+  <g transform="translate(1125 484)">
+    <rect width="384" height="227" rx="18" fill="#f2f0ec" stroke="#c8c8c4"/>
+    <rect x="18" y="18" width="103" height="29" rx="14" fill="#7f8587"/>
+    <text class="cn" x="69.5" y="38" text-anchor="middle" font-size="13" font-weight="760" fill="#fff">本次不走</text>
+    <text class="cn" x="18" y="79" font-size="21" font-weight="760" fill="#565e60">喀庆拉 · 鲁日拉 · 日托寺</text>
+    <text class="cn small" x="18" y="104">东岸全收后再接经典线</text>
+    <line x1="18" y1="121" x2="366" y2="121" stroke="#d3d1cc"/>
+    <text class="cn metricLabel" x="18" y="146">A｜拉萨出发净增</text>
+    <text class="cn metric" x="218" y="149">+149.4 km</text>
+    <text class="cn metricLabel" x="18" y="181">B｜泽当出发净增</text>
+    <text class="cn metric" x="218" y="184">+132.0 km</text>
+    <text class="cn" x="18" y="213" font-size="15" font-weight="740" fill="#a94f36">预计额外驾驶 3.5–4.5 小时</text>
+  </g>
+
+  <g transform="translate(1125 729)">
+    <circle cx="11" cy="10" r="10" fill="#f0a33a"/>
+    <text class="cn" x="11" y="15" text-anchor="middle" font-size="14" font-weight="800" fill="#fff">!</text>
+    <text class="cn" x="30" y="15" font-size="14" font-weight="720" fill="#644f45">东岸只适合另排独立羊湖日</text>
+    <text class="cn tiny" x="30" y="38">额外驾驶之外，还要计停车、观景与日托寺步行。</text>
+  </g>
+
+  <!-- Evidence and coordinate-system boundary. -->
+  <g transform="translate(64 833)">
+    <rect width="1472" height="104" rx="18" fill="#24383d"/>
+    <text class="cn" x="26" y="30" font-size="14" font-weight="760" fill="#d9ece9">数据边界</text>
+    <text class="cn" x="26" y="56" font-size="13" fill="#d8e3e1">点位由高德 POI（GCJ-02）核验；道路折线由同点转换至 WGS84 后交给 OSRM 计算。两套坐标不可直接混用。</text>
+    <text class="cn" x="26" y="80" font-size="13" fill="#bfcfcd">线形用于路线取舍，不替代导航，也不证明实时开放、收费、停车容量或停车合法性。版本：2026-08-28；临行前7天、72小时、前一晚复核。</text>
+  </g>
+
+  <text class="cn tiny" x="1536" y="962" text-anchor="end">同起终点、同停靠口径比较；里程取整到0.1km</text>
+</svg>

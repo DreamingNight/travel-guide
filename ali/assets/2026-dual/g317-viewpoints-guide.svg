@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1560" viewBox="0 0 1800 1560" role="img" aria-labelledby="title desc">
+  <title id="title">G317北线四日景观导航示意</title>
+  <desc id="desc">从狮泉河经改则、尼玛、色林措、班戈、巴木措和纳木措到当雄的四日道路顺序图。绿色表示主停，黄色表示顺路看，蓝色虚线表示条件升级，红色虚线表示删除支线。图中连线不表示湖岸精确形状。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf1"/>
+      <stop offset="1" stop-color="#edf4f2"/>
+    </linearGradient>
+    <linearGradient id="route" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="1710" y2="0">
+      <stop offset="0" stop-color="#244f73"/>
+      <stop offset="0.55" stop-color="#277e91"/>
+      <stop offset="1" stop-color="#7652a6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#20343a" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#42616a"/>
+    </marker>
+    <style>
+      .cn{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif}
+      .title{font-size:40px;font-weight:760;fill:#20343a}
+      .subtitle{font-size:19px;fill:#64757a}
+      .day{font-size:28px;font-weight:760;fill:#fff}
+      .daymeta{font-size:16px;font-weight:550;fill:#dbe7eb}
+      .route{fill:none;stroke:url(#route);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}
+      .minorroute{fill:none;stroke:#84989e;stroke-width:2.5;stroke-linecap:round}
+      .branch-blue{fill:none;stroke:#2d6f9d;stroke-width:3;stroke-dasharray:8 7}
+      .branch-red{fill:none;stroke:#b34f43;stroke-width:3;stroke-dasharray:9 7}
+      .place{font-size:20px;font-weight:720;fill:#20343a}
+      .detail{font-size:15px;font-weight:520;fill:#637378}
+      .white{fill:#fff}
+      .badge{font-size:14px;font-weight:720}
+      .foot{font-size:16px;fill:#4f656c}
+      .small{font-size:14px;fill:#6b7b80}
+    </style>
+  </defs>
+
+  <rect width="1800" height="1560" rx="28" fill="url(#paper)"/>
+
+  <g class="cn">
+    <text class="title" x="70" y="70">G317北线｜四日景观导航</text>
+    <text class="subtitle" x="70" y="108">看的是公路串起的湖盆与羌塘尺度，不是逐个“导航到湖边”｜所有里程、车时均为规划量级</text>
+
+    <g transform="translate(1035 46)">
+      <circle cx="0" cy="0" r="10" fill="#16856f"/><text class="badge" x="18" y="5" fill="#32545a">主停</text>
+      <circle cx="100" cy="0" r="10" fill="#c28a2c"/><text class="badge" x="118" y="5" fill="#32545a">顺路看</text>
+      <circle cx="230" cy="0" r="10" fill="#fff" stroke="#2d6f9d" stroke-width="3"/><text class="badge" x="248" y="5" fill="#32545a">条件升级</text>
+      <circle cx="385" cy="0" r="10" fill="#fff3f1" stroke="#b34f43" stroke-width="3"/><path d="M380 -5L390 5M390 -5L380 5" stroke="#b34f43" stroke-width="2.5"/><text class="badge" x="403" y="5" fill="#32545a">删除支线</text>
+    </g>
+
+    <!-- D7 -->
+    <g filter="url(#shadow)">
+      <rect x="45" y="150" width="1710" height="300" rx="24" fill="#fffdf8" stroke="#dfd5bf" stroke-width="2"/>
+      <rect x="45" y="150" width="205" height="300" rx="24" fill="#244f73"/>
+      <path d="M226 150h24v300h-24q24-150 0-300z" fill="#244f73"/>
+    </g>
+    <text class="day" x="82" y="205">D7 · 10/1</text>
+    <text class="daymeta" x="82" y="240">狮泉河 → 改则</text>
+    <text class="daymeta" x="82" y="274">487.6 km</text>
+    <text class="daymeta" x="82" y="301">纯驾 7.5–8.5 h</text>
+    <text class="daymeta" x="82" y="346">09:00 未发车</text>
+    <text class="daymeta" x="82" y="371">取消北线</text>
+
+    <path class="route" d="M300 300H1710"/>
+    <g transform="translate(320 300)"><circle r="12" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">狮泉河</text><text class="detail" x="0" y="-16" text-anchor="middle">08:10 出发</text></g>
+    <g transform="translate(535 300)"><circle r="11" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="42" text-anchor="middle">革吉</text><text class="detail" x="0" y="63" text-anchor="middle">补油 · 短休</text></g>
+    <g transform="translate(755 300)"><circle r="12" fill="#c28a2c" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">聂尔措</text><text class="detail" x="0" y="-16" text-anchor="middle">东行左侧 · 5–10 min</text></g>
+    <g transform="translate(985 300)"><circle r="12" fill="#c28a2c" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="42" text-anchor="middle">别若则措</text><text class="detail" x="0" y="63" text-anchor="middle">东行左侧 · 5–10 min</text></g>
+    <g transform="translate(1265 300)"><circle r="16" fill="#16856f" stroke="#fff" stroke-width="5"/><circle r="23" fill="none" stroke="#16856f" stroke-width="2"/><text class="place" x="0" y="-45" text-anchor="middle">物玛措 / 达热布措</text><text class="detail" x="0" y="-22" text-anchor="middle">有停车港湾才停 · 10–15 min</text></g>
+    <g transform="translate(1640 300)"><circle r="12" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="42" text-anchor="middle">改则</text><text class="detail" x="0" y="63" text-anchor="middle">约 4425 m · 住宿</text></g>
+    <path class="branch-red" d="M1265 323V373H1450"/>
+    <rect x="1325" y="360" width="350" height="56" rx="15" fill="#fff3f1" stroke="#b34f43" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="1500" y="383" text-anchor="middle" class="badge" fill="#8e3e35">✕ 湖岸 / 沙洲 / 村口土路机位</text>
+    <text x="1500" y="404" text-anchor="middle" class="small" fill="#8e3e35">不导航，不为无人机画面下主路</text>
+
+    <!-- D8 -->
+    <g filter="url(#shadow)">
+      <rect x="45" y="475" width="1710" height="250" rx="24" fill="#fbfdfb" stroke="#cadbd2" stroke-width="2"/>
+      <rect x="45" y="475" width="205" height="250" rx="24" fill="#277e91"/>
+      <path d="M226 475h24v250h-24q24-125 0-250z" fill="#277e91"/>
+    </g>
+    <text class="day" x="82" y="530">D8 · 10/2</text>
+    <text class="daymeta" x="82" y="565">改则 → 尼玛</text>
+    <text class="daymeta" x="82" y="599">338.8 km</text>
+    <text class="daymeta" x="82" y="626">纯驾 5.5–6.5 h</text>
+    <text class="daymeta" x="82" y="669">路本身是主景</text>
+
+    <path class="route" d="M300 590H1710"/>
+    <g transform="translate(320 590)"><circle r="12" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">改则</text><text class="detail" x="0" y="-16" text-anchor="middle">08:10 出发</text></g>
+    <g transform="translate(720 590)"><circle r="16" fill="#16856f" stroke="#fff" stroke-width="5"/><circle r="23" fill="none" stroke="#16856f" stroke-width="2"/><text class="place" x="0" y="42" text-anchor="middle">洞措</text><text class="detail" x="0" y="63" text-anchor="middle">约 64 km · 左侧 · 10–15 min</text></g>
+    <g transform="translate(1165 590)"><circle r="12" fill="#7652a6" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">G317高原宽谷</text><text class="detail" x="0" y="-16" text-anchor="middle">湖盆 · 盐碱地 · 连续路景</text></g>
+    <g transform="translate(1640 590)"><circle r="12" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="42" text-anchor="middle">尼玛</text><text class="detail" x="0" y="63" text-anchor="middle">约 4530 m · 补油</text></g>
+    <path class="branch-red" d="M720 614V675H1040"/>
+    <rect x="845" y="646" width="470" height="55" rx="15" fill="#fff3f1" stroke="#b34f43" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="1080" y="669" text-anchor="middle" class="badge" fill="#8e3e35">✕ 大地之树 / 洞措湖边 / 星空折返</text>
+    <text x="1080" y="690" text-anchor="middle" class="small" fill="#8e3e35">地面辨识弱；土路与夜间风险不值得</text>
+
+    <!-- D9 -->
+    <g filter="url(#shadow)">
+      <rect x="45" y="750" width="1710" height="345" rx="24" fill="#fafdff" stroke="#c5d7e3" stroke-width="2"/>
+      <rect x="45" y="750" width="205" height="345" rx="24" fill="#2d6f9d"/>
+      <path d="M226 750h24v345h-24q24-172 0-345z" fill="#2d6f9d"/>
+    </g>
+    <text class="day" x="82" y="805">D9 · 10/3</text>
+    <text class="daymeta" x="82" y="840">尼玛 → 班戈</text>
+    <text class="daymeta" x="82" y="874">333.9 km</text>
+    <text class="daymeta" x="82" y="901">纯驾 6–7 h</text>
+    <text class="daymeta" x="82" y="946">色林措只选</text>
+    <text class="daymeta" x="82" y="971">一种观景法</text>
+
+    <path class="route" d="M300 910H1710"/>
+    <g transform="translate(320 910)"><circle r="12" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">尼玛</text><text class="detail" x="0" y="-16" text-anchor="middle">08:10 出发</text></g>
+    <g transform="translate(540 910)"><circle r="12" fill="#c28a2c" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="42" text-anchor="middle">达则措</text><text class="detail" x="0" y="63" text-anchor="middle">左侧 · 车内看 / 5 min</text></g>
+    <g transform="translate(755 910)"><circle r="12" fill="#c28a2c" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">恰规措</text><text class="detail" x="0" y="-16" text-anchor="middle">右侧 · 5–10 min</text></g>
+    <g transform="translate(1045 910)"><circle r="16" fill="#16856f" stroke="#fff" stroke-width="5"/><circle r="23" fill="none" stroke="#16856f" stroke-width="2"/><text class="place" x="0" y="42" text-anchor="middle">色林措 G317 观景区</text><text class="detail" x="0" y="63" text-anchor="middle">主停 45–60 min · 不下湿地</text></g>
+    <g transform="translate(1370 910)"><circle r="12" fill="#c28a2c" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">班戈措</text><text class="detail" x="0" y="-16" text-anchor="middle">公路远看 · 不下湖岸</text></g>
+    <g transform="translate(1640 910)"><circle r="12" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="42" text-anchor="middle">班戈</text><text class="detail" x="0" y="63" text-anchor="middle">约 4715 m · 最高住宿夜</text></g>
+    <path class="branch-red" d="M1045 886V820H1280"/>
+    <rect x="1090" y="785" width="520" height="70" rx="16" fill="#fff3f1" stroke="#b34f43" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="1350" y="813" text-anchor="middle" class="badge" fill="#8e3e35">✕ 学嘎尔 · 美人尖 · 多嘎 · G562 S弯</text>
+    <text x="1350" y="836" text-anchor="middle" class="small" fill="#8e3e35">不进主线：入口、支路、徒步或无人机依赖</text>
+
+    <!-- D10 -->
+    <g filter="url(#shadow)">
+      <rect x="45" y="1120" width="1710" height="320" rx="24" fill="#fcfbfe" stroke="#d2c8df" stroke-width="2"/>
+      <rect x="45" y="1120" width="205" height="320" rx="24" fill="#7652a6"/>
+      <path d="M226 1120h24v320h-24q24-160 0-320z" fill="#7652a6"/>
+    </g>
+    <text class="day" x="82" y="1175">D10 · 10/4</text>
+    <text class="daymeta" x="82" y="1210">班戈 → 当雄</text>
+    <text class="daymeta" x="82" y="1244">220.8 km</text>
+    <text class="daymeta" x="82" y="1271">纯驾 5–6 h</text>
+    <text class="daymeta" x="82" y="1316">景区另留</text>
+    <text class="daymeta" x="82" y="1341">2–3 h</text>
+
+    <path class="route" d="M300 1270H1710"/>
+    <g transform="translate(320 1270)"><circle r="12" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">班戈</text><text class="detail" x="0" y="-16" text-anchor="middle">08:00 出发</text></g>
+    <g transform="translate(625 1270)"><circle r="16" fill="#16856f" stroke="#fff" stroke-width="5"/><circle r="23" fill="none" stroke="#16856f" stroke-width="2"/><text class="place" x="0" y="42" text-anchor="middle">巴木措</text><text class="detail" x="0" y="63" text-anchor="middle">公路高位 · 10–15 min</text></g>
+    <g transform="translate(985 1270)"><circle r="16" fill="#16856f" stroke="#fff" stroke-width="5"/><circle r="23" fill="none" stroke="#16856f" stroke-width="2"/><text class="place" x="0" y="-45" text-anchor="middle">纳木措游客中心</text><text class="detail" x="0" y="-22" text-anchor="middle">正规停车 · 核验换乘</text></g>
+    <g transform="translate(1325 1270)"><circle r="12" fill="#c28a2c" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="42" text-anchor="middle">那根拉</text><text class="detail" x="0" y="63" text-anchor="middle">正式停车区 · 5–10 min</text></g>
+    <g transform="translate(1640 1270)"><circle r="12" fill="#20343a" stroke="#fff" stroke-width="4"/><text class="place" x="0" y="-38" text-anchor="middle">当雄</text><text class="detail" x="0" y="-16" text-anchor="middle">约 4285 m · 下撤住宿</text></g>
+    <path class="branch-blue" d="M985 1246V1175H1260"/>
+    <rect x="1065" y="1143" width="420" height="65" rx="16" fill="#e7eff8" stroke="#2d6f9d" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="1275" y="1169" text-anchor="middle" class="badge" fill="#244f73">△ 扎西半岛｜开放才按景区摆渡</text>
+    <text x="1275" y="1192" text-anchor="middle" class="small" fill="#244f73">排队 + 往返 + 短步行合计 2–3 h</text>
+    <path class="branch-red" d="M985 1294V1370H1290"/>
+    <rect x="1090" y="1344" width="500" height="65" rx="16" fill="#fff3f1" stroke="#b34f43" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="1340" y="1370" text-anchor="middle" class="badge" fill="#8e3e35">✕ 圣象天门 · 当果拉 · 免费野机位</text>
+    <text x="1340" y="1393" text-anchor="middle" class="small" fill="#8e3e35">不进执行线；不以“没查到”替代合同合规</text>
+
+    <g transform="translate(55 1470)">
+      <rect width="1690" height="62" rx="18" fill="#20343a"/>
+      <text class="white" x="845" y="26" text-anchor="middle" font-size="17" font-weight="700">示意边界｜连线只表达道路顺序，不表达湖岸形状、实时路况或正式停车位置</text>
+      <text x="845" y="49" text-anchor="middle" font-size="15" fill="#dbe7eb">出发前复核：天气 · 交通管制 · 景区开放与摆渡 · 车辆合同 / 保险；只在正规停车空间停靠</text>
+    </g>
+  </g>
+</svg>
