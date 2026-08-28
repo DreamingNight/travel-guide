@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 暑期 9 天自然风光路线推荐</title>
+    <style>
+        :root {
+            --primary: #1a4a3a;
+            --accent: #e8a838;
+            --bg: #fafaf7;
+            --card-bg: #ffffff;
+            --text: #2d2d2d;
+            --text-muted: #6b7280;
+            --border: #e5e7eb;
+            --shadow: 0 4px 24px rgba(0,0,0,0.08);
+            --radius: 16px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', 'Noto Sans SC', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .hero {
+            position: relative;
+            height: 70vh;
+            min-height: 500px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1a4a3a 0%, #2d6b5a 50%, #1a3a4a 100%);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url('img/altay-lake.jpg') center/cover;
+            opacity: 0.35;
+        }
+
+        .hero-content {
+            position: relative;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+        }
+
+        .hero-content h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+        }
+
+        .hero-content p {
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .hero-badges {
+            margin-top: 1.5rem;
+            display: flex;
+            gap: 0.75rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .hero-badge {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.25);
+            padding: 0.5rem 1.2rem;
+            border-radius: 100px;
+            font-size: 0.9rem;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .section-header {
+            text-align: center;
+            padding: 5rem 0 3rem;
+        }
+
+        .section-header h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .section-header p {
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        /* Comparison table */
+        .comparison {
+            overflow-x: auto;
+            margin-bottom: 4rem;
+        }
+
+        .comparison table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .comparison th {
+            background: var(--primary);
+            color: white;
+            padding: 1rem 1.2rem;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+
+        .comparison td {
+            padding: 1rem 1.2rem;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+
+        .comparison tr:last-child td {
+            border-bottom: none;
+        }
+
+        .comparison tr:hover td {
+            background: #f8faf9;
+        }
+
+        .rank-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 0.8rem;
+            color: white;
+        }
+
+        .rank-1 { background: #f59e0b; }
+        .rank-2 { background: #6b7280; }
+        .rank-3 { background: #b45309; }
+        .rank-4 { background: #9ca3af; }
+
+        /* Route cards */
+        .route-card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            margin-bottom: 4rem;
+            transition: transform 0.3s;
+        }
+
+        .route-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .route-card-header {
+            position: relative;
+            height: 480px;
+            overflow: hidden;
+        }
+
+        .route-card-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+            transition: transform 0.5s;
+        }
+
+        .route-card:hover .route-card-header img {
+            transform: scale(1.03);
+        }
+
+        .route-card-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 3rem 2rem 1.5rem;
+            background: linear-gradient(transparent, rgba(0,0,0,0.7));
+            color: white;
+        }
+
+        .route-card-overlay h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+        }
+
+        .route-card-overlay .subtitle {
+            opacity: 0.85;
+            font-size: 1rem;
+        }
+
+        .route-card-body {
+            padding: 2rem;
+        }
+
+        .route-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .meta-item {
+            text-align: center;
+            padding: 1rem;
+            background: #f8faf9;
+            border-radius: 12px;
+        }
+
+        .meta-item .label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.3rem;
+        }
+
+        .meta-item .value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .route-description {
+            font-size: 0.95rem;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .route-itinerary {
+            background: #f8faf9;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .route-itinerary h4 {
+            font-size: 0.9rem;
+            color: var(--primary);
+            margin-bottom: 0.8rem;
+            font-weight: 700;
+        }
+
+        .route-itinerary p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            object-position: center top;
+            transition: transform 0.3s;
+            border-radius: 8px;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.02);
+        }
+
+        /* Season analysis */
+        .season-analysis {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            margin-bottom: 4rem;
+            border: 2px solid #f59e0b;
+        }
+
+        .season-header {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 2rem;
+        }
+
+        .season-header h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+        }
+
+        .season-header p {
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+
+        .season-body {
+            padding: 2rem;
+        }
+
+        .season-timeline {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .season-timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, #10b981, #f59e0b, #ef4444);
+            border-radius: 2px;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding: 0.8rem 0 0.8rem 1.5rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.55rem;
+            top: 1.2rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px currentColor;
+        }
+
+        .timeline-item.green::before { background: #10b981; color: #10b981; }
+        .timeline-item.transition::before { background: #f59e0b; color: #f59e0b; }
+        .timeline-item.gold::before { background: #f59e0b; color: #f59e0b; }
+        .timeline-item.peak::before { background: #ef4444; color: #ef4444; }
+        .timeline-item.fade::before { background: #9ca3af; color: #9ca3af; }
+
+        .timeline-item .time {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--primary);
+        }
+
+        .timeline-item .desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+        }
+
+        .season-verdict {
+            background: #fffbeb;
+            border: 1px solid #fde68a;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .season-verdict h4 {
+            color: #92400e;
+            font-size: 1rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .season-verdict p {
+            font-size: 0.9rem;
+            color: #78350f;
+            line-height: 1.8;
+        }
+
+        .season-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 1.5rem 0;
+        }
+
+        .season-gallery img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            object-position: center top;
+            transition: transform 0.3s;
+            border-radius: 8px;
+        }
+
+        .season-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .season-gallery .caption {
+            grid-column: 1 / -1;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            padding: 0.5rem;
+            background: #f9fafb;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            background: #e8f5f0;
+            color: var(--primary);
+            padding: 0.35rem 0.9rem;
+            border-radius: 100px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .tag.warning {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .tag.highlight {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Verdict section */
+        .verdict {
+            background: linear-gradient(135deg, var(--primary) 0%, #2d6b5a 100%);
+            color: white;
+            border-radius: var(--radius);
+            padding: 3rem;
+            margin: 4rem 0;
+            text-align: center;
+        }
+
+        .verdict h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .verdict p {
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        .verdict-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            text-align: left;
+        }
+
+        .verdict-item {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .verdict-item .rank {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .verdict-item h4 {
+            font-size: 1.1rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .verdict-item p {
+            font-size: 0.85rem;
+            opacity: 0.8;
+            margin: 0;
+        }
+
+        /* Sources */
+        .sources {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 4rem;
+            box-shadow: var(--shadow);
+        }
+
+        .sources h3 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .sources ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sources li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .sources li:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .route-card-header { height: 360px; }
+            .route-meta { grid-template-columns: repeat(2, 1fr); }
+            .gallery { grid-template-columns: repeat(2, 1fr); }
+            .gallery img { height: 220px; }
+            .season-gallery { grid-template-columns: repeat(2, 1fr); }
+            .season-gallery img { height: 220px; }
+            .verdict { padding: 2rem 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>暑期 9 天 · 自然风光之旅</h1>
+        <p>2026 年 7-8 月 | 北京出发 | 国内 + 出境 11 条路线</p>
+        <div class="hero-badges">
+            <span class="hero-badge">草原湖泊</span>
+            <span class="hero-badge">雪山森林</span>
+            <span class="hero-badge">避暑首选</span>
+            <span class="hero-badge">9天刚好</span>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+
+    <div class="section-header">
+        <h2>路线总览对比</h2>
+        <p>北京出发，9天假期，国内+出境精选对比</p>
+    </div>
+
+    <div class="comparison">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>路线</th>
+                    <th>9天可行性</th>
+                    <th>7-8月适宜</th>
+                    <th>自然风光</th>
+                    <th>震撼度</th>
+                    <th>预算/人</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="rank-badge rank-1">国</span></td>
+                    <td><strong>南疆·帕米尔</strong></td>
+                    <td>9天完美</td>
+                    <td>封神级夏天</td>
+                    <td>★★★★★</td>
+                    <td>★★★★★</td>
+                    <td>0.8-1.2万</td>
+                </tr>
+                <tr>
+                    <td><span class="rank-badge rank-1">国</span></td>
+                    <td><strong>阿勒泰深度</strong></td>
+                    <td>充裕</td>
+                    <td>绿色巅峰</td>
+                    <td>★★★★★</td>
+                    <td>★★★★★</td>
+                    <td>0.8-1.2万</td>
+                </tr>
+                <tr>
+                    <td><span class="rank-badge rank-1">国</span></td>
+                    <td><strong>格聂环山</strong></td>
+                    <td>7-9天</td>
+                    <td>花海巅峰</td>
+                    <td>★★★★★</td>
+                    <td>★★★★★</td>
+                    <td>0.5-0.8万</td>
+                </tr>
+                <tr>
+                    <td><span class="rank-badge rank-1">国</span></td>
+                    <td><strong>呼伦贝尔</strong></td>
+                    <td>宽裕</td>
+                    <td>最佳季节</td>
+                    <td>★★★★</td>
+                    <td>★★★★</td>
+                    <td>0.6-1万</td>
+                </tr>
+                <tr>
+                    <td><span class="rank-badge rank-1">国</span></td>
+                    <td><strong>大兴安岭环线</strong></td>
+                    <td>7-9天</td>
+                    <td>避暑天花板</td>
+                    <td>★★★★★</td>
+                    <td>★★★★</td>
+                    <td>0.4-0.8万</td>
+                </tr>
+                <tr>
+                    <td><span class="rank-badge rank-1">国</span></td>
+                    <td><strong>恩施+张家界</strong></td>
+                    <td>8-9天</td>
+                    <td>22°C避暑+峡谷</td>
+                    <td>★★★★★</td>
+                    <td>★★★★</td>
+                    <td>0.4-0.8万</td>
+                </tr>
+                <tr>
+                    <td><span class="rank-badge rank-1">国</span></td>
+                    <td><strong>长白山+延边</strong></td>
+                    <td>5-7天</td>
+                    <td>天池+美食</td>
+                    <td>★★★★</td>
+                    <td>★★★</td>
+                    <td>0.3-0.6万</td>
+                </tr>
+                <tr>
+                    <td><span class="rank-badge rank-4">国</span></td>
+                    <td><strong>北海道</strong></td>
+                    <td>完美匹配</td>
+                    <td>花田季节</td>
+                    <td>★★★★</td>
+                    <td>★★★</td>
+                    <td>1.2-2万</td>
+                </tr>
+                <tr>
+                    <td><span class="rank-badge rank-4">国</span></td>
+                    <td><strong>西藏阿里</strong></td>
+                    <td>勉强(南线)</td>
+                    <td>雨季风险</td>
+                    <td>★★★★★</td>
+                    <td>★★★★★</td>
+                    <td>0.8-1.5万</td>
+                </tr>
+                <tr style="background:#f0f7ff;">
+                    <td><span class="rank-badge rank-2">外</span></td>
+                    <td><strong>日本 🇯🇵</strong></td>
+                    <td>9天完美</td>
+                    <td>人文+避暑山</td>
+                    <td>★★★★</td>
+                    <td>★★★★</td>
+                    <td>1-1.8万</td>
+                </tr>
+                <tr style="background:#f0f7ff;">
+                    <td><span class="rank-badge rank-2">外</span></td>
+                    <td><strong>格鲁吉亚 🇬🇪</strong></td>
+                    <td>9天充裕</td>
+                    <td>徒步旺季</td>
+                    <td>★★★★★</td>
+                    <td>★★★★★</td>
+                    <td>0.6-1.2万</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Route 1: South Xinjiang / Pamir -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/pamir-lake.jpg" alt="帕米尔白沙湖">
+            <div class="route-card-overlay">
+                <h3>南疆 · 帕米尔高原</h3>
+                <span class="subtitle">白沙湖 × 慕士塔格峰 × 盘龙古道 × 塔县星空</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">6-8月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">9天完美</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">飞喀什+自驾</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">气温</div>
+                    <div class="value">15-28°C</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.8-1.2万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">低</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                2026小红书热议"封神级别的夏天"——南疆帕米尔高原。6-8月是最佳季节：白沙湖碧蓝如镜倒映慕士塔格雪峰、盘龙古道608个弯道蜿蜒于帕米尔之巅、塔什库尔干古城看银河、喀拉库勒湖日落金山。与北疆不同，南疆更有西域人文底蕴——塔吉克族牧民、古丝绸之路驿站、喀什老城千年烟火气。9天行程：喀什出发→中巴公路→白沙湖→塔县→盘龙古道→瓦恰→红其拉甫→返回喀什，节奏从容。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程框架</h4>
+                <p>
+                    D1 北京→喀什（取车、逛喀什老城）<br>
+                    D2 喀什→白沙湖→喀拉库勒湖→塔什库尔干<br>
+                    D3 塔县→红其拉甫国门→塔县（星空拍摄）<br>
+                    D4 塔县→盘龙古道→班迪尔蓝湖→瓦恰<br>
+                    D5 瓦恰→大同乡→塔莎古道→莎车<br>
+                    D6 莎车→达瓦昆沙漠→喀什<br>
+                    D7 喀什→和田（沙漠公路起点）<br>
+                    D8 和田→民丰→沙漠公路穿越→轮台<br>
+                    D9 轮台→库尔勒→飞回北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/pamir-mountain.jpg" alt="慕士塔格峰倒映">
+                <img src="img/pamir-road.jpg" alt="盘龙古道">
+                <img src="img/pamir-plateau.jpg" alt="帕米尔高原牧场">
+            </div>
+
+            <div class="tags">
+                <span class="tag highlight">2026爆火</span>
+                <span class="tag">白沙湖</span>
+                <span class="tag">盘龙古道</span>
+                <span class="tag">慕士塔格峰</span>
+                <span class="tag">丝路人文</span>
+                <span class="tag">星空摄影</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Route 2: Altay -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/altay-lake.jpg" alt="喀纳斯湖">
+            <div class="route-card-overlay">
+                <h3>阿勒泰 · 喀纳斯深度游</h3>
+                <span class="subtitle">翡翠湖泊 × 图瓦村落 × 原始森林徒步</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">7-8月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">9天充裕</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">飞阿勒泰+租车</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">气温</div>
+                    <div class="value">18-25°C</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.8-1.2万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">中（可错峰）</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                与你去过的伊犁完全不同——伊犁是草原花海，阿勒泰是湖泊+原始森林+图瓦人木屋村落。喀纳斯湖的翡翠蓝绿色在夏季最为动人，禾木晨雾堪称中国最美村落，白哈巴是"西北第一村"。住2晚禾木可以避开白天游客高峰，清晨独享晨雾中的木屋炊烟。还可以加入喀纳斯环线徒步，深入无人区看绝美高山草甸。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程框架</h4>
+                <p>
+                    D1 北京→乌鲁木齐/阿勒泰（取车）<br>
+                    D2 阿勒泰→布尔津（五彩滩日落）<br>
+                    D3 布尔津→喀纳斯（观鱼台、三湾徒步）<br>
+                    D4 喀纳斯→白哈巴（西北第一村）<br>
+                    D5 白哈巴→禾木（骑马或徒步穿越）<br>
+                    D6 禾木（晨雾、美丽峰徒步）<br>
+                    D7 禾木→可可托海（额尔齐斯大峡谷）<br>
+                    D8 可可托海→乌鲁木齐<br>
+                    D9 乌鲁木齐→北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/altay-meadow.jpg" alt="阿勒泰高山牧场">
+                <img src="img/altay-forest.jpg" alt="喀纳斯原始森林栈道">
+                <img src="img/altay-lake.jpg" alt="喀纳斯翡翠湖">
+            </div>
+
+            <div class="tags">
+                <span class="tag highlight">与伊犁不重复</span>
+                <span class="tag">喀纳斯湖</span>
+                <span class="tag">禾木晨雾</span>
+                <span class="tag">原始森林</span>
+                <span class="tag">图瓦村落</span>
+                <span class="tag">可可托海</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Season Analysis: Kanas -->
+    <section class="season-analysis">
+        <div class="season-header">
+            <h3>专题：喀纳斯最佳季节分析</h3>
+            <p>秋天更漂亮吗？小红书实拍数据告诉你答案</p>
+        </div>
+        <div class="season-body">
+            <p class="route-description">
+                结论是：<strong>秋天确实更漂亮</strong>，但窗口极短（约2-3周）。喀纳斯在不同季节呈现完全不同的面貌——夏天是翠绿版瑞士，秋天则是金色童话世界。以下是基于小红书实拍的时间线：
+            </p>
+
+            <div class="season-timeline">
+                <div class="timeline-item green">
+                    <div class="time">7月</div>
+                    <div class="desc">满眼翠绿，草甸+针叶林+湖泊碧蓝，凉爽避暑，适合徒步</div>
+                </div>
+                <div class="timeline-item green">
+                    <div class="time">8月上中旬</div>
+                    <div class="desc">依然翠绿为主，人流量暑期高峰，但风光稳定</div>
+                </div>
+                <div class="timeline-item transition">
+                    <div class="time">8月下旬</div>
+                    <div class="desc">开始变色！@行疆旅记 8.26拍到神仙湾秋色（1058赞），半黄半绿最有层次</div>
+                </div>
+                <div class="timeline-item gold">
+                    <div class="time">9月上旬</div>
+                    <div class="desc">色彩丰富期，三湾徒步"封神玩法"（@阿游猛恰饭 95赞），但树未全黄</div>
+                </div>
+                <div class="timeline-item peak">
+                    <div class="time">9月中下旬 ~ 10月初</div>
+                    <div class="desc">金黄巅峰！禾木晨雾+白桦林金色=中国最顶级秋色，人比暑期少很多</div>
+                </div>
+                <div class="timeline-item fade">
+                    <div class="time">10月中后</div>
+                    <div class="desc">落叶后萧瑟，气温骤降，不建议前往</div>
+                </div>
+            </div>
+
+            <div class="season-gallery">
+                <img src="img/kanas-autumn-river.jpg" alt="喀纳斯神仙湾秋色 8月底">
+                <img src="img/kanas-autumn-gold.jpg" alt="喀纳斯金色白桦林">
+                <img src="img/kanas-autumn-mist.jpg" alt="禾木秋季晨雾">
+                <div class="caption">8月底-9月底实拍 | 来源：小红书 @行疆旅记 @张花茶 @两只小昭</div>
+            </div>
+
+            <div class="season-gallery">
+                <img src="img/kanas-autumn-panorama.jpg" alt="喀纳斯大环线秋色全景">
+                <img src="img/kanas-autumn-village.jpg" alt="禾木村秋色">
+                <img src="img/kanas-autumn-tips.jpg" alt="喀纳斯赏秋攻略">
+                <div class="caption">9月底-10月初巅峰秋色 | 来源：小红书 @两只小昭「赏秋8个信息差」(254赞)</div>
+            </div>
+
+            <div class="season-verdict">
+                <h4>决策建议</h4>
+                <p>
+                    <strong>如果假期可以挪到 9 月中下旬</strong> → 喀纳斯秋色是压倒性的最佳选择，人少景美，中国顶级秋色。<br><br>
+                    <strong>如果假期只能在 7-8 月</strong> → 喀纳斯虽好但不是它最惊艳的时刻；此时北海道恰好是全年巅峰（7月薰衣草+知床绿意最盛），性价比更高。<br><br>
+                    <strong>折中方案：8 月底出发</strong> → 有机会赶上喀纳斯"半黄半绿"的过渡期，色彩层次反而最丰富，同时避开暑期人流高峰。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Route 3: Genie Mountain -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/genie-mountain.jpg" alt="格聂神山">
+            <div class="route-card-overlay">
+                <h3>格聂 · 神山花海徒步</h3>
+                <span class="subtitle">川西秘境 × 冷噶措镜湖 × 高山花海 × 雪山环绕</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">7月下旬</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">7-9天</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">飞成都+包车</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">海拔</div>
+                    <div class="value">3800-4600m</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.5-0.8万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">极低</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                小红书2026预测"今年夏天会爆火的地方"——格聂。不是瑞士，是七月的川西。格聂神山海拔6204m，南线徒步4-5天穿越高山草甸、冷噶措镜面湖倒映雪山、漫山遍野的高山花海（七月下旬最盛）。这里还没有被过度开发，营地、马帮、野温泉……纯粹的户外天堂。虽然属于川西，但与你去过的稻城亚丁线路完全不重叠，是更深入的秘境。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程框架</h4>
+                <p>
+                    D1 北京→成都<br>
+                    D2 成都→理塘（适应海拔）<br>
+                    D3 理塘→格聂镇→冷达营地（徒步起点）<br>
+                    D4 冷达→冷噶措→虎皮坝营地<br>
+                    D5 虎皮坝→夯达营地→温泉营地<br>
+                    D6 温泉营地→扎萨通→格聂镇（出山）<br>
+                    D7 格聂→理塘→新都桥<br>
+                    D8 新都桥→康定→成都<br>
+                    D9 成都→北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/genie-meadow.jpg" alt="格聂高山草甸">
+                <img src="img/genie-lake.jpg" alt="冷噶措镜湖">
+                <img src="img/genie-flowers.jpg" alt="格聂花海">
+            </div>
+
+            <div class="tags">
+                <span class="tag highlight">2026预测爆火</span>
+                <span class="tag warning">需体力</span>
+                <span class="tag">冷噶措</span>
+                <span class="tag">七月花海</span>
+                <span class="tag">雪山徒步</span>
+                <span class="tag">费用最低</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Route 4: Hulunbuir -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/hulunbuir-sheep.jpg" alt="呼伦贝尔草原羊群">
+            <div class="route-card-overlay">
+                <h3>呼伦贝尔 · 草原自驾</h3>
+                <span class="subtitle">天下第一曲水 × 无边草原 × 中俄边境风情</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">7-8月中</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">6-8天宽裕</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">飞海拉尔2.5h</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">气温</div>
+                    <div class="value">16-25°C</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.6-1万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">低（地域广）</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                从北京出发最便利的大草原——飞海拉尔仅2.5小时。7月的呼伦贝尔是中国最纯粹的草原体验：莫日格勒河九曲十八弯、额尔古纳湿地落日、黑山头骑马、恩和俄罗斯族村落。自驾穿越时可以随时停车，路边就是无尽的绿色牧场和悠闲的牛羊。加上阿尔山国家森林公园，9天行程非常宽裕。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程框架</h4>
+                <p>
+                    D1 北京→海拉尔（取车）<br>
+                    D2 海拉尔→莫日格勒河→额尔古纳湿地<br>
+                    D3 额尔古纳→恩和→室韦（中俄边境）<br>
+                    D4 室韦→黑山头（骑马、日落）<br>
+                    D5 黑山头→满洲里（国门、套娃广场）<br>
+                    D6 满洲里→阿尔山（大兴安岭过渡带）<br>
+                    D7 阿尔山国家森林公园（天池、杜鹃湖）<br>
+                    D8 阿尔山→海拉尔<br>
+                    D9 海拉尔→北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/hulunbuir-river.jpg" alt="呼伦贝尔河畔">
+                <img src="img/hulunbuir-deer.jpg" alt="呼伦贝尔驯鹿">
+                <img src="img/hulunbuir-hillside.jpg" alt="呼伦贝尔山坡羊群">
+            </div>
+
+            <div class="tags">
+                <span class="tag">莫日格勒河</span>
+                <span class="tag">骑马体验</span>
+                <span class="tag">中俄边境</span>
+                <span class="tag">阿尔山</span>
+                <span class="tag">费用最低</span>
+                <span class="tag">北京最近</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Route 5: Daxinganling -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/daxinganling-forest.jpg" alt="大兴安岭夏天原始森林">
+            <div class="route-card-overlay">
+                <h3>大兴安岭 · 北极漠河环线</h3>
+                <span class="subtitle">原始森林 × 北极村 × 根河湿地 × 卡线边境 × 20°C的夏天</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">6-8月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">7-9天</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">飞海拉尔/加格达奇</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">气温</div>
+                    <div class="value">15-25°C</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.4-0.8万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">极低</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                小红书2026夏天顶流——"夏天的大兴安岭才是人间理想"（2645赞）。和呼伦贝尔可以组成完美9天大环线：草原+森林+湿地+北极村一网打尽。莫尔道嘎国家森林公园是中国最大的原始林区，根河是"中国冷极"夏天只有20°C，卡线（额尔古纳河中俄边境公路）被称为"中国最美边境线"，漠河北极村可以追极光（虽然夏天概率低但有极昼）。费用极低，自驾自由度极高，人少景美。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程（与呼伦贝尔合并大环线）</h4>
+                <p>
+                    D1 北京→海拉尔（取车）<br>
+                    D2 海拉尔→莫日格勒河→额尔古纳湿地<br>
+                    D3 额尔古纳→恩和→室韦（中俄边境）<br>
+                    D4 室韦→卡线→莫尔道嘎（原始森林）<br>
+                    D5 莫尔道嘎→根河（敖鲁古雅驯鹿部落）<br>
+                    D6 根河→满归→漠河<br>
+                    D7 漠河→北极村（找北、极昼体验）<br>
+                    D8 漠河→飞北京（或继续南下加格达奇）<br>
+                    D9 备用/返程
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/daxinganling-river.jpg" alt="大兴安岭河流">
+                <img src="img/daxinganling-road.jpg" alt="大兴安岭公路">
+                <img src="img/daxinganling-forest.jpg" alt="原始森林">
+            </div>
+
+            <div class="tags">
+                <span class="tag highlight">2026爆火</span>
+                <span class="tag">20°C避暑</span>
+                <span class="tag">原始森林</span>
+                <span class="tag">北极村</span>
+                <span class="tag">卡线边境</span>
+                <span class="tag">可与呼伦贝尔合并</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Route 6: Enshi + Zhangjiajie -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/enshi-boat.jpg" alt="屏山峡谷悬浮船">
+            <div class="route-card-overlay">
+                <h3>恩施 + 张家界</h3>
+                <span class="subtitle">屏山悬浮船 × 恩施大峡谷 × 张家界峰林 × 天门山 × 土家风情</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">6-9月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">8-9天</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">飞恩施/高铁</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">海拔</div>
+                    <div class="value">200-1800m</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.4-0.8万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">中（暑期旺季）</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                知乎1128赞答案强推的"天然空调房"——恩施夏天均温仅22°C，被授予"中国凉爽之城"。这里的山被誉为"中国的科罗拉多"，天坑、地缝、溶洞、绝壁栈道应有尽有；屏山峡谷水清见底，小船如同悬浮在空中，被称为"中国仙本那"。串联张家界国家森林公园——三千奇峰拔地而起的砂岩峰林地貌，辨识度极高，天门山玻璃栈道、百龙天梯等体验独步全国。两地相距仅4小时车程，合并成9天刚好：前半段峡谷清凉探秘，后半段峰林云海震撼。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程框架</h4>
+                <p>
+                    D1 北京→恩施（飞机2.5h / 高铁7h）<br>
+                    D2 恩施大峡谷（一炷香、绝壁栈道、云龙地缝）<br>
+                    D3 屏山峡谷（悬浮船打卡）+ 鹤峰<br>
+                    D4 梭布垭石林 / 腾龙洞<br>
+                    D5 恩施土司城 + 土家美食 → 张家界（4h车程）<br>
+                    D6 张家界国家森林公园（袁家界·天子山·金鞭溪）<br>
+                    D7 张家界森林公园（杨家界·天波府）<br>
+                    D8 天门山（玻璃栈道、天门洞、99道弯）<br>
+                    D9 张家界→北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/enshi-canyon.jpg" alt="恩施大峡谷一炷香">
+                <img src="img/enshi-cliff.jpg" alt="腾龙洞溶洞">
+                <img src="img/zhangjiajie-peaks.jpg" alt="张家界峰林云海">
+            </div>
+
+            <div class="tags">
+                <span class="tag highlight">22°C避暑天堂</span>
+                <span class="tag highlight">中国仙本那</span>
+                <span class="tag">喀斯特峡谷</span>
+                <span class="tag">砂岩峰林</span>
+                <span class="tag">天门山</span>
+                <span class="tag">土家风情</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Route 7: Changbaishan -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/japan-mountain.jpg" alt="长白山天池">
+            <div class="route-card-overlay">
+                <h3>长白山 + 延边</h3>
+                <span class="subtitle">天池 × 原始森林 × 瀑布 × 延边美食 × 朝鲜族风情</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">7-8月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">5-7天</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">北京飞长白山2h</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">气温</div>
+                    <div class="value">山顶5-15°C</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.3-0.6万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">中（暑期热门）</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                北京出发最轻松的自然+美食组合——飞长白山仅2小时。天池是中国最深的火山口湖，7-8月是唯一能看到天池全貌的季节（其余月份冰封或大雾），但"能否看到全靠运气"——晴天概率约50%，建议安排2天刷天池。长白山三个坡各有特色：北坡（瀑布+温泉）、西坡（高山花园+天池最佳角度）、南坡（原始感最强）。下山后去延吉/珲春，帝王蟹+冷面+烤肉+米酒的朝鲜族美食天堂（"来延吉都给我吃帝王蟹" 1904赞）。节奏轻松，适合不想太累但想换个环境的度假。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程框架</h4>
+                <p>
+                    D1 北京→长白山（北坡附近住下）<br>
+                    D2 长白山北坡（天池、长白瀑布、温泉鸡蛋）<br>
+                    D3 长白山西坡（高山花园、天池另一角度）<br>
+                    D4 长白山→二道白河镇（美人松、魔界漂流）<br>
+                    D5 二道白河→延吉（西市场、帝王蟹）<br>
+                    D6 延吉→珲春（防川景区、中俄朝三国交界）<br>
+                    D7 珲春/延吉→北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/daxinganling-forest.jpg" alt="长白山原始森林">
+                <img src="img/daxinganling-river.jpg" alt="长白山瀑布">
+                <img src="img/hulunbuir-hillside.jpg" alt="长白山高山花园">
+            </div>
+
+            <div class="tags">
+                <span class="tag">天池</span>
+                <span class="tag">北京飞2h</span>
+                <span class="tag">延边美食</span>
+                <span class="tag">帝王蟹</span>
+                <span class="tag">最轻松</span>
+                <span class="tag warning">天池看运气</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Route 8: Hokkaido -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/hokkaido-summer-green.jpg" alt="夏日北海道自然风光">
+            <div class="route-card-overlay">
+                <h3>北海道 · 知床 + 富良野</h3>
+                <span class="subtitle">花田 × 火山湖 × 知床原始森林 × 温泉</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">7月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">9天完美</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">直飞3h+租车</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">气温</div>
+                    <div class="value">20-25°C</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">1.2-2万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">中低</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                北海道夏天虽然没有冬季和秋季那么标志性，但富良野薰衣草+知床原始森林的组合在出境游中仍算不错的选择。优势是航班便利（直飞3h）、签证简单、自驾体验好。不过坦率说，7-8月的北海道风光辨识度不如国内西部，更适合追求舒适轻松+美食温泉的度假风格。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程框架</h4>
+                <p>
+                    D1 北京→札幌（取车）<br>
+                    D2 札幌→富良野（富田农场薰衣草、美瑛青池）<br>
+                    D3 美瑛→层云峡（大雪山国立公园）<br>
+                    D4 层云峡→网走→知床<br>
+                    D5 知床（五湖徒步、棕熊巡航）<br>
+                    D6 知床→摩周湖→阿寒湖<br>
+                    D7 阿寒湖→札幌<br>
+                    D8 札幌市区（海鲜市场、啤酒博物馆）<br>
+                    D9 札幌→北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/hokkaido-flowers1.jpg" alt="北海道夏季花海">
+                <img src="img/hokkaido-flowers2.jpg" alt="富良野薰衣草田">
+                <img src="img/hokkaido-furano.jpg" alt="美瑛夏日丘陵">
+            </div>
+
+            <div class="tags">
+                <span class="tag">薰衣草花季</span>
+                <span class="tag">知床徒步</span>
+                <span class="tag">温泉旅馆</span>
+                <span class="tag">美食</span>
+                <span class="tag warning">风光辨识度一般</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Route 6: Ali -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/ali-mountain.jpg" alt="西藏阿里雪山湖泊">
+            <div class="route-card-overlay">
+                <h3>西藏阿里 · 地球之巅</h3>
+                <span class="subtitle">一措再措 × 札达土林 × 冈仁波齐 × 荒原野驴</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">5-6月/9-10月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">南线9天勉强</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">飞拉萨+包车</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">海拔</div>
+                    <div class="value">4500-5200m</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.8-1.5万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">极低</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                阿里是地球上最壮美、最荒凉的地方之一——湛蓝到不真实的圣湖、雪山环绕的荒原上野驴奔跑、札达土林如外星地貌。但<strong>7-8月是雨季</strong>，部分路段可能泥泞塌方；且阿里大/中北线需12-15天，9天只能走南线（拉萨往返），节奏较赶。<strong>建议留到9-10月或明年5-6月</strong>，给足时间走中北线体验"一措再措"的震撼。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>9天南线行程（仅供参考）</h4>
+                <p>
+                    D1 北京→拉萨（适应海拔）<br>
+                    D2 拉萨→日喀则<br>
+                    D3 日喀则→萨嘎（途经佩枯措）<br>
+                    D4 萨嘎→塔钦（冈仁波齐脚下）<br>
+                    D5 塔钦→札达（古格王朝遗址、土林日落）<br>
+                    D6 札达→塔钦→萨嘎<br>
+                    D7 萨嘎→珠峰大本营<br>
+                    D8 珠峰→日喀则<br>
+                    D9 日喀则→拉萨→北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/ali-lake-ice.jpg" alt="阿里高原湖泊">
+                <img src="img/ali-wildlife.jpg" alt="阿里荒原野驴">
+                <img src="img/ali-blue-lake.jpg" alt="阿里圣湖蓝">
+            </div>
+
+            <div class="tags">
+                <span class="tag warning">7-8月雨季</span>
+                <span class="tag warning">9天偏紧</span>
+                <span class="tag">建议秋季</span>
+                <span class="tag">冈仁波齐</span>
+                <span class="tag">一措再措</span>
+                <span class="tag">极致荒野</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- International Section -->
+    <div class="section-header">
+        <h2>出境篇 · 近距离海外目的地</h2>
+        <p>北京出发飞行 5-10h，免签/落地签，7-8 月正当季</p>
+    </div>
+
+    <!-- Route 7: Japan -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/japan-kamikochi.jpg" alt="日本夏天">
+            <div class="route-card-overlay">
+                <h3>日本 · 经典人文 + 山岳</h3>
+                <span class="subtitle">东京 × 京都 × 奈良 × 上高地 — 城市与自然兼得</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">7-8月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">9天完美</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">北京直飞3h</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">气温</div>
+                    <div class="value">城市30°C/山区20°C</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">1-1.8万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">中高（暑期）</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                日本夏天有两种玩法可组合：经典人文线（东京→京都→奈良）+ 避暑山岳线（上高地/立山黑部）。纯走东京京都奈良，9天节奏宽松，可以深度体验神社古寺、夏日花火大会、清水寺/伏见稻荷、奈良小鹿、浅草祭典。但7-8月城市很热（35°C+），建议穿插2-3天山岳避暑——上高地是小红书2025-2026"日本徒步顶流"（2123赞），从东京出发新干线+巴士4小时即达，号称"日本的瑞士"。两种风格灵活搭配，丰俭由人。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>方案A：经典人文为主（适合首次去日本）</h4>
+                <p>
+                    D1 北京→东京<br>
+                    D2 东京（浅草寺、秋叶原、台场花火大会）<br>
+                    D3 东京（明治神宫、涩谷、新宿）<br>
+                    D4 东京→箱根（温泉、芦之湖、富士山远眺）<br>
+                    D5 箱根→京都（新干线2h）<br>
+                    D6 京都（清水寺、伏见稻荷、岚山竹林）<br>
+                    D7 京都（金阁寺、哲学之道）→奈良（小鹿）<br>
+                    D8 奈良→大阪（道顿堀、美食）<br>
+                    D9 大阪→北京
+                </p>
+            </div>
+
+            <div class="route-itinerary">
+                <h4>方案B：人文 + 山岳避暑（适合二刷日本）</h4>
+                <p>
+                    D1 北京→东京<br>
+                    D2 东京→松本→上高地（河童桥、梓川漫步）<br>
+                    D3 上高地深处徒步 / 立山黑部阿尔卑斯路线<br>
+                    D4 上高地→高山市（飞驒古街、飞驒牛）<br>
+                    D5 高山→白川乡→金泽→京都<br>
+                    D6 京都（寺院、祇园、鸭川纳凉床）<br>
+                    D7 京都→奈良→大阪<br>
+                    D8 大阪自由活动<br>
+                    D9 大阪→北京
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/japan-mountain.jpg" alt="上高地山岳">
+                <img src="img/japan-river.jpg" alt="上高地梓川">
+                <img src="img/japan-forest.jpg" alt="日本森林">
+            </div>
+
+            <div class="tags">
+                <span class="tag">签证简单</span>
+                <span class="tag">东京+京都</span>
+                <span class="tag">上高地避暑</span>
+                <span class="tag">花火大会</span>
+                <span class="tag">美食天堂</span>
+                <span class="tag warning">城市高温</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Route 8: Georgia -->
+    <article class="route-card">
+        <div class="route-card-header">
+            <img src="img/georgia-mountain.jpg" alt="格鲁吉亚卡兹别克">
+            <div class="route-card-overlay">
+                <h3>格鲁吉亚 · 高加索秘境</h3>
+                <span class="subtitle">卡兹别克雪山 × 梅斯蒂亚石塔村 × Koruldi湖 × 军事公路 × 黑海</span>
+            </div>
+        </div>
+        <div class="route-card-body">
+            <div class="route-meta">
+                <div class="meta-item">
+                    <div class="label">最佳月份</div>
+                    <div class="value">6-9月</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">天数</div>
+                    <div class="value">9天充裕</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">交通</div>
+                    <div class="value">北京→第比利斯 约8h</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">气温</div>
+                    <div class="value">山区12-22°C</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">预算/人</div>
+                    <div class="value">0.8-1.2万</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">拥挤度</div>
+                    <div class="value">低</div>
+                </div>
+            </div>
+
+            <p class="route-description">
+                2026出境徒步黑马——小红书热评"比瑞士还震撼""此生必徒步天堂"。格鲁吉亚对中国免签，物价极低（住宿100-200元/晚，餐饮50-80元/顿），自然风光却是世界级：卡兹别克山（5047m）脚下的Gergeti三一教堂是经典画面，梅斯蒂亚（Mestia）被LP称为"高加索的瑞士"，中世纪斯瓦涅蒂石塔村落是UNESCO世界遗产，Koruldi湖4日徒步被小红书评为"堪比阿尔卑斯"。
+            </p>
+            <p class="route-description">
+                <strong>实用信息：</strong>北京无直飞，推荐阿联酋航空/FlyDubai转迪拜（总程约10-12h），或南航转乌鲁木齐（约8h）。国内包车/拼车很方便（Gergeti往返约200元），梅斯蒂亚地区有成熟的guest house体系，英语在旅游区基本够用。建议报当地1-2日徒步向导（约200-300元/天含午餐）。缺点是路况一般、转机奔波。
+            </p>
+
+            <div class="route-itinerary">
+                <h4>参考行程框架</h4>
+                <p>
+                    D1 北京→第比利斯（转机抵达）<br>
+                    D2 第比利斯老城（硫磺浴、Narikala城堡、自由广场）<br>
+                    D3 第比利斯→军事公路→卡兹别克（Gudauri观景台）<br>
+                    D4 卡兹别克徒步（Gergeti教堂→冰川方向，往返5-6h）<br>
+                    D5 卡兹别克→第比利斯→夜火车/飞梅斯蒂亚<br>
+                    D6 梅斯蒂亚→Koruldi湖日出徒步（往返6-7h）<br>
+                    D7 梅斯蒂亚→乌树故里（Ushguli，UNESCO石塔村，海拔2200m）<br>
+                    D8 梅斯蒂亚→巴统（黑海海滨城市，Botanical Garden）<br>
+                    D9 巴统→第比利斯→北京
+                </p>
+            </div>
+
+            <div class="route-itinerary">
+                <h4>费用明细参考（含机票）</h4>
+                <p>
+                    机票：3000-5000元（转机）<br>
+                    住宿：100-250元/晚 × 8晚 = 800-2000元<br>
+                    餐饮：50-100元/天 × 9天 = 450-900元<br>
+                    交通（包车/拼车）：约1500-2500元<br>
+                    徒步向导（2天）：400-600元<br>
+                    <strong>总计：约6000-11000元/人</strong>
+                </p>
+            </div>
+
+            <div class="gallery">
+                <img src="img/georgia-church.jpg" alt="Gergeti三一教堂与卡兹别克雪山">
+                <img src="img/georgia-valley.jpg" alt="高加索山谷绿色草甸">
+                <img src="img/georgia-trail.jpg" alt="梅斯蒂亚徒步小径">
+            </div>
+
+            <div class="tags">
+                <span class="tag highlight">瑞士平替</span>
+                <span class="tag">免签</span>
+                <span class="tag">人均6-11k</span>
+                <span class="tag">卡兹别克</span>
+                <span class="tag">梅斯蒂亚</span>
+                <span class="tag">UNESCO遗产</span>
+                <span class="tag warning">需转机</span>
+            </div>
+        </div>
+    </article>
+
+    <!-- Verdict -->
+    <section class="verdict">
+        <h2>怎么选？</h2>
+        <p>不排名，按需求场景匹配：</p>
+        <div class="verdict-grid">
+            <div class="verdict-item">
+                <div class="rank">🏔️</div>
+                <h4>追求极致震撼</h4>
+                <p>南疆帕米尔 / 格聂环山 / 格鲁吉亚——雪山+高原+荒野，视觉冲击最强</p>
+            </div>
+            <div class="verdict-item">
+                <div class="rank">🌲</div>
+                <h4>湖泊森林静谧</h4>
+                <p>阿勒泰深度 / 呼伦贝尔 / 大兴安岭——翡翠湖+原始林+草原，适合放空治愈</p>
+            </div>
+            <div class="verdict-item">
+                <div class="rank">❄️</div>
+                <h4>清凉避暑优先</h4>
+                <p>恩施+张家界（22°C）→ 长白山（20°C）→ 大兴安岭（18°C）——南方峡谷或北方森林</p>
+            </div>
+            <div class="verdict-item">
+                <div class="rank">🌍</div>
+                <h4>出境体验异域</h4>
+                <p>格鲁吉亚（高性价比徒步） / 日本（人文+山岳混搭）——换个世界透口气</p>
+            </div>
+            <div class="verdict-item">
+                <div class="rank">💰</div>
+                <h4>预算优先</h4>
+                <p>恩施+张家界（4-8k）→ 长白山（3-6k）→ 大兴安岭（4-8k）→ 格聂（5-8k）</p>
+            </div>
+            <div class="verdict-item">
+                <div class="rank">✈️</div>
+                <h4>最省力出行</h4>
+                <p>长白山（飞2h）→ 恩施（飞2.5h）→ 呼伦贝尔（飞2.5h）→ 日本（飞3h）</p>
+            </div>
+            <div class="verdict-item">
+                <div class="rank">📸</div>
+                <h4>出片率最高</h4>
+                <p>恩施悬浮船 / 张家界峰林 / 帕米尔星空 / 呼伦贝尔日落——朋友圈核弹级</p>
+            </div>
+            <div class="verdict-item">
+                <div class="rank">⏰</div>
+                <h4>不是7-8月？</h4>
+                <p>阿里大环线（9-10月最佳） / 喀纳斯秋色（9月中下旬金黄巅峰）</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sources -->
+    <section class="sources">
+        <h3>信息来源</h3>
+        <ul>
+            <li>小红书搜索：「7月8月旅行推荐 自然风光」「暑假旅行目的地 小众自然」「南疆帕米尔 风景实拍 夏天」「格聂神山 夏天 风景」「北疆独库公路 夏天 自驾」「呼伦贝尔 7月 草原」</li>
+            <li>小红书高赞帖参考：@星球旅人王闷闷「南疆封神级别的夏天」(142赞) | @格聂南线的夏天(1626赞) | @白沙湖实拍(217赞) | @行疆旅记 喀纳斯秋色 | @阿游猛恰饭 三湾徒步</li>
+            <li>图片素材来源：小红书用户实拍照片（仅供个人参考使用）</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>2026.06 | 个人旅行调研备忘 | 数据来源：小红书 + Google</p>
+</footer>
+
+</body>
+</html>
