@@ -186,11 +186,32 @@ a:focus-visible {
 }
 
 .hero-byline {
-  margin-top: 16px;
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 1.05rem;
-  letter-spacing: 0.08em;
-  font-style: italic;
+  margin-top: 36px;
+  font-size: 1.22rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  background: linear-gradient(90deg, #f8d98a, #eeb657 45%, #f4cf80 75%, #fcebb4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.25);
+}
+
+.hero-byline::before {
+  content: "✦  ";
+  color: #f4cf80;
+  -webkit-text-fill-color: #f4cf80;
+}
+
+.hero-byline::after {
+  display: block;
+  width: 88px;
+  height: 1px;
+  margin-top: 18px;
+  content: "";
+  background: linear-gradient(90deg, #f4cf80, transparent);
+  opacity: 0.6;
 }
 
 .page-shell {
