@@ -81,7 +81,14 @@ test('every atlas card owns exactly three complete photo triggers', () => {
       const source = attribute(buttonAttributes, 'data-source');
       assert.match(source ?? '', /^https:\/\//);
       const file = contents.match(/src="assets\/atlas\/([^"]+)"/)?.[1];
-      assert.equal(source, ledgerByFile.get(file)?.url, `${file}: source URL must match ledger`);
+      const ledger = ledgerByFile.get(file);
+      assert.equal(source, ledger?.url, `${file}: source URL must match ledger`);
+      if (source.includes('commons.wikimedia.org')) {
+        assert.equal(attribute(buttonAttributes, 'data-credit'), `${ledger?.creator} · ${ledger?.license}`, `${file}: credit must match ledger`);
+        assert.match(attribute(buttonAttributes, 'data-license-url') ?? '', /^https:\/\/creativecommons\.org\//, `${file}: Commons image needs a license URL`);
+      } else {
+        assert.match(attribute(buttonAttributes, 'data-credit') ?? '', new RegExp(`^${ledger?.creator} · 小红书创作者$`), `${file}: creator credit must match ledger`);
+      }
     }
   }
 });
@@ -96,6 +103,20 @@ test('atlas status maps the end of the scroll range to the final card', () => {
   assert.deepEqual([...context.result], [0, 1, 7]);
   assert.match(html, /requestAnimationFrame\(/);
   assert.match(html, /atlasStatus\.textContent\s*!==\s*nextStatus/);
+});
+
+test('desktop arrow stops expose every atlas card without skipping Siling Co', () => {
+  assert.match(html, /--atlas-card-width:\s*min\(78vw,\s*410px\)/);
+  assert.match(html, /padding-inline-end:\s*max\(1px,\s*calc\(100%\s*-\s*var\(--atlas-card-width\)\)\)/);
+
+  const context = {};
+  runInNewContext(`${extractFunction('getAtlasIndex')};
+    const step = 428;
+    const maxScroll = step * 7;
+    result = Array.from({ length: 8 }, (_, index) =>
+      getAtlasIndex(Math.min(index * step, maxScroll), maxScroll, step, 8)
+    );`, context);
+  assert.deepEqual([...context.result], [0, 1, 2, 3, 4, 5, 6, 7]);
 });
 
 test('lightbox exposes attribution and constrains modal focus', () => {
@@ -135,8 +156,9 @@ test('atlas implements progressive, accessible interaction', () => {
 
 test('atlas provides desktop and mobile card sizing', () => {
   assert.match(html, /\.atlas-section\s*\{[\s\S]*?max-width:\s*1000px/);
-  assert.match(html, /grid-auto-columns:\s*min\(78vw,\s*410px\)/);
-  assert.match(html, /@media\s*\(max-width:\s*640px\)[\s\S]*?grid-auto-columns:\s*86vw/);
+  assert.match(html, /--atlas-card-width:\s*min\(78vw,\s*410px\)/);
+  assert.match(html, /grid-auto-columns:\s*var\(--atlas-card-width\)/);
+  assert.match(html, /@media\s*\(max-width:\s*640px\)[\s\S]*?--atlas-card-width:\s*86vw/);
 });
 
 test('Siling Co imagery covers three distinct visual subjects', () => {

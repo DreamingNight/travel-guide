@@ -360,15 +360,18 @@ body {
 }
 
 .atlas-track {
+  --atlas-card-width: min(78vw, 410px);
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: min(78vw, 410px);
+  grid-auto-columns: var(--atlas-card-width);
   gap: 18px;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  padding: 0 1px 12px;
+  padding-block: 0 12px;
+  padding-inline-start: 1px;
+  padding-inline-end: max(1px, calc(100% - var(--atlas-card-width)));
   outline: none;
 }
 
@@ -616,7 +619,7 @@ body {
   }
   .gallery-item--portrait { aspect-ratio: 4 / 5; }
   .atlas-section { padding-inline: 18px; }
-  .atlas-track { grid-auto-columns: 86vw; gap: 12px; }
+  .atlas-track { --atlas-card-width: 86vw; gap: 12px; }
   .atlas-collage { height: 63vw; max-height: 286px; }
   .atlas-arrows { display: none; }
   .atlas-note { min-height: 0; }
