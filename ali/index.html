@@ -9,7 +9,7 @@
 <title>阿里经典环线 · 2026 · 一起出发</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
 <style>
 :root {
   --night: #0a0e12;
@@ -208,38 +208,87 @@ body {
 /* ===== GALLERY ===== */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-flow: dense;
+  grid-auto-rows: clamp(160px, 17vw, 220px);
+  gap: 14px;
   margin-top: 48px;
 }
 
 .gallery-item {
   position: relative;
+  grid-column: span 4;
   border-radius: 12px;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  background: #121920;
+  font: inherit;
+  text-align: left;
   cursor: pointer;
+  isolation: isolate;
+}
+
+.gallery-item--hero {
+  grid-column: span 8;
+  grid-row: span 2;
+}
+
+.gallery-item--portrait {
+  grid-column: span 4;
+  grid-row: span 2;
+}
+
+.gallery-item--wide {
+  grid-column: span 12;
+  grid-row: span 2;
 }
 
 .gallery-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition: transform 0.75s cubic-bezier(0.22, 0.61, 0.36, 1), filter 0.5s ease;
 }
 
-.gallery-item:hover img { transform: scale(1.05); }
+.gallery-item--hero img { object-position: center 46%; }
+.gallery-item--portrait img { object-position: center 53%; }
+.gallery-item--wide img { object-position: center 58%; }
+.gallery-item--manasarovar img { object-position: center 66%; }
+.gallery-item--siling img { object-position: center 58%; }
+
+.gallery-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, transparent 42%, rgba(7, 11, 15, 0.78) 100%);
+  pointer-events: none;
+  transition: background 0.4s ease;
+}
+
+.gallery-item:hover img,
+.gallery-item:focus-visible img {
+  transform: scale(1.035);
+  filter: saturate(1.08) contrast(1.03);
+}
+
+.gallery-item:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 4px;
+}
 
 .gallery-item .caption {
   position: absolute;
+  z-index: 1;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 24px 16px 14px;
-  background: linear-gradient(transparent, rgba(10,14,18,0.85));
+  padding: 38px 20px 17px;
   color: var(--cream);
   font-family: var(--serif);
-  font-size: 0.95rem;
+  font-size: 1.08rem;
   font-weight: 600;
   text-shadow: 0 1px 8px rgba(0,0,0,0.5);
 }
@@ -252,6 +301,18 @@ body {
   font-weight: 400;
   margin-top: 4px;
   letter-spacing: 0.05em;
+}
+
+.gallery-source {
+  margin-top: 14px;
+  color: var(--cream-faint);
+  font-size: 0.72rem;
+  line-height: 1.65;
+}
+
+.gallery-source a {
+  color: var(--cream-dim);
+  text-underline-offset: 0.2em;
 }
 
 /* ===== ROUTE ===== */
@@ -361,7 +422,19 @@ body {
 @media (max-width: 640px) {
   .hero-meta { gap: 20px; }
   .facts { grid-template-columns: 1fr 1fr; }
-  .gallery { grid-template-columns: 1fr; }
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+  .gallery-item,
+  .gallery-item--hero,
+  .gallery-item--portrait,
+  .gallery-item--wide {
+    grid-column: 1;
+    grid-row: auto;
+    aspect-ratio: 4 / 3;
+  }
+  .gallery-item--portrait { aspect-ratio: 4 / 5; }
 }
 </style>
 </head>
@@ -385,33 +458,34 @@ body {
 
 <section class="section reveal" id="gallery">
   <p class="section-label">沿途会看到什么</p>
-  <h2 class="section-title">每一帧都是高原的极限</h2>
+  <h2 class="section-title">先看风景，再决定走多远</h2>
   <div class="gallery">
-    <div class="gallery-item" onclick="openLightbox(this)">
+    <button class="gallery-item gallery-item--hero" type="button" onclick="openLightbox(this)">
       <img src="assets/commons/05-kailash.jpg" alt="冈仁波齐" loading="lazy">
-      <div class="caption">冈仁波齐<small>海拔 6638m · 神山之首</small></div>
-    </div>
-    <div class="gallery-item" onclick="openLightbox(this)">
+      <span class="caption">冈仁波齐<small>塔钦观山 · 不转山，也值得留出完整晨光</small></span>
+    </button>
+    <button class="gallery-item gallery-item--portrait" type="button" onclick="openLightbox(this)">
+      <img src="assets/xhs/namtso-yangguang-2026.webp" alt="纳木措湖湾与念青唐古拉山" loading="lazy">
+      <span class="caption">纳木措<small>湖湾、雪山与高原尺度 · 本次条件保留</small></span>
+    </button>
+    <button class="gallery-item" type="button" onclick="openLightbox(this)">
       <img src="assets/commons/02-yamdrok.jpg" alt="羊卓雍措" loading="lazy">
-      <div class="caption">羊卓雍措<small>海拔 4441m · 三大圣湖之一</small></div>
-    </div>
-    <div class="gallery-item" onclick="openLightbox(this)">
-      <img src="assets/commons/04-manasarovar.jpg" alt="玛旁雍措" loading="lazy">
-      <div class="caption">玛旁雍措<small>海拔 4588m · 世界上海拔最高的淡水湖之一</small></div>
-    </div>
-    <div class="gallery-item" onclick="openLightbox(this)">
+      <span class="caption">羊卓雍措<small>高位俯瞰湖湾 · 不只停一个观景台</small></span>
+    </button>
+    <button class="gallery-item gallery-item--manasarovar" type="button" onclick="openLightbox(this)">
+      <img src="assets/xhs/manasarovar-hei-mu-2025.webp" alt="玛旁雍措湖面、雪山与越野车" loading="lazy">
+      <span class="caption">玛旁雍措<small>湖面贴着雪山展开 · 把高原尺度放进同一帧</small></span>
+    </button>
+    <button class="gallery-item" type="button" onclick="openLightbox(this)">
       <img src="assets/commons/06-guge.jpg" alt="古格遗址" loading="lazy">
-      <div class="caption">古格遗址<small>札达土林 · 千年王朝遗迹</small></div>
-    </div>
-    <div class="gallery-item" onclick="openLightbox(this)">
-      <img src="assets/commons/07-siling-lake.jpg" alt="色林措" loading="lazy">
-      <div class="caption">色林措<small>西藏第一大湖 · 羌塘腹地</small></div>
-    </div>
-    <div class="gallery-item" onclick="openLightbox(this)">
-      <img src="assets/commons/08-namtso.jpg" alt="纳木措" loading="lazy">
-      <div class="caption">纳木措<small>海拔 4718m · 天湖</small></div>
-    </div>
+      <span class="caption">古格遗址<small>A线独有 · 城堡、洞窟与西部佛教史</small></span>
+    </button>
+    <button class="gallery-item gallery-item--wide gallery-item--siling" type="button" onclick="openLightbox(this)">
+      <img src="assets/xhs/siling-shanfushanchuan-2026.webp" alt="色林措湖面与雪山台地" loading="lazy">
+      <span class="caption">色林措<small>G317共同段 · 湖盆与台地一层层推向远方</small></span>
+    </button>
   </div>
+  <p class="gallery-source">小红书影像署名：阳光 <a href="https://www.xiaohongshu.com/explore/6a798c0a0000000028030448" target="_blank" rel="noopener noreferrer">《8.9的纳木措》</a> · 黑沐 <a href="https://www.xiaohongshu.com/explore/68bc246a000000001c00e8cd" target="_blank" rel="noopener noreferrer">《同一个机位看冈仁波齐和玛旁雍错不香吗》</a> · 山赴-山川赋scenaria <a href="https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8" target="_blank" rel="noopener noreferrer">《色林错｜90%的人只拍到了它一分的美》</a>。页面内均转为 WebP；其余为路书既有公开影像素材。</p>
 </section>
 
 <section class="section reveal" id="intro">
