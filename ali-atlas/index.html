@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="2026年9月25日-10月7日，13天12晚，阿里经典环线。札达·古格与山南二选一，狮泉河后共走G317。">
+<meta name="theme-color" content="#0a0e12">
+<title>阿里经典环线 · 2026 · 一起出发</title>
+<link rel="canonical" href="https://dreamingnight.cn/travel-guide/ali-atlas/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+:root {
+  --night: #0a0e12;
+  --night-2: #111820;
+  --cream: #ece5d5;
+  --cream-dim: #b8b2a5;
+  --cream-faint: #7a7568;
+  --gold: #d9b46a;
+  --gold-bright: #f0cb7d;
+  --lake: #4e91a8;
+  --serif: "Songti SC", "STSong", "Noto Serif CJK SC", "Noto Serif SC", Georgia, serif;
+  --sans: -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.8;
+  background: var(--night);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection { background: rgba(217, 180, 106, 0.3); color: var(--cream); }
+
+/* ===== HERO ===== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: url("assets/commons/05-kailash-cover.png") center 38% / cover no-repeat;
+}
+
+.hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10,14,18,0.35) 0%, rgba(10,14,18,0.15) 35%, rgba(10,14,18,0.55) 65%, rgba(10,14,18,0.92) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 120px 24px 80px;
+  max-width: 860px;
+}
+
+.hero-eyebrow {
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  animation: fadeUp 1s ease 0.2s both;
+}
+
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(2.8rem, 8vw, 5.5rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: #fff;
+  text-shadow: 0 4px 40px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+  animation: fadeUp 1s ease 0.4s both;
+}
+
+.hero-title em { font-style: normal; color: var(--gold-bright); }
+
+.hero-sub {
+  font-family: var(--serif);
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  color: rgba(255,250,240,0.85);
+  margin-bottom: 40px;
+  animation: fadeUp 1s ease 0.6s both;
+}
+
+.hero-meta {
+  display: flex;
+  justify-content: center;
+  gap: clamp(16px, 4vw, 48px);
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+  animation: fadeUp 1s ease 0.8s both;
+}
+
+.hero-meta span {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  color: rgba(255,250,240,0.7);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.hero-meta strong {
+  color: var(--gold-bright);
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 36px;
+  border: 1px solid rgba(240,203,125,0.4);
+  border-radius: 999px;
+  color: var(--gold-bright);
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  background: rgba(240,203,125,0.08);
+  backdrop-filter: blur(8px);
+  transition: background 0.3s, transform 0.3s, border-color 0.3s;
+  animation: fadeUp 1s ease 1s both;
+}
+
+.hero-cta:hover {
+  background: rgba(240,203,125,0.18);
+  border-color: rgba(240,203,125,0.7);
+  transform: translateY(-2px);
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255,250,240,0.4);
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  animation: fadeUp 1s ease 1.2s both, bob 2s ease-in-out 2s infinite;
+}
+
+.hero-byline {
+  margin-top: 16px;
+  color: rgba(255,250,240,0.6);
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  animation: fadeUp 1s ease 1.1s both;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: clamp(60px, 10vw, 120px) 24px;
+}
+
+.section-label {
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  color: var(--cream);
+}
+
+.section-text {
+  color: var(--cream-dim);
+  font-size: 1rem;
+  line-height: 1.9;
+  max-width: 680px;
+}
+
+.section-text + .section-text { margin-top: 16px; }
+.section-text strong { color: var(--gold-bright); font-weight: 600; }
+
+/* ===== GALLERY ===== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-flow: dense;
+  grid-auto-rows: clamp(160px, 17vw, 220px);
+  gap: 14px;
+  margin-top: 48px;
+}
+
+.gallery-item {
+  position: relative;
+  grid-column: span 4;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  background: #121920;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  isolation: isolate;
+}
+
+.gallery-item--hero {
+  grid-column: span 8;
+  grid-row: span 2;
+}
+
+.gallery-item--portrait {
+  grid-column: span 4;
+  grid-row: span 2;
+}
+
+.gallery-item--wide {
+  grid-column: span 12;
+  grid-row: span 2;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.75s cubic-bezier(0.22, 0.61, 0.36, 1), filter 0.5s ease;
+}
+
+.gallery-item--hero img { object-position: center 46%; }
+.gallery-item--portrait img { object-position: center 53%; }
+.gallery-item--wide img { object-position: center 58%; }
+.gallery-item--manasarovar img { object-position: center 66%; }
+.gallery-item--siling img { object-position: center 58%; }
+
+.gallery-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, transparent 42%, rgba(7, 11, 15, 0.78) 100%);
+  pointer-events: none;
+  transition: background 0.4s ease;
+}
+
+.gallery-item:hover img,
+.gallery-item:focus-visible img {
+  transform: scale(1.035);
+  filter: saturate(1.08) contrast(1.03);
+}
+
+.gallery-item:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 4px;
+}
+
+.gallery-item .caption {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 38px 20px 17px;
+  color: var(--cream);
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  font-weight: 600;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+
+.gallery-item .caption small {
+  display: block;
+  color: var(--cream-dim);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 400;
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+}
+
+.gallery-source {
+  margin-top: 14px;
+  color: var(--cream-faint);
+  font-size: 0.72rem;
+  line-height: 1.65;
+}
+
+.gallery-source a {
+  color: var(--cream-dim);
+  text-underline-offset: 0.2em;
+}
+
+/* ===== ROUTE ===== */
+.route-summary {
+  margin-top: 48px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(217,180,106,0.12);
+  background: var(--night-2);
+}
+
+.route-summary img { display: block; width: 100%; height: auto; }
+
+/* ===== FACTS ===== */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.fact {
+  padding: 28px 24px;
+  border: 1px solid rgba(217,180,106,0.1);
+  border-radius: 14px;
+  background: var(--night-2);
+  text-align: center;
+}
+
+.fact strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gold-bright);
+  margin-bottom: 8px;
+}
+
+.fact span { color: var(--cream-dim); font-size: 0.82rem; letter-spacing: 0.06em; }
+
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--cream-faint);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(6px); }
+}
+
+/* ===== SCROLL REVEAL ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* ===== LIGHTBOX ===== */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.92);
+  cursor: zoom-out;
+}
+
+.lightbox.open { display: flex; }
+
+.lightbox img {
+  max-width: 92vw;
+  max-height: 88vh;
+  border-radius: 8px;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.6);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 640px) {
+  .hero-meta { gap: 20px; }
+  .facts { grid-template-columns: 1fr 1fr; }
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+  .gallery-item,
+  .gallery-item--hero,
+  .gallery-item--portrait,
+  .gallery-item--wide {
+    grid-column: 1;
+    grid-row: auto;
+    aspect-ratio: 4 / 3;
+  }
+  .gallery-item--portrait { aspect-ratio: 4 / 5; }
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Tibet · Ali · 2026</p>
+    <h1 class="hero-title">去<em>阿里</em><br>看冈仁波齐</h1>
+    <p class="hero-sub">9.25 — 10.7 · 13天12晚 · 札达·古格与山南二选一</p>
+    <div class="hero-meta">
+      <span><strong>9.25</strong> — <strong>10.7</strong></span>
+      <span><strong>13</strong> 天 12 晚</span>
+      <span><strong>A/B</strong> 两案择一</span>
+    </div>
+    <p class="hero-byline">Made by Sorata &amp; 他智慧的 agent 们</p>
+  </div>
+  <div class="hero-scroll">向下滚动 · SCROLL</div>
+</header>
+
+<section class="section reveal" id="gallery">
+  <p class="section-label">沿途会看到什么</p>
+  <h2 class="section-title">先看风景，再决定走多远</h2>
+  <div class="gallery">
+    <button class="gallery-item gallery-item--hero" type="button" onclick="openLightbox(this)">
+      <img src="assets/commons/05-kailash.jpg" alt="冈仁波齐" loading="lazy">
+      <span class="caption">冈仁波齐<small>塔钦观山 · 不转山，也值得留出完整晨光</small></span>
+    </button>
+    <button class="gallery-item gallery-item--portrait" type="button" onclick="openLightbox(this)">
+      <img src="assets/xhs/namtso-yangguang-2026.webp" alt="纳木措湖湾与念青唐古拉山" loading="lazy">
+      <span class="caption">纳木措<small>湖湾、雪山与高原尺度 · 本次条件保留</small></span>
+    </button>
+    <button class="gallery-item" type="button" onclick="openLightbox(this)">
+      <img src="assets/commons/02-yamdrok.jpg" alt="羊卓雍措" loading="lazy">
+      <span class="caption">羊卓雍措<small>高位俯瞰湖湾 · 不只停一个观景台</small></span>
+    </button>
+    <button class="gallery-item gallery-item--manasarovar" type="button" onclick="openLightbox(this)">
+      <img src="assets/xhs/manasarovar-hei-mu-2025.webp" alt="玛旁雍措湖面、雪山与越野车" loading="lazy">
+      <span class="caption">玛旁雍措<small>湖面贴着雪山展开 · 把高原尺度放进同一帧</small></span>
+    </button>
+    <button class="gallery-item" type="button" onclick="openLightbox(this)">
+      <img src="assets/commons/06-guge.jpg" alt="古格遗址" loading="lazy">
+      <span class="caption">古格遗址<small>A线独有 · 城堡、洞窟与西部佛教史</small></span>
+    </button>
+    <button class="gallery-item gallery-item--wide gallery-item--siling" type="button" onclick="openLightbox(this)">
+      <img src="assets/xhs/siling-shanfushanchuan-2026.webp" alt="色林措湖面与雪山台地" loading="lazy">
+      <span class="caption">色林措<small>G317共同段 · 湖盆与台地一层层推向远方</small></span>
+    </button>
+  </div>
+  <p class="gallery-source">小红书影像署名：阳光 <a href="https://www.xiaohongshu.com/explore/6a798c0a0000000028030448" target="_blank" rel="noopener noreferrer">《8.9的纳木措》</a> · 黑沐 <a href="https://www.xiaohongshu.com/explore/68bc246a000000001c00e8cd" target="_blank" rel="noopener noreferrer">《同一个机位看冈仁波齐和玛旁雍错不香吗》</a> · 山赴-山川赋scenaria <a href="https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8" target="_blank" rel="noopener noreferrer">《色林错｜90%的人只拍到了它一分的美》</a>。页面内均转为 WebP；其余为路书既有公开影像素材。</p>
+</section>
+
+<section class="section atlas-section reveal" id="atlas" aria-labelledby="atlas-title">
+  <p class="section-label">核心景点图鉴</p>
+  <h2 class="section-title" id="atlas-title">八个地方，构成这趟阿里</h2>
+  <p class="section-text">自然、人文与两条支线，只挑最值得记住的画面。</p>
+  <div class="atlas-toolbar">
+    <p id="atlas-status" aria-live="polite">01 / 08</p>
+    <div class="atlas-arrows">
+      <button type="button" data-atlas-prev aria-label="上一处景点">←</button>
+      <button type="button" data-atlas-next aria-label="下一处景点">→</button>
+    </div>
+  </div>
+  <div class="atlas-track" data-atlas-track tabindex="0" aria-label="核心景点图鉴，横向滑动浏览">
+  </div>
+</section>
+
+<section class="section reveal" id="intro">
+  <p class="section-label">为什么是阿里</p>
+  <h2 class="section-title">不是一次普通的西藏旅行</h2>
+  <p class="section-text">
+    大多数西藏行程停留在拉萨周边。这条线走得更远——从羊卓雍措开始，穿过日喀则、萨嘎，
+    抵达<strong>冈仁波齐</strong>脚下，在札达土林看古格遗址的日出，然后沿G317穿越羌塘，
+    看色林措的湖盆、纳木措的南岸，最后回到拉萨。
+  </p>
+  <p class="section-text">
+    两案择一：<strong>A｜札达·古格版</strong>保留西部佛教史和古格日出；
+    <strong>B｜山南版</strong>保留桑耶寺、雅鲁藏布江谷的早期历史。
+    两线于10月1日晚在狮泉河汇合，之后行程完全相同。
+  </p>
+</section>
+
+<section class="section reveal" id="route">
+  <p class="section-label">路线图</p>
+  <h2 class="section-title">A/B 两案与共同北线</h2>
+  <p class="section-text">
+    A/B 前半程在狮泉河汇合，之后共同进入G317藏北段。
+    两线都保留羊卓雍措、玛旁雍措与拉昂措、冈仁波齐观景、色林措和纳木措。
+  </p>
+  <div class="route-summary">
+    <img src="assets/2026-dual/route-dual.svg" alt="A/B两案与共同北线" loading="lazy">
+  </div>
+</section>
+
+<section class="section reveal" id="facts">
+  <p class="section-label">行程概况</p>
+  <h2 class="section-title">13天，一场高原穿越</h2>
+  <div class="facts">
+    <div class="fact">
+      <strong>13</strong>
+      <span>天 12 晚</span>
+    </div>
+    <div class="fact">
+      <strong>~3400</strong>
+      <span>公里总里程</span>
+    </div>
+    <div class="fact">
+      <strong>3660</strong>
+      <span>米起步海拔</span>
+    </div>
+    <div class="fact">
+      <strong>4718</strong>
+      <span>米最高住宿</span>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>ALI · 2026 FIELD DISPATCH · Made by Sorata &amp; 他智慧的 agent 们</p>
+</footer>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) e.target.classList.add('visible');
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+function openLightbox(item) {
+  const img = item.querySelector('img');
+  document.getElementById('lightbox-img').src = img.src;
+  document.getElementById('lightbox-img').alt = img.alt;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeLightbox();
+});
+</script>
+
+</body>
+</html>
