@@ -21,18 +21,62 @@ const approvedFiles = `
   namtso-bay.webp namtso-range.webp namtso-shore.webp
 `.trim().split(/\s+/).sort();
 
+const classTokenCount = (source, token) => [...source.matchAll(/class="([^"]*)"/g)]
+  .filter(([, classes]) => classes.split(/\s+/).includes(token)).length;
+const atlasHtml = html.slice(html.indexOf('<section class="section atlas-section'), html.indexOf('<section class="section reveal" id="intro"'));
+
 test('destination atlas has the approved compact structure', () => {
-  assert.equal((html.match(/class="atlas-card/g) || []).length, 8);
-  assert.equal((html.match(/class="atlas-photo/g) || []).length, 24);
-  assert.match(html, /data-atlas-prev/);
-  assert.match(html, /data-atlas-next/);
-  assert.match(html, /id="atlas-status"/);
+  assert.equal(classTokenCount(atlasHtml, 'atlas-card'), 8);
+  assert.equal(classTokenCount(atlasHtml, 'atlas-photo'), 24);
+  assert.match(atlasHtml, /data-atlas-prev/);
+  assert.match(atlasHtml, /data-atlas-next/);
+  assert.match(atlasHtml, /id="atlas-status"/);
 });
 
 test('all approved destinations are represented', () => {
   for (const name of ['拉萨', '羊卓雍措', '冈仁波齐', '古格', '山南', 'G317', '色林措', '纳木措']) {
-    assert.match(html, new RegExp(name));
+    assert.match(atlasHtml, new RegExp(name));
   }
+});
+
+test('atlas uses every approved image once with useful image metadata', () => {
+  const images = [...atlasHtml.matchAll(/<img\s+([^>]+)>/g)].map(([, attributes]) => attributes);
+  assert.equal(images.length, 24);
+  assert.deepEqual(images.map((attributes) => attributes.match(/src="assets\/atlas\/([^"]+)"/)?.[1]).sort(), approvedFiles);
+  for (const attributes of images) {
+    assert.match(attributes, /alt="[^"]+"/);
+    assert.match(attributes, /width="\d+"/);
+    assert.match(attributes, /height="\d+"/);
+  }
+  assert.equal(images.filter((attributes) => /loading="eager"/.test(attributes)).length, 1);
+  assert.match(images.find((attributes) => /lhasa-palace\.webp/.test(attributes)), /loading="eager"/);
+  assert.equal(images.filter((attributes) => /loading="lazy"/.test(attributes)).length, 23);
+});
+
+test('atlas implements progressive, accessible interaction', () => {
+  assert.match(html, /scroll-snap-type:\s*x mandatory/);
+  assert.match(html, /prefers-reduced-motion:\s*reduce/);
+  assert.match(atlasHtml, /aria-label="查看[^"]+大图"/);
+  assert.match(html, /addEventListener\(['"]keydown['"]/);
+  assert.match(html, /scrollBy\(/);
+  assert.match(html, /aria-hidden="true"/);
+  assert.match(html, /\.focus\(\)/);
+});
+
+test('atlas provides desktop and mobile card sizing', () => {
+  assert.match(html, /\.atlas-section\s*\{[\s\S]*?max-width:\s*1000px/);
+  assert.match(html, /grid-auto-columns:\s*min\(78vw,\s*410px\)/);
+  assert.match(html, /@media\s*\(max-width:\s*640px\)[\s\S]*?grid-auto-columns:\s*86vw/);
+});
+
+test('Siling Co imagery covers three distinct visual subjects', () => {
+  for (const subject of ['湖湾曲线', '湖水渐变', '远山台地']) assert.match(atlasHtml, new RegExp(subject));
+});
+
+test('legacy page assets resolve through the actual ali asset library', () => {
+  assert.doesNotMatch(html, /(?:src|url\()=["']?assets\/(?:commons|xhs|2026-dual)/);
+  assert.match(html, /\.\.\/ali\/assets\/commons\/05-kailash-cover\.png/);
+  assert.match(html, /\.\.\/ali\/assets\/2026-dual\/route-dual\.svg/);
 });
 
 test('image ledger contains 24 complete unique records', () => {

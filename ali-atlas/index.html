@@ -53,7 +53,7 @@ body {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url("assets/commons/05-kailash-cover.png") center 38% / cover no-repeat;
+  background: url("../ali/assets/commons/05-kailash-cover.png") center 38% / cover no-repeat;
 }
 
 .hero-bg::after {
@@ -316,6 +316,168 @@ body {
   text-underline-offset: 0.2em;
 }
 
+/* ===== DESTINATION ATLAS ===== */
+.atlas-section {
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+.atlas-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 38px 0 14px;
+  border-top: 1px solid rgba(217,180,106,0.15);
+  padding-top: 14px;
+}
+
+#atlas-status {
+  color: var(--gold);
+  font-family: var(--serif);
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+}
+
+.atlas-arrows { display: flex; gap: 8px; }
+
+.atlas-arrows button {
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(217,180,106,0.3);
+  border-radius: 50%;
+  color: var(--gold-bright);
+  background: rgba(217,180,106,0.05);
+  font: 1.05rem/1 var(--serif);
+  cursor: pointer;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+.atlas-arrows button:hover,
+.atlas-arrows button:focus-visible {
+  border-color: var(--gold-bright);
+  background: rgba(217,180,106,0.14);
+  transform: translateY(-1px);
+}
+
+.atlas-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(78vw, 410px);
+  gap: 18px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding: 0 1px 12px;
+  outline: none;
+}
+
+.atlas-track::-webkit-scrollbar { display: none; }
+.atlas-track:focus-visible { box-shadow: inset 0 0 0 2px rgba(240,203,125,0.7); }
+
+.atlas-card {
+  scroll-snap-align: start;
+  min-width: 0;
+  padding: 10px 10px 18px;
+  border: 1px solid rgba(217,180,106,0.13);
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(22,31,40,0.98), rgba(13,19,25,0.98));
+  box-shadow: 0 20px 54px rgba(0,0,0,0.22);
+}
+
+.atlas-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 5px 5px 11px;
+}
+
+.atlas-card h3 {
+  font: 600 1.18rem/1.2 var(--serif);
+  letter-spacing: 0.03em;
+}
+
+.atlas-badge {
+  min-width: 2.3rem;
+  height: 1.55rem;
+  padding: 0 0.6rem;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid rgba(240,203,125,0.38);
+  border-radius: 999px;
+  color: var(--gold-bright);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+}
+
+.atlas-collage {
+  display: grid;
+  grid-template-columns: 1.58fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 7px;
+  height: 272px;
+}
+
+.atlas-photo {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 8px;
+  padding: 0;
+  background: #080d11;
+  color: #fff;
+  cursor: zoom-in;
+}
+
+.atlas-photo--main { grid-row: span 2; }
+
+.atlas-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.65s cubic-bezier(0.22, 0.61, 0.36, 1), filter 0.45s ease;
+}
+
+.atlas-photo:hover img,
+.atlas-photo:focus-visible img { transform: scale(1.04); filter: saturate(1.08); }
+
+.atlas-photo:focus-visible,
+.atlas-arrows button:focus-visible,
+.lightbox-close:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+
+.atlas-photo span {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 22px 10px 8px;
+  background: linear-gradient(transparent, rgba(4,8,11,0.82));
+  color: rgba(255,250,240,0.9);
+  font-size: 0.67rem;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-shadow: 0 1px 5px #000;
+}
+
+.atlas-note {
+  min-height: 4.7em;
+  padding: 14px 5px 0;
+  color: var(--cream-dim);
+  font: 400 0.84rem/1.75 var(--serif);
+}
+
+.atlas-sources {
+  margin-top: 12px;
+  color: var(--cream-faint);
+  font-size: 0.7rem;
+}
+
+.atlas-sources summary { cursor: pointer; width: max-content; color: var(--cream-dim); }
+.atlas-sources p { margin-top: 8px; line-height: 1.8; }
+.atlas-sources a { color: var(--cream-dim); text-underline-offset: 0.2em; }
+
 /* ===== ROUTE ===== */
 .route-summary {
   margin-top: 48px;
@@ -393,6 +555,7 @@ body {
   justify-content: center;
   background: rgba(0,0,0,0.92);
   cursor: zoom-out;
+  padding: 32px;
 }
 
 .lightbox.open { display: flex; }
@@ -403,6 +566,8 @@ body {
   border-radius: 8px;
   box-shadow: 0 20px 80px rgba(0,0,0,0.6);
 }
+
+.lightbox[aria-hidden="true"] { display: none; }
 
 .lightbox-close {
   position: absolute;
@@ -436,6 +601,18 @@ body {
     aspect-ratio: 4 / 3;
   }
   .gallery-item--portrait { aspect-ratio: 4 / 5; }
+  .atlas-section { padding-inline: 18px; }
+  .atlas-track { grid-auto-columns: 86vw; gap: 12px; }
+  .atlas-collage { height: 63vw; max-height: 286px; }
+  .atlas-arrows { display: none; }
+  .atlas-note { min-height: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .gallery-item img, .atlas-photo img, .atlas-arrows button { transition: none; }
 }
 </style>
 </head>
@@ -461,28 +638,28 @@ body {
   <p class="section-label">沿途会看到什么</p>
   <h2 class="section-title">先看风景，再决定走多远</h2>
   <div class="gallery">
-    <button class="gallery-item gallery-item--hero" type="button" onclick="openLightbox(this)">
-      <img src="assets/commons/05-kailash.jpg" alt="冈仁波齐" loading="lazy">
+    <button class="gallery-item gallery-item--hero" type="button" aria-label="查看冈仁波齐大图">
+      <img src="../ali/assets/commons/05-kailash.jpg" alt="冈仁波齐" loading="lazy">
       <span class="caption">冈仁波齐<small>塔钦观山 · 不转山，也值得留出完整晨光</small></span>
     </button>
-    <button class="gallery-item gallery-item--portrait" type="button" onclick="openLightbox(this)">
-      <img src="assets/xhs/namtso-yangguang-2026.webp" alt="纳木措湖湾与念青唐古拉山" loading="lazy">
+    <button class="gallery-item gallery-item--portrait" type="button" aria-label="查看纳木措湖湾与念青唐古拉山大图">
+      <img src="../ali/assets/xhs/namtso-yangguang-2026.webp" alt="纳木措湖湾与念青唐古拉山" loading="lazy">
       <span class="caption">纳木措<small>湖湾、雪山与高原尺度 · 本次条件保留</small></span>
     </button>
-    <button class="gallery-item" type="button" onclick="openLightbox(this)">
-      <img src="assets/commons/02-yamdrok.jpg" alt="羊卓雍措" loading="lazy">
+    <button class="gallery-item" type="button" aria-label="查看羊卓雍措大图">
+      <img src="../ali/assets/commons/02-yamdrok.jpg" alt="羊卓雍措" loading="lazy">
       <span class="caption">羊卓雍措<small>高位俯瞰湖湾 · 不只停一个观景台</small></span>
     </button>
-    <button class="gallery-item gallery-item--manasarovar" type="button" onclick="openLightbox(this)">
-      <img src="assets/xhs/manasarovar-hei-mu-2025.webp" alt="玛旁雍措湖面、雪山与越野车" loading="lazy">
+    <button class="gallery-item gallery-item--manasarovar" type="button" aria-label="查看玛旁雍措湖面与雪山大图">
+      <img src="../ali/assets/xhs/manasarovar-hei-mu-2025.webp" alt="玛旁雍措湖面、雪山与越野车" loading="lazy">
       <span class="caption">玛旁雍措<small>湖面贴着雪山展开 · 把高原尺度放进同一帧</small></span>
     </button>
-    <button class="gallery-item" type="button" onclick="openLightbox(this)">
-      <img src="assets/commons/06-guge.jpg" alt="古格遗址" loading="lazy">
+    <button class="gallery-item" type="button" aria-label="查看古格遗址大图">
+      <img src="../ali/assets/commons/06-guge.jpg" alt="古格遗址" loading="lazy">
       <span class="caption">古格遗址<small>A线独有 · 城堡、洞窟与西部佛教史</small></span>
     </button>
-    <button class="gallery-item gallery-item--wide gallery-item--siling" type="button" onclick="openLightbox(this)">
-      <img src="assets/xhs/siling-shanfushanchuan-2026.webp" alt="色林措湖面与雪山台地" loading="lazy">
+    <button class="gallery-item gallery-item--wide gallery-item--siling" type="button" aria-label="查看色林措湖面与雪山台地大图">
+      <img src="../ali/assets/xhs/siling-shanfushanchuan-2026.webp" alt="色林措湖面与雪山台地" loading="lazy">
       <span class="caption">色林措<small>G317共同段 · 湖盆与台地一层层推向远方</small></span>
     </button>
   </div>
@@ -501,7 +678,90 @@ body {
     </div>
   </div>
   <div class="atlas-track" data-atlas-track tabindex="0" aria-label="核心景点图鉴，横向滑动浏览">
+    <article class="atlas-card">
+      <header class="atlas-card-head"><h3>拉萨</h3><span class="atlas-badge">起点</span></header>
+      <div class="atlas-collage">
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看拉萨布达拉宫大图" data-credit="Antoine Taveneaux · CC BY-SA 3.0"><img src="assets/atlas/lhasa-palace.webp" alt="拉萨布达拉宫山体与宫殿建筑群" width="1400" height="937" loading="eager"><span>布达拉宫</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看拉萨大昭寺大图" data-credit="Rene Heise · CC BY-SA 4.0"><img src="assets/atlas/lhasa-jokhang.webp" alt="拉萨大昭寺正面建筑" width="1600" height="1067" loading="lazy"><span>大昭寺</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看西藏博物馆馆藏大图" data-credit="Hiroki Ogawa · CC BY 3.0"><img src="assets/atlas/lhasa-museum.webp" alt="西藏博物馆馆藏展品" width="1200" height="1600" loading="lazy"><span>西藏博物馆</span></button>
+      </div>
+      <p class="atlas-note">拉萨：先用宫殿、寺院与当代馆藏，慢慢进入西藏的时间尺度。</p>
+    </article>
+
+    <article class="atlas-card">
+      <header class="atlas-card-head"><h3>羊卓雍措</h3><span class="atlas-badge">共线</span></header>
+      <div class="atlas-collage">
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看羊卓雍措高位湖盆大图" data-credit="Liam_ · 小红书创作者"><img src="assets/atlas/yamdrok-overlook.webp" alt="从高位观景处俯瞰羊卓雍措湖盆" width="1440" height="1080" loading="lazy"><span>高位湖盆</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看羊卓雍措半山湖湾大图" data-credit="Peter Vigier · CC BY 2.5"><img src="assets/atlas/yamdrok-bay.webp" alt="羊卓雍措半山视角的蓝色湖湾" width="1600" height="1198" loading="lazy"><span>半山湖湾</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看羊卓雍措沿线农牧大图" data-credit="Dennis G. Jarvis · CC BY-SA 3.0"><img src="assets/atlas/yamdrok-pastoral.webp" alt="羊卓雍措湖边牦牛与农牧景观" width="1400" height="1050" loading="lazy"><span>沿线农牧</span></button>
+      </div>
+      <p class="atlas-note">羊卓雍措：从高位湖盆走到近岸湖湾，看见羊湖不止一种蓝。</p>
+    </article>
+
+    <article class="atlas-card">
+      <header class="atlas-card-head"><h3>神山与两湖</h3><span class="atlas-badge">共线</span></header>
+      <div class="atlas-collage">
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看冈仁波齐晨光大图" data-credit="黑沐 · 小红书创作者"><img src="assets/atlas/kailash-dawn.webp" alt="晨光照亮冈仁波齐山峰" width="1080" height="1440" loading="lazy"><span>冈仁波齐晨光</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看玛旁雍措大图" data-credit="Krish Dulal · CC BY-SA 3.0"><img src="assets/atlas/manasarovar.webp" alt="玛旁雍措湖面与远处雪山" width="1600" height="901" loading="lazy"><span>玛旁雍措</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看拉昂措大图" data-credit="Jean-Marie Hullot · CC BY-SA 4.0"><img src="assets/atlas/rakshastal.webp" alt="拉昂措深蓝湖面与荒原" width="1600" height="1067" loading="lazy"><span>拉昂措</span></button>
+      </div>
+      <p class="atlas-note">神山与两湖：不转山，也把晨光里的冈仁波齐与两座性格相反的湖看完整。</p>
+    </article>
+
+    <article class="atlas-card">
+      <header class="atlas-card-head"><h3>A线·古格</h3><span class="atlas-badge">A线</span></header>
+      <div class="atlas-collage">
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看古格遗址全景大图" data-credit="行摄阿里 · 小红书创作者"><img src="assets/atlas/guge-panorama.webp" alt="札达土林之上的古格遗址全景" width="1080" height="1439" loading="lazy"><span>遗址全景</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看古格洞窟入口大图" data-credit="Dieter Schuh · CC BY 3.0"><img src="assets/atlas/guge-caves.webp" alt="古格地区土壁中的洞窟入口" width="732" height="911" loading="lazy"><span>洞窟入口</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看托林寺大图" data-credit="Jean-Marie Hullot · CC BY-SA 4.0"><img src="assets/atlas/tholing.webp" alt="札达托林寺建筑与院墙" width="1400" height="933" loading="lazy"><span>托林寺</span></button>
+      </div>
+      <p class="atlas-note">A线·古格：在土林之外，看一座王朝如何留下城堡、洞窟与寺院。</p>
+    </article>
+
+    <article class="atlas-card">
+      <header class="atlas-card-head"><h3>B线·山南</h3><span class="atlas-badge">B线</span></header>
+      <div class="atlas-collage">
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看山南桑耶寺大图" data-credit="Gyurmed · CC0"><img src="assets/atlas/samye.webp" alt="山南桑耶寺主殿建筑" width="1280" height="854" loading="lazy"><span>桑耶寺</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看雅砻河谷大图" data-credit="Laika ac · CC BY-SA 2.0"><img src="assets/atlas/yarlung-valley.webp" alt="从高处俯瞰山南雅砻河谷" width="1600" height="1198" loading="lazy"><span>雅砻河谷</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看雍布拉康大图" data-credit="Laika ac · CC BY-SA 2.0"><img src="assets/atlas/yumbulagang.webp" alt="山脊之上的雍布拉康建筑" width="1400" height="1050" loading="lazy"><span>雍布拉康</span></button>
+      </div>
+      <p class="atlas-note">B线·山南：沿雅鲁藏布江进入西藏文明腹地，寺院与河谷彼此解释。</p>
+    </article>
+
+    <article class="atlas-card">
+      <header class="atlas-card-head"><h3>G317·羌塘</h3><span class="atlas-badge">共线</span></header>
+      <div class="atlas-collage">
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看G317高原公路大图" data-credit="米书 · 小红书创作者"><img src="assets/atlas/g317-road.webp" alt="G317公路穿过辽阔羌塘高原" width="1440" height="920" loading="lazy"><span>高原公路</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看G317湖畔草原大图" data-credit="米书 · 小红书创作者"><img src="assets/atlas/g317-grassland.webp" alt="G317沿线湖畔草原与高原天空" width="1440" height="920" loading="lazy"><span>湖畔草原</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看羌塘野生动物大图" data-credit="Kjetil Kjernsmo · CC BY-SA 4.0"><img src="assets/atlas/g317-wildlife.webp" alt="羌塘高原远处的藏羚羊" width="1000" height="750" loading="lazy"><span>野生动物</span></button>
+      </div>
+      <p class="atlas-note">G317·羌塘：真正的主角是公路之外无边的湖盆、草场与高原生命。</p>
+    </article>
+
+    <article class="atlas-card">
+      <header class="atlas-card-head"><h3>色林措</h3><span class="atlas-badge">共线</span></header>
+      <div class="atlas-collage">
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看色林措湖湾曲线大图" data-credit="山赴-山川赋scenaria · 小红书创作者"><img src="assets/atlas/siling-bay.webp" alt="色林措蜿蜒展开的湖湾曲线" width="1080" height="1439" loading="lazy"><span>湖湾曲线</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看色林措湖水渐变大图" data-credit="山赴-山川赋scenaria · 小红书创作者"><img src="assets/atlas/siling-gradient.webp" alt="色林措由青到蓝的湖水渐变" width="1080" height="1439" loading="lazy"><span>湖水渐变</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看色林措远山台地大图" data-credit="山赴-山川赋scenaria · 小红书创作者"><img src="assets/atlas/siling-mountains.webp" alt="色林措湖岸远山与高原台地" width="1013" height="1350" loading="lazy"><span>远山台地</span></button>
+      </div>
+      <p class="atlas-note">色林措：湖湾、色阶和远山层层展开，是共同北线最辽阔的一幕。</p>
+    </article>
+
+    <article class="atlas-card">
+      <header class="atlas-card-head"><h3>纳木措</h3><span class="atlas-badge">终章</span></header>
+      <div class="atlas-collage">
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看纳木措湖湾大图" data-credit="阳光 · 小红书创作者"><img src="assets/atlas/namtso-bay.webp" alt="纳木措合规景区视角的湖湾" width="1080" height="1440" loading="lazy"><span>景区湖湾</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看纳木措雪山大图" data-credit="阳光 · 小红书创作者"><img src="assets/atlas/namtso-range.webp" alt="纳木措湖面后的念青唐古拉山" width="1080" height="1440" loading="lazy"><span>念青唐古拉</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看纳木措湖岸大图" data-credit="阳光 · 小红书创作者"><img src="assets/atlas/namtso-shore.webp" alt="纳木措景区开放湖岸与蓝色湖面" width="1080" height="1440" loading="lazy"><span>开放湖岸</span></button>
+      </div>
+      <p class="atlas-note">纳木措：从合规景区湖岸收束旅程，让念青唐古拉留在最后一帧。</p>
+    </article>
   </div>
+  <details class="atlas-sources">
+    <summary>影像来源与授权 · 24 张</summary>
+    <p>开放影像来自 <a href="assets/atlas/sources.json">Wikimedia Commons 授权清单</a>；创作者影像来自 <a href="https://www.xiaohongshu.com/explore/6a640ff3000000000f02a97f" target="_blank" rel="noopener noreferrer">Liam_</a>、<a href="https://www.xiaohongshu.com/explore/68bc246a000000001c00e8cd" target="_blank" rel="noopener noreferrer">黑沐</a>、<a href="https://www.xiaohongshu.com/explore/6889d04600000000230378b6" target="_blank" rel="noopener noreferrer">行摄阿里</a>、<a href="https://www.xiaohongshu.com/explore/6a0488ab000000003601e867" target="_blank" rel="noopener noreferrer">米书</a>、<a href="https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8" target="_blank" rel="noopener noreferrer">山赴-山川赋scenaria</a>与<a href="https://www.xiaohongshu.com/explore/6a798c0a0000000028030448" target="_blank" rel="noopener noreferrer">阳光</a>；转载前请另行获得创作者许可。</p>
+  </details>
 </section>
 
 <section class="section reveal" id="intro">
@@ -527,7 +787,7 @@ body {
     两线都保留羊卓雍措、玛旁雍措与拉昂措、冈仁波齐观景、色林措和纳木措。
   </p>
   <div class="route-summary">
-    <img src="assets/2026-dual/route-dual.svg" alt="A/B两案与共同北线" loading="lazy">
+    <img src="../ali/assets/2026-dual/route-dual.svg" alt="A/B两案与共同北线" loading="lazy">
   </div>
 </section>
 
@@ -558,8 +818,8 @@ body {
   <p>ALI · 2026 FIELD DISPATCH · Made by Sorata &amp; 他智慧的 agent 们</p>
 </footer>
 
-<div class="lightbox" id="lightbox" onclick="closeLightbox()">
-  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="图片预览" aria-hidden="true">
+  <button class="lightbox-close" type="button" aria-label="关闭图片预览">✕</button>
   <img id="lightbox-img" src="" alt="">
 </div>
 
@@ -571,20 +831,76 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
+const lightbox = document.getElementById('lightbox');
+const lightboxImage = document.getElementById('lightbox-img');
+const lightboxClose = lightbox.querySelector('.lightbox-close');
+let lightboxTrigger = null;
+
 function openLightbox(item) {
   const img = item.querySelector('img');
-  document.getElementById('lightbox-img').src = img.src;
-  document.getElementById('lightbox-img').alt = img.alt;
-  document.getElementById('lightbox').classList.add('open');
+  lightboxTrigger = item;
+  lightboxImage.src = img.currentSrc || img.src;
+  lightboxImage.alt = img.alt;
+  lightbox.classList.add('open');
+  lightbox.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+  lightboxClose.focus();
 }
+
 function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
+  if (!lightbox.classList.contains('open')) return;
+  lightbox.classList.remove('open');
+  lightbox.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
+  lightboxImage.src = '';
+  lightboxTrigger?.focus();
+  lightboxTrigger = null;
 }
+
+document.addEventListener('click', event => {
+  const trigger = event.target.closest('.gallery-item, .atlas-photo');
+  if (trigger) openLightbox(trigger);
+});
+
+lightboxClose.addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', event => {
+  if (event.target === lightbox) closeLightbox();
+});
+
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeLightbox();
 });
+
+const track = document.querySelector('[data-atlas-track]');
+const atlasCards = [...track.querySelectorAll('.atlas-card')];
+const atlasStatus = document.getElementById('atlas-status');
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+function atlasStep(direction) {
+  const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+  const cardWidth = atlasCards[0]?.getBoundingClientRect().width || 0;
+  track.scrollBy({ left: direction * (cardWidth + gap), behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+}
+
+document.querySelector('[data-atlas-prev]').addEventListener('click', () => atlasStep(-1));
+document.querySelector('[data-atlas-next]').addEventListener('click', () => atlasStep(1));
+
+track.addEventListener('keydown', event => {
+  if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+  event.preventDefault();
+  atlasStep(event.key === 'ArrowRight' ? 1 : -1);
+});
+
+function updateAtlasStatus() {
+  const left = track.getBoundingClientRect().left;
+  const nearest = atlasCards.reduce((best, card, index) => {
+    const distance = Math.abs(card.getBoundingClientRect().left - left);
+    return distance < best.distance ? { index, distance } : best;
+  }, { index: 0, distance: Infinity });
+  atlasStatus.textContent = `${String(nearest.index + 1).padStart(2, '0')} / ${String(atlasCards.length).padStart(2, '0')}`;
+}
+
+track.addEventListener('scroll', updateAtlasStatus, { passive: true });
 </script>
 
 </body>
