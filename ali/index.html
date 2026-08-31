@@ -161,6 +161,15 @@ body {
   animation: fadeUp 1s ease 1.2s both, bob 2s ease-in-out 2s infinite;
 }
 
+.hero-byline {
+  margin-top: 16px;
+  color: rgba(255,250,240,0.6);
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  animation: fadeUp 1s ease 1.1s both;
+}
+
 /* ===== SECTIONS ===== */
 .section {
   max-width: 1000px;
@@ -283,54 +292,6 @@ body {
 
 .fact span { color: var(--cream-dim); font-size: 0.82rem; letter-spacing: 0.06em; }
 
-/* ===== JOIN ===== */
-.join {
-  text-align: center;
-  padding: clamp(80px, 12vw, 140px) 24px;
-}
-
-.join-title {
-  font-family: var(--serif);
-  font-size: clamp(2rem, 5vw, 3.2rem);
-  font-weight: 900;
-  color: #fff;
-  margin-bottom: 16px;
-}
-
-.join-sub {
-  color: var(--cream-dim);
-  font-size: 1.05rem;
-  max-width: 520px;
-  margin: 0 auto 40px;
-}
-
-.join-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 16px 40px;
-  border: 1px solid var(--gold);
-  border-radius: 999px;
-  color: var(--night);
-  font-weight: 600;
-  font-size: 1rem;
-  text-decoration: none;
-  background: linear-gradient(135deg, var(--gold-bright), var(--gold));
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.join-cta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(217,180,106,0.3);
-}
-
-.join-note {
-  margin-top: 24px;
-  color: var(--cream-faint);
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-}
-
 /* ===== FOOTER ===== */
 .footer {
   text-align: center;
@@ -411,32 +372,16 @@ body {
   <div class="hero-content">
     <p class="hero-eyebrow">Tibet · Ali · 2026</p>
     <h1 class="hero-title">去<em>阿里</em><br>看冈仁波齐</h1>
-    <p class="hero-sub">13天12晚 · 札达·古格与山南二选一 · 狮泉河后共走G317</p>
+    <p class="hero-sub">9.25 — 10.7 · 13天12晚 · 札达·古格与山南二选一</p>
     <div class="hero-meta">
-      <span><strong>13</strong> 天</span>
+      <span><strong>9.25</strong> — <strong>10.7</strong></span>
+      <span><strong>13</strong> 天 12 晚</span>
       <span><strong>A/B</strong> 两案择一</span>
-      <span><strong>10·07</strong> 固定返程</span>
-      <span><strong>0</strong> 转山日</span>
     </div>
-    <a href="#join" class="hero-cta">一起出发 →</a>
+    <p class="hero-byline">Made by Sorata &amp; 他智慧的 agent 们</p>
   </div>
   <div class="hero-scroll">向下滚动 · SCROLL</div>
 </header>
-
-<section class="section reveal" id="intro">
-  <p class="section-label">为什么是阿里</p>
-  <h2 class="section-title">不是一次普通的西藏旅行</h2>
-  <p class="section-text">
-    大多数西藏行程停留在拉萨周边。这条线走得更远——从羊卓雍措开始，穿过日喀则、萨嘎，
-    抵达<strong>冈仁波齐</strong>脚下，在札达土林看古格遗址的日出，然后沿G317穿越羌塘，
-    看色林措的湖盆、纳木措的南岸，最后回到拉萨。
-  </p>
-  <p class="section-text">
-    两案择一：<strong>A｜札达·古格版</strong>保留西部佛教史和古格日出；
-    <strong>B｜山南版</strong>保留桑耶寺、雅鲁藏布江谷的早期历史。
-    两线于10月1日晚在狮泉河汇合，之后行程完全相同。
-  </p>
-</section>
 
 <section class="section reveal" id="gallery">
   <p class="section-label">沿途会看到什么</p>
@@ -467,6 +412,21 @@ body {
       <div class="caption">纳木措<small>海拔 4718m · 天湖</small></div>
     </div>
   </div>
+</section>
+
+<section class="section reveal" id="intro">
+  <p class="section-label">为什么是阿里</p>
+  <h2 class="section-title">不是一次普通的西藏旅行</h2>
+  <p class="section-text">
+    大多数西藏行程停留在拉萨周边。这条线走得更远——从羊卓雍措开始，穿过日喀则、萨嘎，
+    抵达<strong>冈仁波齐</strong>脚下，在札达土林看古格遗址的日出，然后沿G317穿越羌塘，
+    看色林措的湖盆、纳木措的南岸，最后回到拉萨。
+  </p>
+  <p class="section-text">
+    两案择一：<strong>A｜札达·古格版</strong>保留西部佛教史和古格日出；
+    <strong>B｜山南版</strong>保留桑耶寺、雅鲁藏布江谷的早期历史。
+    两线于10月1日晚在狮泉河汇合，之后行程完全相同。
+  </p>
 </section>
 
 <section class="section reveal" id="route">
@@ -502,17 +462,6 @@ body {
       <span>米最高住宿</span>
     </div>
   </div>
-</section>
-
-<section class="join reveal" id="join">
-  <p class="section-label">一起出发</p>
-  <h2 class="join-title">2026年9月25日<br>拉萨见</h2>
-  <p class="join-sub">
-    行程已反复优化，A/B 两案覆盖不同兴趣。
-    如果你也想去阿里，聊聊吧。
-  </p>
-  <a href="mailto:contact@dreamingnight.cn" class="join-cta">联系我 →</a>
-  <p class="join-note">13天12晚 · 9/25 拉萨集合 · 10/7 返程 · 人数有限</p>
 </section>
 
 <footer class="footer">
