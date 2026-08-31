@@ -562,12 +562,26 @@ body {
 
 .lightbox img {
   max-width: 92vw;
-  max-height: 88vh;
+  max-height: 80vh;
   border-radius: 8px;
   box-shadow: 0 20px 80px rgba(0,0,0,0.6);
 }
 
 .lightbox[aria-hidden="true"] { display: none; }
+
+.lightbox-stage { display: grid; justify-items: center; gap: 12px; }
+
+.lightbox-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  color: rgba(255,250,240,0.72);
+  font-size: 0.72rem;
+}
+
+.lightbox-meta a { color: var(--gold-bright); text-underline-offset: 0.22em; }
 
 .lightbox-close {
   position: absolute;
@@ -681,9 +695,9 @@ body {
     <article class="atlas-card">
       <header class="atlas-card-head"><h3>拉萨</h3><span class="atlas-badge">起点</span></header>
       <div class="atlas-collage">
-        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看拉萨布达拉宫大图" data-credit="Antoine Taveneaux · CC BY-SA 3.0"><img src="assets/atlas/lhasa-palace.webp" alt="拉萨布达拉宫山体与宫殿建筑群" width="1400" height="937" loading="eager"><span>布达拉宫</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看拉萨大昭寺大图" data-credit="Rene Heise · CC BY-SA 4.0"><img src="assets/atlas/lhasa-jokhang.webp" alt="拉萨大昭寺正面建筑" width="1600" height="1067" loading="lazy"><span>大昭寺</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看西藏博物馆馆藏大图" data-credit="Hiroki Ogawa · CC BY 3.0"><img src="assets/atlas/lhasa-museum.webp" alt="西藏博物馆馆藏展品" width="1200" height="1600" loading="lazy"><span>西藏博物馆</span></button>
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看拉萨布达拉宫大图" data-credit="Antoine Taveneaux · CC BY-SA 3.0" data-source="https://commons.wikimedia.org/wiki/File:Potala_Palace,_August_2009.jpg" data-license-url="https://creativecommons.org/licenses/by-sa/3.0/"><img src="assets/atlas/lhasa-palace.webp" alt="拉萨布达拉宫山体与宫殿建筑群" width="1400" height="937" loading="eager"><span>布达拉宫</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看拉萨大昭寺大图" data-credit="Rene Heise · CC BY-SA 4.0" data-source="https://commons.wikimedia.org/wiki/File:Jokhang_Temple_frontal_view.jpg" data-license-url="https://creativecommons.org/licenses/by-sa/4.0/"><img src="assets/atlas/lhasa-jokhang.webp" alt="拉萨大昭寺正面建筑" width="1600" height="1067" loading="lazy"><span>大昭寺</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看西藏博物馆馆藏大图" data-credit="Hiroki Ogawa · CC BY 3.0" data-source="https://commons.wikimedia.org/wiki/File:Tibet_Museum_Lhasa_Tibet_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E8%A5%BF%E8%97%8F%E5%8D%9A%E7%89%A9%E9%A4%A8_-_panoramio_(1).jpg" data-license-url="https://creativecommons.org/licenses/by/3.0/"><img src="assets/atlas/lhasa-museum.webp" alt="西藏博物馆馆藏展品" width="1200" height="1600" loading="lazy"><span>西藏博物馆</span></button>
       </div>
       <p class="atlas-note">拉萨：先用宫殿、寺院与当代馆藏，慢慢进入西藏的时间尺度。</p>
     </article>
@@ -691,9 +705,9 @@ body {
     <article class="atlas-card">
       <header class="atlas-card-head"><h3>羊卓雍措</h3><span class="atlas-badge">共线</span></header>
       <div class="atlas-collage">
-        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看羊卓雍措高位湖盆大图" data-credit="Liam_ · 小红书创作者"><img src="assets/atlas/yamdrok-overlook.webp" alt="从高位观景处俯瞰羊卓雍措湖盆" width="1440" height="1080" loading="lazy"><span>高位湖盆</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看羊卓雍措半山湖湾大图" data-credit="Peter Vigier · CC BY 2.5"><img src="assets/atlas/yamdrok-bay.webp" alt="羊卓雍措半山视角的蓝色湖湾" width="1600" height="1198" loading="lazy"><span>半山湖湾</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看羊卓雍措沿线农牧大图" data-credit="Dennis G. Jarvis · CC BY-SA 3.0"><img src="assets/atlas/yamdrok-pastoral.webp" alt="羊卓雍措湖边牦牛与农牧景观" width="1400" height="1050" loading="lazy"><span>沿线农牧</span></button>
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看羊卓雍措高位湖盆大图" data-credit="Liam_ · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a640ff3000000000f02a97f"><img src="assets/atlas/yamdrok-overlook.webp" alt="从高位观景处俯瞰羊卓雍措湖盆" width="1440" height="1080" loading="lazy"><span>高位湖盆</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看羊卓雍措半山湖湾大图" data-credit="Peter Vigier · CC BY 2.5" data-source="https://commons.wikimedia.org/wiki/File:Yamdrok-tso-2.jpg" data-license-url="https://creativecommons.org/licenses/by/2.5/"><img src="assets/atlas/yamdrok-bay.webp" alt="羊卓雍措半山视角的蓝色湖湾" width="1600" height="1198" loading="lazy"><span>半山湖湾</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看羊卓雍措沿线农牧大图" data-credit="Dennis G. Jarvis · CC BY-SA 3.0" data-source="https://commons.wikimedia.org/wiki/File:Bos_grunniens_at_Yundrok_Yumtso_Lake.jpg" data-license-url="https://creativecommons.org/licenses/by-sa/3.0/"><img src="assets/atlas/yamdrok-pastoral.webp" alt="羊卓雍措湖边牦牛与农牧景观" width="1400" height="1050" loading="lazy"><span>沿线农牧</span></button>
       </div>
       <p class="atlas-note">羊卓雍措：从高位湖盆走到近岸湖湾，看见羊湖不止一种蓝。</p>
     </article>
@@ -701,9 +715,9 @@ body {
     <article class="atlas-card">
       <header class="atlas-card-head"><h3>神山与两湖</h3><span class="atlas-badge">共线</span></header>
       <div class="atlas-collage">
-        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看冈仁波齐晨光大图" data-credit="黑沐 · 小红书创作者"><img src="assets/atlas/kailash-dawn.webp" alt="晨光照亮冈仁波齐山峰" width="1080" height="1440" loading="lazy"><span>冈仁波齐晨光</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看玛旁雍措大图" data-credit="Krish Dulal · CC BY-SA 3.0"><img src="assets/atlas/manasarovar.webp" alt="玛旁雍措湖面与远处雪山" width="1600" height="901" loading="lazy"><span>玛旁雍措</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看拉昂措大图" data-credit="Jean-Marie Hullot · CC BY-SA 4.0"><img src="assets/atlas/rakshastal.webp" alt="拉昂措深蓝湖面与荒原" width="1600" height="1067" loading="lazy"><span>拉昂措</span></button>
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看冈仁波齐晨光大图" data-credit="黑沐 · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/68bc246a000000001c00e8cd"><img src="assets/atlas/kailash-dawn.webp" alt="晨光照亮冈仁波齐山峰" width="1080" height="1440" loading="lazy"><span>冈仁波齐晨光</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看玛旁雍措大图" data-credit="Krish Dulal · CC BY-SA 3.0" data-source="https://commons.wikimedia.org/wiki/File:Manasarobar.jpg" data-license-url="https://creativecommons.org/licenses/by-sa/3.0/"><img src="assets/atlas/manasarovar.webp" alt="玛旁雍措湖面与远处雪山" width="1600" height="901" loading="lazy"><span>玛旁雍措</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看拉昂措大图" data-credit="Jean-Marie Hullot · CC BY-SA 4.0" data-source="https://commons.wikimedia.org/wiki/File:Rakshastal.jpg" data-license-url="https://creativecommons.org/licenses/by-sa/4.0/"><img src="assets/atlas/rakshastal.webp" alt="拉昂措深蓝湖面与荒原" width="1600" height="1067" loading="lazy"><span>拉昂措</span></button>
       </div>
       <p class="atlas-note">神山与两湖：不转山，也把晨光里的冈仁波齐与两座性格相反的湖看完整。</p>
     </article>
@@ -711,9 +725,9 @@ body {
     <article class="atlas-card">
       <header class="atlas-card-head"><h3>A线·古格</h3><span class="atlas-badge">A线</span></header>
       <div class="atlas-collage">
-        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看古格遗址全景大图" data-credit="行摄阿里 · 小红书创作者"><img src="assets/atlas/guge-panorama.webp" alt="札达土林之上的古格遗址全景" width="1080" height="1439" loading="lazy"><span>遗址全景</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看古格洞窟入口大图" data-credit="Dieter Schuh · CC BY 3.0"><img src="assets/atlas/guge-caves.webp" alt="古格地区土壁中的洞窟入口" width="732" height="911" loading="lazy"><span>洞窟入口</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看托林寺大图" data-credit="Jean-Marie Hullot · CC BY-SA 4.0"><img src="assets/atlas/tholing.webp" alt="札达托林寺建筑与院墙" width="1400" height="933" loading="lazy"><span>托林寺</span></button>
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看古格遗址全景大图" data-credit="行摄阿里 · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6889d04600000000230378b6"><img src="assets/atlas/guge-panorama.webp" alt="札达土林之上的古格遗址全景" width="1080" height="1439" loading="lazy"><span>遗址全景</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看古格洞窟入口大图" data-credit="Dieter Schuh · CC BY 3.0" data-source="https://commons.wikimedia.org/wiki/File:Cave_entrances_at_Tholing_Monastery_(Tibet)_Entrance_White_Temple_Dieter_Schuh_(cropped).JPG" data-license-url="https://creativecommons.org/licenses/by/3.0/"><img src="assets/atlas/guge-caves.webp" alt="古格地区土壁中的洞窟入口" width="732" height="911" loading="lazy"><span>洞窟入口</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看托林寺大图" data-credit="Jean-Marie Hullot · CC BY-SA 4.0" data-source="https://commons.wikimedia.org/wiki/File:TholingMonastery.jpg" data-license-url="https://creativecommons.org/licenses/by-sa/4.0/"><img src="assets/atlas/tholing.webp" alt="札达托林寺建筑与院墙" width="1400" height="933" loading="lazy"><span>托林寺</span></button>
       </div>
       <p class="atlas-note">A线·古格：在土林之外，看一座王朝如何留下城堡、洞窟与寺院。</p>
     </article>
@@ -721,9 +735,9 @@ body {
     <article class="atlas-card">
       <header class="atlas-card-head"><h3>B线·山南</h3><span class="atlas-badge">B线</span></header>
       <div class="atlas-collage">
-        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看山南桑耶寺大图" data-credit="Gyurmed · CC0"><img src="assets/atlas/samye.webp" alt="山南桑耶寺主殿建筑" width="1280" height="854" loading="lazy"><span>桑耶寺</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看雅砻河谷大图" data-credit="Laika ac · CC BY-SA 2.0"><img src="assets/atlas/yarlung-valley.webp" alt="从高处俯瞰山南雅砻河谷" width="1600" height="1198" loading="lazy"><span>雅砻河谷</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看雍布拉康大图" data-credit="Laika ac · CC BY-SA 2.0"><img src="assets/atlas/yumbulagang.webp" alt="山脊之上的雍布拉康建筑" width="1400" height="1050" loading="lazy"><span>雍布拉康</span></button>
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看山南桑耶寺大图" data-credit="Gyurmed · CC0" data-source="https://commons.wikimedia.org/wiki/File:Samye_Monastery_Main_Temple_2014-06-17.jpg" data-license-url="https://creativecommons.org/publicdomain/zero/1.0/"><img src="assets/atlas/samye.webp" alt="山南桑耶寺主殿建筑" width="1280" height="854" loading="lazy"><span>桑耶寺</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看雅砻河谷大图" data-credit="Laika ac · CC BY-SA 2.0" data-source="https://commons.wikimedia.org/wiki/File:Yumbulagang_(23013884092).jpg" data-license-url="https://creativecommons.org/licenses/by-sa/2.0/"><img src="assets/atlas/yarlung-valley.webp" alt="从高处俯瞰山南雅砻河谷" width="1600" height="1198" loading="lazy"><span>雅砻河谷</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看雍布拉康大图" data-credit="Laika ac · CC BY-SA 2.0" data-source="https://commons.wikimedia.org/wiki/File:Yumbulagang_(22635148399).jpg" data-license-url="https://creativecommons.org/licenses/by-sa/2.0/"><img src="assets/atlas/yumbulagang.webp" alt="山脊之上的雍布拉康建筑" width="1400" height="1050" loading="lazy"><span>雍布拉康</span></button>
       </div>
       <p class="atlas-note">B线·山南：沿雅鲁藏布江进入西藏文明腹地，寺院与河谷彼此解释。</p>
     </article>
@@ -731,9 +745,9 @@ body {
     <article class="atlas-card">
       <header class="atlas-card-head"><h3>G317·羌塘</h3><span class="atlas-badge">共线</span></header>
       <div class="atlas-collage">
-        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看G317高原公路大图" data-credit="米书 · 小红书创作者"><img src="assets/atlas/g317-road.webp" alt="G317公路穿过辽阔羌塘高原" width="1440" height="920" loading="lazy"><span>高原公路</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看G317湖畔草原大图" data-credit="米书 · 小红书创作者"><img src="assets/atlas/g317-grassland.webp" alt="G317沿线湖畔草原与高原天空" width="1440" height="920" loading="lazy"><span>湖畔草原</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看羌塘野生动物大图" data-credit="Kjetil Kjernsmo · CC BY-SA 4.0"><img src="assets/atlas/g317-wildlife.webp" alt="羌塘高原远处的藏羚羊" width="1000" height="750" loading="lazy"><span>野生动物</span></button>
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看G317高原公路大图" data-credit="米书 · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a0488ab000000003601e867"><img src="assets/atlas/g317-road.webp" alt="G317公路穿过辽阔羌塘高原" width="1440" height="920" loading="lazy"><span>高原公路</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看G317湖畔草原大图" data-credit="米书 · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a0488ab000000003601e867"><img src="assets/atlas/g317-grassland.webp" alt="G317沿线湖畔草原与高原天空" width="1440" height="920" loading="lazy"><span>湖畔草原</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看羌塘野生动物大图" data-credit="Kjetil Kjernsmo · CC BY-SA 4.0" data-source="https://commons.wikimedia.org/wiki/File:Chirus-Pur-Co.jpg" data-license-url="https://creativecommons.org/licenses/by-sa/4.0/"><img src="assets/atlas/g317-wildlife.webp" alt="羌塘高原远处的藏羚羊" width="1000" height="750" loading="lazy"><span>野生动物</span></button>
       </div>
       <p class="atlas-note">G317·羌塘：真正的主角是公路之外无边的湖盆、草场与高原生命。</p>
     </article>
@@ -741,9 +755,9 @@ body {
     <article class="atlas-card">
       <header class="atlas-card-head"><h3>色林措</h3><span class="atlas-badge">共线</span></header>
       <div class="atlas-collage">
-        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看色林措湖湾曲线大图" data-credit="山赴-山川赋scenaria · 小红书创作者"><img src="assets/atlas/siling-bay.webp" alt="色林措蜿蜒展开的湖湾曲线" width="1080" height="1439" loading="lazy"><span>湖湾曲线</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看色林措湖水渐变大图" data-credit="山赴-山川赋scenaria · 小红书创作者"><img src="assets/atlas/siling-gradient.webp" alt="色林措由青到蓝的湖水渐变" width="1080" height="1439" loading="lazy"><span>湖水渐变</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看色林措远山台地大图" data-credit="山赴-山川赋scenaria · 小红书创作者"><img src="assets/atlas/siling-mountains.webp" alt="色林措湖岸远山与高原台地" width="1013" height="1350" loading="lazy"><span>远山台地</span></button>
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看色林措湖湾曲线大图" data-credit="山赴-山川赋scenaria · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8"><img src="assets/atlas/siling-bay.webp" alt="色林措蜿蜒展开的湖湾曲线" width="1080" height="1439" loading="lazy"><span>湖湾曲线</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看色林措湖水渐变大图" data-credit="山赴-山川赋scenaria · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8"><img src="assets/atlas/siling-gradient.webp" alt="色林措由青到蓝的湖水渐变" width="1080" height="1439" loading="lazy"><span>湖水渐变</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看色林措远山台地大图" data-credit="山赴-山川赋scenaria · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8"><img src="assets/atlas/siling-mountains.webp" alt="色林措湖岸远山与高原台地" width="1013" height="1350" loading="lazy"><span>远山台地</span></button>
       </div>
       <p class="atlas-note">色林措：湖湾、色阶和远山层层展开，是共同北线最辽阔的一幕。</p>
     </article>
@@ -751,9 +765,9 @@ body {
     <article class="atlas-card">
       <header class="atlas-card-head"><h3>纳木措</h3><span class="atlas-badge">终章</span></header>
       <div class="atlas-collage">
-        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看纳木措湖湾大图" data-credit="阳光 · 小红书创作者"><img src="assets/atlas/namtso-bay.webp" alt="纳木措合规景区视角的湖湾" width="1080" height="1440" loading="lazy"><span>景区湖湾</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看纳木措雪山大图" data-credit="阳光 · 小红书创作者"><img src="assets/atlas/namtso-range.webp" alt="纳木措湖面后的念青唐古拉山" width="1080" height="1440" loading="lazy"><span>念青唐古拉</span></button>
-        <button class="atlas-photo" type="button" aria-label="查看纳木措湖岸大图" data-credit="阳光 · 小红书创作者"><img src="assets/atlas/namtso-shore.webp" alt="纳木措景区开放湖岸与蓝色湖面" width="1080" height="1440" loading="lazy"><span>开放湖岸</span></button>
+        <button class="atlas-photo atlas-photo--main" type="button" aria-label="查看纳木措湖湾大图" data-credit="阳光 · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a798c0a0000000028030448"><img src="assets/atlas/namtso-bay.webp" alt="纳木措合规景区视角的湖湾" width="1080" height="1440" loading="lazy"><span>景区湖湾</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看纳木措雪山大图" data-credit="阳光 · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a798c0a0000000028030448"><img src="assets/atlas/namtso-range.webp" alt="纳木措湖面后的念青唐古拉山" width="1080" height="1440" loading="lazy"><span>念青唐古拉</span></button>
+        <button class="atlas-photo" type="button" aria-label="查看纳木措湖岸大图" data-credit="阳光 · 小红书创作者" data-source="https://www.xiaohongshu.com/explore/6a798c0a0000000028030448"><img src="assets/atlas/namtso-shore.webp" alt="纳木措景区开放湖岸与蓝色湖面" width="1080" height="1440" loading="lazy"><span>开放湖岸</span></button>
       </div>
       <p class="atlas-note">纳木措：从合规景区湖岸收束旅程，让念青唐古拉留在最后一帧。</p>
     </article>
@@ -820,7 +834,14 @@ body {
 
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="图片预览" aria-hidden="true">
   <button class="lightbox-close" type="button" aria-label="关闭图片预览">✕</button>
-  <img id="lightbox-img" src="" alt="">
+  <figure class="lightbox-stage">
+    <img id="lightbox-img" src="" alt="">
+    <figcaption class="lightbox-meta">
+      <span id="lightbox-credit"></span>
+      <a id="lightbox-source" href="#" target="_blank" rel="noopener noreferrer">查看原始来源</a>
+      <a id="lightbox-license" href="#" target="_blank" rel="noopener noreferrer">查看许可</a>
+    </figcaption>
+  </figure>
 </div>
 
 <script>
@@ -834,13 +855,27 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 const lightbox = document.getElementById('lightbox');
 const lightboxImage = document.getElementById('lightbox-img');
 const lightboxClose = lightbox.querySelector('.lightbox-close');
+const lightboxCredit = document.getElementById('lightbox-credit');
+const lightboxSource = document.getElementById('lightbox-source');
+const lightboxLicense = document.getElementById('lightbox-license');
+const backgroundElements = [...document.body.children].filter(element => element !== lightbox && element.tagName !== 'SCRIPT');
 let lightboxTrigger = null;
+
+function setOptionalLink(link, url) {
+  link.hidden = !url;
+  if (url) link.href = url;
+  else link.removeAttribute('href');
+}
 
 function openLightbox(item) {
   const img = item.querySelector('img');
   lightboxTrigger = item;
   lightboxImage.src = img.currentSrc || img.src;
   lightboxImage.alt = img.alt;
+  lightboxCredit.textContent = item.dataset.credit || img.alt;
+  setOptionalLink(lightboxSource, item.dataset.source);
+  setOptionalLink(lightboxLicense, item.dataset.licenseUrl);
+  backgroundElements.forEach(element => { element.inert = true; });
   lightbox.classList.add('open');
   lightbox.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
@@ -853,6 +888,7 @@ function closeLightbox() {
   lightbox.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
   lightboxImage.src = '';
+  backgroundElements.forEach(element => { element.inert = false; });
   lightboxTrigger?.focus();
   lightboxTrigger = null;
 }
@@ -867,8 +903,28 @@ lightbox.addEventListener('click', event => {
   if (event.target === lightbox) closeLightbox();
 });
 
+function getFocusWrapTarget(key, shiftKey, activeElement, focusables) {
+  if (key !== 'Tab' || !focusables.length) return null;
+  const first = focusables[0];
+  const last = focusables.at(-1);
+  if (shiftKey && activeElement === first) return last;
+  if (!shiftKey && activeElement === last) return first;
+  return null;
+}
+
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'Escape') {
+    closeLightbox();
+    return;
+  }
+  if (e.key === 'Tab' && lightbox.classList.contains('open')) {
+    const lightboxFocusables = [...lightbox.querySelectorAll('button:not([disabled]), a[href]:not([hidden])')];
+    const wrapTarget = getFocusWrapTarget(e.key, e.shiftKey, document.activeElement, lightboxFocusables);
+    if (wrapTarget) {
+      e.preventDefault();
+      wrapTarget.focus();
+    }
+  }
 });
 
 const track = document.querySelector('[data-atlas-track]');
@@ -891,16 +947,29 @@ track.addEventListener('keydown', event => {
   atlasStep(event.key === 'ArrowRight' ? 1 : -1);
 });
 
-function updateAtlasStatus() {
-  const left = track.getBoundingClientRect().left;
-  const nearest = atlasCards.reduce((best, card, index) => {
-    const distance = Math.abs(card.getBoundingClientRect().left - left);
-    return distance < best.distance ? { index, distance } : best;
-  }, { index: 0, distance: Infinity });
-  atlasStatus.textContent = `${String(nearest.index + 1).padStart(2, '0')} / ${String(atlasCards.length).padStart(2, '0')}`;
+function getAtlasIndex(scrollLeft, maxScroll, step, count) {
+  if (count < 2 || maxScroll <= 0) return 0;
+  if (maxScroll - scrollLeft <= 1) return count - 1;
+  return Math.min(count - 1, Math.max(0, Math.round(scrollLeft / step)));
 }
 
-track.addEventListener('scroll', updateAtlasStatus, { passive: true });
+function updateAtlasStatus() {
+  const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+  const step = (atlasCards[0]?.getBoundingClientRect().width || 0) + gap;
+  const maxScroll = track.scrollWidth - track.clientWidth;
+  const index = getAtlasIndex(track.scrollLeft, maxScroll, step, atlasCards.length);
+  const nextStatus = `${String(index + 1).padStart(2, '0')} / ${String(atlasCards.length).padStart(2, '0')}`;
+  if (atlasStatus.textContent !== nextStatus) atlasStatus.textContent = nextStatus;
+}
+
+let atlasFrame = 0;
+track.addEventListener('scroll', () => {
+  if (atlasFrame) return;
+  atlasFrame = requestAnimationFrame(() => {
+    atlasFrame = 0;
+    updateAtlasStatus();
+  });
+}, { passive: true });
 </script>
 
 </body>

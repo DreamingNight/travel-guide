@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { runInNewContext } from 'node:vm';
 
 const execFileAsync = promisify(execFile);
 
@@ -24,6 +25,21 @@ const approvedFiles = `
 const classTokenCount = (source, token) => [...source.matchAll(/class="([^"]*)"/g)]
   .filter(([, classes]) => classes.split(/\s+/).includes(token)).length;
 const atlasHtml = html.slice(html.indexOf('<section class="section atlas-section'), html.indexOf('<section class="section reveal" id="intro"'));
+const atlasCards = [...atlasHtml.matchAll(/<article class="atlas-card">([\s\S]*?)<\/article>/g)].map(([, card]) => card);
+const attribute = (markup, name) => markup.match(new RegExp(`${name}="([^"]*)"`))?.[1];
+
+function extractFunction(name) {
+  const start = html.indexOf(`function ${name}(`);
+  assert.notEqual(start, -1, `missing function ${name}`);
+  const open = html.indexOf('{', start);
+  let depth = 0;
+  for (let index = open; index < html.length; index += 1) {
+    if (html[index] === '{') depth += 1;
+    if (html[index] === '}') depth -= 1;
+    if (depth === 0) return html.slice(start, index + 1);
+  }
+  throw new Error(`unterminated function ${name}`);
+}
 
 test('destination atlas has the approved compact structure', () => {
   assert.equal(classTokenCount(atlasHtml, 'atlas-card'), 8);
@@ -51,6 +67,60 @@ test('atlas uses every approved image once with useful image metadata', () => {
   assert.equal(images.filter((attributes) => /loading="eager"/.test(attributes)).length, 1);
   assert.match(images.find((attributes) => /lhasa-palace\.webp/.test(attributes)), /loading="eager"/);
   assert.equal(images.filter((attributes) => /loading="lazy"/.test(attributes)).length, 23);
+});
+
+test('every atlas card owns exactly three complete photo triggers', () => {
+  assert.equal(atlasCards.length, 8);
+  const ledgerByFile = new Map(sources.map((row) => [row.file, row]));
+  for (const [cardIndex, card] of atlasCards.entries()) {
+    const photos = [...card.matchAll(/<button class="[^"]*\batlas-photo\b[^"]*"([^>]*)>([\s\S]*?)<\/button>/g)];
+    assert.equal(photos.length, 3, `card ${cardIndex + 1}: expected exactly 3 photos`);
+    for (const [, buttonAttributes, contents] of photos) {
+      assert.match(attribute(buttonAttributes, 'aria-label') ?? '', /^查看.+大图$/);
+      assert.ok(attribute(buttonAttributes, 'data-credit'));
+      const source = attribute(buttonAttributes, 'data-source');
+      assert.match(source ?? '', /^https:\/\//);
+      const file = contents.match(/src="assets\/atlas\/([^"]+)"/)?.[1];
+      assert.equal(source, ledgerByFile.get(file)?.url, `${file}: source URL must match ledger`);
+    }
+  }
+});
+
+test('atlas status maps the end of the scroll range to the final card', () => {
+  const context = {};
+  runInNewContext(`${extractFunction('getAtlasIndex')}; result = [
+    getAtlasIndex(0, 1200, 420, 8),
+    getAtlasIndex(420, 1200, 420, 8),
+    getAtlasIndex(1200, 1200, 420, 8)
+  ];`, context);
+  assert.deepEqual([...context.result], [0, 1, 7]);
+  assert.match(html, /requestAnimationFrame\(/);
+  assert.match(html, /atlasStatus\.textContent\s*!==\s*nextStatus/);
+});
+
+test('lightbox exposes attribution and constrains modal focus', () => {
+  const lightboxHtml = html.slice(html.indexOf('<div class="lightbox"'), html.indexOf('<script>'));
+  assert.match(lightboxHtml, /id="lightbox-credit"/);
+  assert.match(lightboxHtml, /id="lightbox-source"/);
+  assert.match(lightboxHtml, /id="lightbox-license"/);
+  assert.match(html, /backgroundElements[\s\S]*?\.inert\s*=\s*true/);
+  assert.match(html, /backgroundElements[\s\S]*?\.inert\s*=\s*false/);
+  assert.match(html, /e\.key\s*===\s*['"]Tab['"]/);
+  assert.match(html, /lightboxFocusables/);
+  assert.match(html, /lightboxTrigger\?\.focus\(\)/);
+});
+
+test('lightbox focus wrapping handles forward and reverse tabbing', () => {
+  const context = {};
+  runInNewContext(`${extractFunction('getFocusWrapTarget')};
+    const focusables = ['first', 'middle', 'last'];
+    result = [
+      getFocusWrapTarget('Tab', false, 'last', focusables),
+      getFocusWrapTarget('Tab', true, 'first', focusables),
+      getFocusWrapTarget('Tab', false, 'first', focusables),
+      getFocusWrapTarget('Escape', false, 'last', focusables)
+    ];`, context);
+  assert.deepEqual([...context.result], ['first', 'last', null, null]);
 });
 
 test('atlas implements progressive, accessible interaction', () => {
