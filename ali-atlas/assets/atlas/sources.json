@@ -35,6 +35,7 @@
     "subject": "高位湖盆",
     "creator": "Liam_",
     "title": "自驾318｜我走到了李现看羊湖的地方",
+    "imageIndex": 5,
     "url": "https://www.xiaohongshu.com/explore/6a640ff3000000000f02a97f",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "用于表达经典 G349 正规高位观景视野，不复刻帖子中的非本路线机位。"
@@ -65,6 +66,7 @@
     "subject": "冈仁波齐晨光",
     "creator": "黑沐",
     "title": "同一个机位看冈仁波齐和玛旁雍错不香吗",
+    "imageIndex": 2,
     "url": "https://www.xiaohongshu.com/explore/68bc246a000000001c00e8cd",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "只表达塔钦或 G219 合法观景窗口远观，不暗示进入转山线路。"
@@ -73,10 +75,10 @@
     "file": "manasarovar.webp",
     "destination": "冈仁波齐与两湖",
     "subject": "玛旁雍措",
-    "creator": "Dcpeets",
-    "title": "Lake Manasarovar and Gurla Mandhata",
-    "url": "https://commons.wikimedia.org/wiki/File:Lake_Manasarovar_and_Gurla_Mandhata.jpg",
-    "license": "CC BY-SA 4.0",
+    "creator": "Krish Dulal",
+    "title": "Manasarobar.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Manasarobar.jpg",
+    "license": "CC BY-SA 3.0",
     "accessNote": "从开放道路和正规观景区远观湖面与纳木那尼峰，不驾车进入湖岸。"
   },
   {
@@ -95,6 +97,7 @@
     "subject": "遗址全景",
     "creator": "行摄阿里",
     "title": "冈仁波齐之地｜当第一缕晨曦照亮古格",
+    "imageIndex": 1,
     "url": "https://www.xiaohongshu.com/explore/6889d04600000000230378b6",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "表现古格遗址整体层级；开放范围变化时不承诺可登顶。"
@@ -113,10 +116,10 @@
     "file": "tholing.webp",
     "destination": "A线·古格",
     "subject": "托林寺",
-    "creator": "Dieter Schuh",
-    "title": "Tholing monastery (Tibet) Dieter Schuh",
-    "url": "https://commons.wikimedia.org/wiki/File:Tholing_monastery_(Tibet)_Dieter_Schuh.JPG",
-    "license": "CC BY-SA 3.0",
+    "creator": "Jean-Marie Hullot",
+    "title": "TholingMonastery.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:TholingMonastery.jpg",
+    "license": "CC BY-SA 4.0",
     "accessNote": "托林寺为时间与开放条件允许时的参访点；殿内摄影以现场规则为准。"
   },
   {
@@ -155,6 +158,7 @@
     "subject": "高原公路",
     "creator": "米书",
     "title": "川藏线Day18狮泉河至改则 一措再措",
+    "imageIndex": 5,
     "url": "https://www.xiaohongshu.com/explore/6a0488ab000000003601e867",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "表现 G317 主路穿越；仅由乘员拍摄或在完全离开车道的合法区域停车。"
@@ -165,6 +169,7 @@
     "subject": "湖畔草原",
     "creator": "米书",
     "title": "川藏线Day18狮泉河至改则 一措再措",
+    "imageIndex": 7,
     "url": "https://www.xiaohongshu.com/explore/6a0488ab000000003601e867",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "只表达沿 G317 可见的草甸与湖泊窗口，不导航到湖边或牧场。"
@@ -185,6 +190,7 @@
     "subject": "湖湾曲线",
     "creator": "山赴-山川赋scenaria",
     "title": "色林错｜90%的人只拍到了它一分的美",
+    "imageIndex": 5,
     "url": "https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "以 G317 正规高位观景理解湖湾，不复刻湖岸进入路径。"
@@ -195,6 +201,7 @@
     "subject": "湖水渐变",
     "creator": "山赴-山川赋scenaria",
     "title": "色林错｜90%的人只拍到了它一分的美",
+    "imageIndex": 6,
     "url": "https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "展示正规观景窗口可见的湖水层次，不声称可驾车抵近水边。"
@@ -205,6 +212,7 @@
     "subject": "远山台地",
     "creator": "山赴-山川赋scenaria",
     "title": "色林错｜90%的人只拍到了它一分的美",
+    "imageIndex": 8,
     "url": "https://www.xiaohongshu.com/explore/6a87ce72000000003a020af8",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "采用远距离生态视角观察台地与牲畜，不进入牧场或追逐动物。"
@@ -215,6 +223,7 @@
     "subject": "高位湖湾",
     "creator": "阳光",
     "title": "8.9的纳木措",
+    "imageIndex": 6,
     "url": "https://www.xiaohongshu.com/explore/6a798c0a0000000028030448",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "表达正规景区高位湖湾视野，不引导车辆驶入沙洲。"
@@ -225,6 +234,7 @@
     "subject": "念青唐古拉山脉",
     "creator": "阳光",
     "title": "8.9的纳木措",
+    "imageIndex": 9,
     "url": "https://www.xiaohongshu.com/explore/6a798c0a0000000028030448",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "从许可道路或观景区远观湖面与山脉，不承诺当日雪线。"
@@ -235,6 +245,7 @@
     "subject": "近岸湖面",
     "creator": "阳光",
     "title": "8.9的纳木措",
+    "imageIndex": 1,
     "url": "https://www.xiaohongshu.com/explore/6a798c0a0000000028030448",
     "license": "Xiaohongshu creator-owned; permission recommended",
     "accessNote": "只在景区开放范围内接近湖岸，不采用圣象天门画面误导南岸行程。"
