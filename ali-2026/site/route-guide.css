@@ -687,6 +687,203 @@ figcaption::before {
   vertical-align: 0.12em;
 }
 
+.interactive-route-map {
+  --map-ink: #263a3a;
+  --map-paper: #f5efe2;
+  --map-line: rgba(52, 68, 64, 0.2);
+  padding: clamp(12px, 2vw, 20px);
+  border: 1px solid rgba(87, 78, 57, 0.19);
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(255, 253, 246, 0.96), rgba(235, 228, 210, 0.72));
+  box-shadow: 0 18px 48px rgba(47, 43, 34, 0.12);
+}
+
+.route-map-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) auto;
+  gap: 10px;
+  align-items: stretch;
+  margin-bottom: 12px;
+}
+
+.route-map-controls[hidden] {
+  display: none;
+}
+
+.route-map-controls fieldset,
+.route-map-zoom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  min-width: 0;
+  margin: 0;
+  padding: 7px;
+  border: 1px solid var(--map-line);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.route-map-controls legend {
+  float: left;
+  padding: 0 5px;
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.route-map-controls button {
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid rgba(44, 72, 70, 0.23);
+  border-radius: 9px;
+  color: var(--map-ink);
+  background: rgba(250, 248, 240, 0.88);
+  font: 700 0.76rem/1.2 var(--sans);
+  cursor: pointer;
+  transition: color 150ms ease, background 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.interactive-route-map [aria-pressed="true"] {
+  border-color: #2e6e79;
+  color: #fffdf4;
+  background: #2e6e79;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2), 0 3px 9px rgba(29, 82, 91, 0.18);
+}
+
+.route-map-controls button:hover {
+  border-color: var(--earth);
+}
+
+.route-map-controls button:focus-visible,
+.route-map-stage:focus-visible {
+  outline: 3px solid #d49d35;
+  outline-offset: 2px;
+}
+
+.route-map-zoom {
+  flex-wrap: nowrap;
+}
+
+.route-map-zoom button {
+  min-width: 44px;
+  padding-inline: 9px;
+  font-size: 1rem;
+}
+
+.route-map-zoom output {
+  min-width: 4ch;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.route-map-stage {
+  aspect-ratio: 8 / 5;
+  overflow: hidden;
+  border: 1px solid rgba(35, 70, 72, 0.25);
+  border-radius: 12px;
+  background: var(--map-paper);
+  cursor: grab;
+  touch-action: pan-y;
+}
+
+.interactive-route-map.is-dragging .route-map-stage {
+  cursor: grabbing;
+  user-select: none;
+}
+
+.interactive-route-map .route-map-stage > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+.interactive-route-map .is-layer-hidden,
+.interactive-route-map .is-route-hidden,
+.interactive-route-map .is-density-hidden {
+  display: none;
+}
+
+.interactive-route-map .is-overview-label-hidden .point-label,
+.interactive-route-map .is-overview-label-hidden .point-leader {
+  display: none;
+}
+
+.interactive-route-map [data-overview-rank] .point-label,
+.interactive-route-map [data-overview-rank] .point-leader {
+  opacity: 1 !important;
+}
+
+.interactive-route-map .is-overview-label-hidden:hover .point-label,
+.interactive-route-map .is-overview-label-hidden:hover .point-leader,
+.interactive-route-map .is-overview-label-hidden:focus-visible .point-label,
+.interactive-route-map .is-overview-label-hidden:focus-visible .point-leader,
+.interactive-route-map .is-overview-label-hidden[aria-pressed="true"] .point-label,
+.interactive-route-map .is-overview-label-hidden[aria-pressed="true"] .point-leader {
+  display: block;
+  opacity: 1 !important;
+}
+
+.interactive-route-map [data-point-id] {
+  cursor: pointer;
+  pointer-events: bounding-box;
+}
+
+.interactive-route-map svg text {
+  pointer-events: none;
+}
+
+.interactive-route-map [data-point-id]:focus-visible > :first-child,
+.interactive-route-map [data-point-id][aria-pressed="true"] > :first-child {
+  stroke: #f3a712 !important;
+  stroke-width: 7px !important;
+  paint-order: stroke fill;
+}
+
+.route-map-detail {
+  min-height: 116px;
+  margin-top: 12px;
+  padding: 15px 17px 10px;
+  border-left: 4px solid var(--earth);
+  border-radius: 4px 12px 12px 4px;
+  background: rgba(255, 252, 242, 0.86);
+}
+
+.route-map-detail h4 {
+  margin: 0 0 5px;
+  color: var(--map-ink);
+}
+
+.route-map-detail p {
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.58;
+  text-align: left;
+}
+
+.route-map-detail .route-map-detail-decision {
+  margin-top: 9px;
+  padding-top: 9px;
+  border-top: 1px dashed rgba(126, 73, 61, 0.35);
+  color: #7e493d;
+  font-weight: 650;
+}
+
+.route-map-detail .route-map-detail-decision[hidden] {
+  display: none;
+}
+
+.interactive-route-map .route-map-static-fallback {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
 .anchor {
   scroll-margin-top: 80px;
 }
@@ -811,8 +1008,10 @@ hr {
   }
 
   .plan-switch.compact {
-    display: flex;
-    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    flex: 1 1 0;
+    min-width: 0;
     gap: 4px;
   }
 
@@ -849,6 +1048,15 @@ hr {
     margin-inline: -2px;
     padding: 20px 17px;
   }
+
+  .route-map-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .route-map-controls fieldset,
+  .route-map-zoom {
+    width: 100%;
+  }
 }
 
 @media (max-width: 560px) {
@@ -863,6 +1071,24 @@ hr {
   .hero h1 {
     font-size: clamp(2.4rem, 12.2vw, 3.4rem);
     letter-spacing: -0.07em;
+  }
+
+  .hero-subtitle {
+    max-width: 19em;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-facts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 340px;
+  }
+
+  .hero-facts span {
+    min-width: 0;
+    justify-content: center;
   }
 
   .hero-note {
@@ -892,6 +1118,23 @@ hr {
   .back-top {
     right: 14px;
     bottom: 16px;
+  }
+
+  .interactive-route-map {
+    margin-inline: -8px;
+    padding: 9px;
+  }
+
+  .route-map-controls button {
+    flex: 1 1 calc(50% - 6px);
+  }
+
+  .route-map-zoom button {
+    flex: 1 1 44px;
+  }
+
+  .route-map-stage {
+    aspect-ratio: 4 / 3;
   }
 }
 
@@ -985,6 +1228,28 @@ hr {
 
   .route-figure img {
     max-height: 235mm;
+    object-fit: contain;
+  }
+
+  .interactive-route-map {
+    padding: 0;
+    border: 0;
+    background: white;
+    box-shadow: none;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .interactive-route-map .route-map-controls,
+  .interactive-route-map .route-map-stage,
+  .interactive-route-map .route-map-detail {
+    display: none !important;
+  }
+
+  .interactive-route-map .route-map-static-fallback {
+    display: block !important;
+    max-width: 100%;
+    max-height: 225mm;
     object-fit: contain;
   }
 }
