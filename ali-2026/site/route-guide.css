@@ -698,6 +698,26 @@ figcaption::before {
   box-shadow: 0 18px 48px rgba(47, 43, 34, 0.12);
 }
 
+.interactive-route-map:has([data-map-style="handdrawn-paper"]) {
+  --map-paper: #f4ead7;
+  border-color: rgba(117, 90, 55, 0.2);
+  background: #fbf6e9;
+  box-shadow: 0 14px 36px rgba(76, 58, 38, 0.09);
+}
+
+.route-map-stage:has(> [data-map-style="handdrawn-paper"]) {
+  border-color: rgba(117, 90, 55, 0.24);
+  background: #f4ead7;
+}
+
+.interactive-route-map [data-map-style="handdrawn-paper"] {
+  background: #f4ead7;
+}
+
+.interactive-route-map [data-map-style="handdrawn-paper"] text {
+  text-rendering: geometricPrecision;
+}
+
 .route-map-controls {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) auto;
@@ -804,7 +824,8 @@ figcaption::before {
 
 .interactive-route-map .is-layer-hidden,
 .interactive-route-map .is-route-hidden,
-.interactive-route-map .is-density-hidden {
+.interactive-route-map .is-density-hidden,
+.interactive-route-map .is-filter-hidden {
   display: none;
 }
 
@@ -874,6 +895,11 @@ figcaption::before {
   font-weight: 650;
 }
 
+.route-map-detail .route-map-detail-logistics {
+  color: var(--map-ink);
+}
+
+.route-map-detail .route-map-detail-logistics[hidden],
 .route-map-detail .route-map-detail-decision[hidden] {
   display: none;
 }

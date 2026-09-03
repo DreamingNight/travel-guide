@@ -15,9 +15,9 @@
 </style></defs>
 <rect width="1600" height="800" rx="24" fill="url(#paper)"/>
 <title>B｜山南版全程5公里DEM海拔剖面</title>
-<desc>B｜山南版累计道路里程海拔，标注住宿地、景点、垭口和短时高点；机场隧道与B D2的地表DEM假峰已改为无数值含义的灰色虚线。</desc>
+<desc>B｜山南版累计道路里程海拔，标注住宿地、景点、垭口和短时高点；D2为拉萨适应日，10月2日起为D8—D12共同段；机场隧道与B D3的地表DEM假峰已改为无数值含义的灰色虚线。</desc>
 <text class="cn title" x="70" y="66">B｜山南版｜全程道路海拔剖面</text>
-<text class="cn sub" x="70" y="102">约 5 km 一点的 90 m DEM · 圆点为住宿，菱形为垭口 / 短时高点，青点为景点，灰色虚线为隧道缺口</text>
+<text class="cn sub" x="70" y="102">D2 拉萨适应｜10/1晚狮泉河汇合｜D8—D12共同段；约 5 km 一点的 90 m DEM</text>
 <rect x="95" y="145" width="1430" height="75.0" fill="#efc9c5" opacity=".72"/>
 <rect x="95" y="220.0" width="1430" height="125.0" fill="#f2dfba" opacity=".72"/>
 <text class="cn axis" x="105" y="165" fill="#98483e">≥5000m 高风险短时暴露带</text>
@@ -59,25 +59,25 @@
 <line x1="95.0" y1="145" x2="95.0" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
 <text class="cn axis" x="99.0" y="613" font-weight="700">D1</text>
 <line x1="121.6" y1="145" x2="121.6" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="125.6" y="613" font-weight="700">D2</text>
+<text class="cn axis" x="125.6" y="613" font-weight="700">D3</text>
 <line x1="178.7" y1="145" x2="178.7" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="182.7" y="613" font-weight="700">D3</text>
+<text class="cn axis" x="182.7" y="613" font-weight="700">D4</text>
 <line x1="348.7" y1="145" x2="348.7" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="352.7" y="613" font-weight="700">D4</text>
+<text class="cn axis" x="352.7" y="613" font-weight="700">D5</text>
 <line x1="537.8" y1="145" x2="537.8" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="541.8" y="613" font-weight="700">D5</text>
+<text class="cn axis" x="541.8" y="613" font-weight="700">D6</text>
 <line x1="746.3" y1="145" x2="746.3" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="750.3" y="613" font-weight="700">D6</text>
+<text class="cn axis" x="750.3" y="613" font-weight="700">D7</text>
 <line x1="851.0" y1="145" x2="851.0" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="855.0" y="613" font-weight="700">D7</text>
+<text class="cn axis" x="855.0" y="613" font-weight="700">D8</text>
 <line x1="1056.9" y1="145" x2="1056.9" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="1060.9" y="613" font-weight="700">D8</text>
+<text class="cn axis" x="1060.9" y="613" font-weight="700">D9</text>
 <line x1="1199.9" y1="145" x2="1199.9" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="1203.9" y="613" font-weight="700">D9</text>
+<text class="cn axis" x="1203.9" y="613" font-weight="700">D10</text>
 <line x1="1340.9" y1="145" x2="1340.9" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="1344.9" y="613" font-weight="700">D10</text>
+<text class="cn axis" x="1344.9" y="613" font-weight="700">D11</text>
 <line x1="1434.3" y1="145" x2="1434.3" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
-<text class="cn axis" x="1438.3" y="613" font-weight="700">D11</text>
+<text class="cn axis" x="1438.3" y="613" font-weight="700">D12</text>
 <line x1="1502.0" y1="145" x2="1502.0" y2="620" stroke="#7f8e90" stroke-width="1" opacity=".25"/>
 <text class="cn axis" x="1506.0" y="613" font-weight="700">D13</text>
 <line x1="119.5" y1="562.0" x2="119.5" y2="651" stroke="#7652a6" stroke-width="1" opacity=".45"/>
@@ -126,9 +126,9 @@
 <text class="cn" x="687.8" y="192.2" text-anchor="middle" font-size="11.5" font-weight="650" fill="#d19332" paint-order="stroke" stroke="#fbf7ef" stroke-width="4">马攸木拉 5211m</text>
 <circle cx="723.7" cy="311.2" r="5" fill="#277e91" stroke="#277e91" stroke-width="1.5"/>
 <text class="cn" x="723.7" y="293.2" text-anchor="middle" font-size="11.5" font-weight="650" fill="#277e91" paint-order="stroke" stroke="#fbf7ef" stroke-width="4">玛旁雍措 4635m</text>
-<circle cx="746.3" cy="316.2" r="5" fill="#fbf7ef" stroke="#277e91" stroke-width="1.5" stroke-dasharray="3 2"/>
-<path d="M751.3,321.2 L759.3,346.2" fill="none" stroke="#277e91" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
-<text class="cn" x="764.3" y="358.2" text-anchor="start" font-size="11.5" font-weight="650" fill="#277e91" paint-order="stroke" stroke="#fbf7ef" stroke-width="4">冈仁波齐观景窗口｜现场择点</text>
+<circle cx="744.1" cy="300.0" r="5" fill="#fbf7ef" stroke="#277e91" stroke-width="1.5" stroke-dasharray="3 2"/>
+<path d="M749.1,305.0 L757.1,330.0" fill="none" stroke="#277e91" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
+<text class="cn" x="762.1" y="342.0" text-anchor="start" font-size="11.5" font-weight="650" fill="#277e91" paint-order="stroke" stroke="#fbf7ef" stroke-width="4">塔钦观山窗口｜概念点</text>
 <rect x="922.1" y="220.0" width="10" height="10" transform="rotate(45 927.1 225.0)" fill="#d19332" stroke="#fff" stroke-width="1.5"/>
 <text class="cn" x="927.1" y="207.0" text-anchor="middle" font-size="11.5" font-weight="650" fill="#d19332" paint-order="stroke" stroke="#fbf7ef" stroke-width="4">G317西段高点 4980m</text>
 <rect x="1123.8" y="207.5" width="10" height="10" transform="rotate(45 1128.8 212.5)" fill="#d19332" stroke="#fff" stroke-width="1.5"/>
@@ -141,6 +141,6 @@
 <text class="cn" x="1414.9" y="244.5" text-anchor="middle" font-size="11.5" font-weight="650" fill="#277e91" paint-order="stroke" stroke="#fbf7ef" stroke-width="4">南岸游客中心 4830m</text>
 <g class="cn" transform="translate(95 747)">
 <rect width="1430" height="36" rx="10" fill="#fffdf8" stroke="#d5ddd8"/>
-<text class="small" x="14" y="23">说明｜曲线按 493.5km 默认短版采样，不含 548.2km 近看升级支线；住宿与标注采用规划节点值。冈仁波齐观景窗口不绑定点位或海拔；隧道灰色虚线仅表示路线连续。</text>
+<text class="small" x="14" y="23">说明｜曲线按 493.5km 默认短版采样，不含拉昂措近看候选支线；住宿与标注采用规划节点值。塔钦观山窗口借用4680m作概念定位，不是固定观景点海拔；隧道虚线仅表示路线连续。</text>
 </g>
 </svg>
