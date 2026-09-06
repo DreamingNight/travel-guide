@@ -199,8 +199,7 @@
 </g>
 <g class="cn" transform="translate(70 852)">
 <rect width="1460" height="116" rx="16" fill="#fffdf8" stroke="#d5ddd8"/>
-<line x1="22" y1="25" x2="70" y2="25" stroke="#a94f36" stroke-width="7" stroke-linecap="round"/><text class="legend" x="82" y="31">A 独有</text>
-<line x1="170" y1="25" x2="218" y2="25" stroke="#7652a6" stroke-width="7" stroke-linecap="round"/><text class="legend" x="230" y="31">B 独有</text>
+<line x1="22" y1="25" x2="70" y2="25" stroke="#a94f36" stroke-width="7" stroke-linecap="round"/><text class="legend" x="82" y="31">札达·古格执行线</text>
 <line x1="318" y1="25" x2="366" y2="25" stroke="#c28a2c" stroke-width="7" stroke-linecap="round"/><text class="legend" x="378" y="31">前半程共线</text>
 <line x1="515" y1="25" x2="563" y2="25" stroke="#244f73" stroke-width="7" stroke-linecap="round"/><text class="legend" x="575" y="31">D8—D12共同段｜10/2起 G317</text>
 <circle cx="836" cy="25" r="7" fill="#277e91"/><text class="legend" x="850" y="31">核心湖泊</text>

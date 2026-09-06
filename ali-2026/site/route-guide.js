@@ -434,11 +434,13 @@ function initializeRouteGuide() {
   }
 
   planButtons.forEach((button) => button.addEventListener("click", () => setPlan(button.dataset.planChoice)));
-  let savedPlan = "all";
-  try {
-    savedPlan = localStorage.getItem("ali-route-plan") || "all";
-  } catch (_) {
-    savedPlan = "all";
+  let savedPlan = body.dataset.planMode || "A";
+  if (planButtons.length > 0) {
+    try {
+      savedPlan = localStorage.getItem("ali-route-plan") || savedPlan;
+    } catch (_) {
+      // Keep the route declared by the document when local storage is disabled.
+    }
   }
   setPlan(savedPlan);
 
