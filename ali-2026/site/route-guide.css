@@ -1182,6 +1182,11 @@ hr {
   @page {
     size: A4;
     margin: 14mm 13mm 16mm;
+    @bottom-center {
+      content: "阿里自驾路书 · " counter(page);
+      font-size: 8pt;
+      color: #69736b;
+    }
   }
 
   body {
@@ -1222,7 +1227,8 @@ hr {
   }
 
   .routebook > h2 {
-    break-before: page;
+    break-before: auto;
+    margin-top: 8mm;
   }
 
   .day-card,
@@ -1234,8 +1240,35 @@ hr {
   }
 
   .day-card {
+    break-inside: auto;
+    break-before: page;
     padding: 14px 16px;
     background: white;
+  }
+
+  .table-wrap {
+    break-inside: auto;
+    overflow: visible;
+  }
+
+  tr {
+    break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+  }
+
+  p,
+  li {
+    widows: 3;
+    orphans: 3;
   }
 
   .plan-block {
@@ -1253,7 +1286,7 @@ hr {
   }
 
   .route-figure img {
-    max-height: 235mm;
+    max-height: 175mm;
     object-fit: contain;
   }
 
@@ -1275,7 +1308,7 @@ hr {
   .interactive-route-map .route-map-static-fallback {
     display: block !important;
     max-width: 100%;
-    max-height: 225mm;
+    max-height: 185mm;
     object-fit: contain;
   }
 }

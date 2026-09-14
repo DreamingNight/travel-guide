@@ -340,6 +340,7 @@ function initializeRouteGuide() {
     });
 
     viewport.addEventListener("wheel", (event) => {
+      if (!event.ctrlKey && !event.metaKey) return;
       const focalPoint = mapPoint(event.clientX, event.clientY);
       if (!focalPoint) return;
       event.preventDefault();

@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-14",
+  "inputs": [
+    "尼玛县人民政府",
+    "学嘎尔",
+    "班戈县人民政府"
+  ],
+  "roads": [
+    [
+      "从 尼玛县人民政府出发 ",
+      " 文化路 2.1公里 红绿灯4个 ",
+      " 317国道 162.6公里 ",
+      " 317国道 168.1公里 ",
+      " 吉江扎西北路 2.0公里 红绿灯4个 ",
+      " 到达终点 班戈县人民政府"
+    ]
+  ],
+  "text": "起 \n\n经 \n\n终 \n\n清除路线\n开车去\n\n推荐方案\n躲避拥堵\n避免收费\n\n约4小时37分钟\n334.8公里\n红绿灯8个\n\n途经： 文化路 317国道 317国道\n发送到手机\n收藏\n分享\n100 米\n",
+  "url": "https://www.amap.com/dir?from%5Badcode%5D=540629&from%5Bname%5D=%E5%B0%BC%E7%8E%9B%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C&from%5Bid%5D=B0380006GN&from%5Bpoitype%5D=130104&from%5Blnglat%5D=87.236494%2C31.784605&from%5Bmodxy%5D=87.237052%2C31.784847&to%5Badcode%5D=540627&to%5Bname%5D=%E7%8F%AD%E6%88%88%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C&to%5Bid%5D=B0380008BP&to%5Bpoitype%5D=130104&to%5Blnglat%5D=90.00982199999999%2C31.392157&to%5Bmodxy%5D=90.009826%2C31.391871&via%5B0%5D%5Badcode%5D=540625&via%5B0%5D%5Bname%5D=%E5%AD%A6%E5%98%8E%E5%B0%94&via%5B0%5D%5Bid%5D=B0380000G1&via%5B0%5D%5Bpoitype%5D=190203&via%5B0%5D%5Blnglat%5D=88.690181%2C31.698061&via%5B0%5D%5Bmodxy%5D=&type=car&policy=1"
+}

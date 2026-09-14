@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" class="ali-route-map" role="img">
+<title>12晚住宿海拔</title>
+<desc>2026年9月25日至10月7日，自驾，至少两名驾驶员。连线仅表达行程顺序，不是道路导航轨迹。</desc>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="1200" height="560" rx="18" fill="#f7f3e8"/>
+<text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
+<text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">12晚住宿海拔</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">横轴是住宿日期，不再沿用旧路线的累计道路里程</text>
+<line x1="95" y1="405.0" x2="1140" y2="405.0" stroke="#d9dfd3"/>
+<text x="80.0" y="411.0" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">3500</text>
+<line x1="95" y1="330.0" x2="1140" y2="330.0" stroke="#d9dfd3"/>
+<text x="80.0" y="336.0" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">4000</text>
+<line x1="95" y1="255.0" x2="1140" y2="255.0" stroke="#d9dfd3"/>
+<text x="80.0" y="261.0" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">4500</text>
+<line x1="95" y1="180.0" x2="1140" y2="180.0" stroke="#d9dfd3"/>
+<text x="80.0" y="186.0" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">5000</text>
+<polyline points="108.0,381.0 200.0,381.0 292.0,354.0 384.0,257.2 476.0,228.0 568.0,370.5 660.0,288.0 752.0,266.2 844.0,250.5 936.0,222.8 1028.0,287.2 1120.0,381.0" fill="none" stroke="#27645c" stroke-width="4"/>
+<circle cx="108" cy="381.0" r="6" fill="#ad6240"/>
+<text x="108.0" y="365.0" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">3660</text>
+<text x="108.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">拉萨</text>
+<text x="108.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/25</text>
+<circle cx="200" cy="381.0" r="6" fill="#ad6240"/>
+<text x="200.0" y="365.0" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">3660</text>
+<text x="200.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">拉萨</text>
+<text x="200.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/26</text>
+<circle cx="292" cy="354.0" r="6" fill="#ad6240"/>
+<text x="292.0" y="338.0" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">3840</text>
+<text x="292.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">日喀则</text>
+<text x="292.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/27</text>
+<circle cx="384" cy="257.2" r="6" fill="#ad6240"/>
+<text x="384.0" y="241.2" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">4485</text>
+<text x="384.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">萨嘎</text>
+<text x="384.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/28</text>
+<circle cx="476" cy="228.0" r="6" fill="#ad6240"/>
+<text x="476.0" y="212.0" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">4680</text>
+<text x="476.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">塔钦</text>
+<text x="476.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/29</text>
+<circle cx="568" cy="370.5" r="6" fill="#ad6240"/>
+<text x="568.0" y="354.5" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">3730</text>
+<text x="568.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">札达</text>
+<text x="568.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/30</text>
+<circle cx="660" cy="288.0" r="6" fill="#ad6240"/>
+<text x="660.0" y="272.0" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">4280</text>
+<text x="660.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">狮泉河</text>
+<text x="660.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/1</text>
+<circle cx="752" cy="266.2" r="6" fill="#ad6240"/>
+<text x="752.0" y="250.2" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">4425</text>
+<text x="752.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">改则</text>
+<text x="752.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/2</text>
+<circle cx="844" cy="250.5" r="6" fill="#ad6240"/>
+<text x="844.0" y="234.5" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">4530</text>
+<text x="844.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">尼玛</text>
+<text x="844.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/3</text>
+<circle cx="936" cy="222.8" r="6" fill="#ad6240"/>
+<text x="936.0" y="206.8" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">4715</text>
+<text x="936.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">班戈</text>
+<text x="936.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/4</text>
+<circle cx="1028" cy="287.2" r="6" fill="#ad6240"/>
+<text x="1028.0" y="271.2" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">4285</text>
+<text x="1028.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">当雄</text>
+<text x="1028.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/5</text>
+<circle cx="1120" cy="381.0" r="6" fill="#ad6240"/>
+<text x="1120.0" y="365.0" font-size="17" fill="#243e40" text-anchor="middle" font-weight="600">3660</text>
+<text x="1120.0" y="445.0" font-size="18" fill="#243e40" text-anchor="middle" font-weight="400">拉萨</text>
+<text x="1120.0" y="472.0" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/6</text>
+<text x="38.0" y="505.0" font-size="18" fill="#243e40" text-anchor="start" font-weight="400">图只表示睡眠点；白天垭口仍可能超过5000m。不要用住宿较低推断全天暴露较低。</text>
+<text x="38.0" y="534.0" font-size="15" fill="#69736b" text-anchor="start" font-weight="400">海拔沿用路书已核公开县区/地形规划值，非酒店实测；来源与不确定性见data/route_nodes.json。</text>
+<g data-layer="route-a"/>
+<g data-layer="route-b"/>
+<g data-layer="route-common"/>
+<g data-layer="lodging"/>
+<g data-layer="sights-core"/>
+<g data-layer="sights-secondary"/>
+<g data-layer="passes"/>
+<g data-layer="places"/>
+<g data-layer="culture"/>
+<g data-layer="water-landforms"/>
+<g data-layer="context-landmarks"/>
+<g data-layer="alternatives"/>
+</g></svg>

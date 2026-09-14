@@ -1,0 +1,224 @@
+{
+  "entry": "index.html",
+  "source": "阿里经典环线综合优化路书_2026-09-25_10-07.md",
+  "files": [
+    {
+      "path": "assets/10-租赁车辆合规四步.png",
+      "sha256": "3998017e6e7afb78fa7c07d5f3861cbe1b52afdfa04523fbbcead9bee53b0378"
+    },
+    {
+      "path": "assets/12-沿途景观八幕.png",
+      "sha256": "49beab8209e8cfa46affad2a18e370935e883d40bd47dcb330954da603bfc250"
+    },
+    {
+      "path": "assets/2026-current/g317.svg",
+      "sha256": "9839896f1d59123348911291a3ef24e26138b225b5174960d72b632d15f73f88"
+    },
+    {
+      "path": "assets/2026-current/kailash-zanda.svg",
+      "sha256": "d0840d248356bb604d1822241c415fc025c34b2fe8198556da4f0eabc6427c80"
+    },
+    {
+      "path": "assets/2026-current/lhasa.svg",
+      "sha256": "10a0cceb7a5a556fb2d932f94a111441c083170b4737c8f27618d2c7b4ad3da2"
+    },
+    {
+      "path": "assets/2026-current/namtso.svg",
+      "sha256": "c12d6065d0162250c3971db92a895b2df97ffefcaa45b4532cf6230661a72f55"
+    },
+    {
+      "path": "assets/2026-current/route-overview.svg",
+      "sha256": "ab6cbd5d7bc2e8fa968cf0284e2d6318381c18c430e2362d0dba6881738f7caa"
+    },
+    {
+      "path": "assets/2026-current/sleep-altitude.svg",
+      "sha256": "ffc77d59c99e117bb1d41d602bed1869e209d8c3e5ca30b53a4dce5d78c87f84"
+    },
+    {
+      "path": "assets/2026-current/yamdrok.svg",
+      "sha256": "9229077784ee4b6c6322e1253b628293a9f56d30ae0fc3c6b19373822a9c3b3b"
+    },
+    {
+      "path": "assets/commons/05-kailash-cover.png",
+      "sha256": "07151bd763ce639e6110ab004c1c6ff580527a6381af1723dbe23fc8a5194b53"
+    },
+    {
+      "path": "assets/editorial/guge.webp",
+      "sha256": "efd9a120be939514b2baa4e07f17f112db8baa69a04f591d55c7c4dfb4ea79e8"
+    },
+    {
+      "path": "assets/editorial/kailash-hero.webp",
+      "sha256": "1b4df78efecfefc25e097bf8ead102abe56906986ed313d2dbd1ee826f113939"
+    },
+    {
+      "path": "assets/editorial/namtso.webp",
+      "sha256": "4239ffc19b01eaf425954d314e645517ce4a1418820193a6cac53b9c9e42caa8"
+    },
+    {
+      "path": "assets/editorial/yamdrok.webp",
+      "sha256": "772052f4e0c00b837563ff95f829cd655d1a5670041480b01fd65961d3817a6e"
+    },
+    {
+      "path": "index.html",
+      "sha256": "e3020298d2ae16e6b47760d117f92e998a71b23c6cc99c110c4310da90dc2bde"
+    },
+    {
+      "path": "research/daily_review_2026-09-14/amap_evidence.json",
+      "sha256": "464c66f5ed0e4e2fb94e27f83322362508344ca32cd3edffe337f1665128caa2"
+    },
+    {
+      "path": "research/daily_review_2026-09-14/d10-siling-paused-label.png",
+      "sha256": "0292bb3442ae63235587cd6681dfb8a9c112162f5195c767bdb998dfd6f56223"
+    },
+    {
+      "path": "research/daily_review_2026-09-14/d11-bango-namtso-damxung.png",
+      "sha256": "de8090f2ef1c716265fe5e8887d2b8bfd9503f4acbbb8e037055a1ae86750938"
+    },
+    {
+      "path": "research/daily_review_2026-09-14/d3-lurila-1-2-3-langkazi-gyantse.png",
+      "sha256": "63d1b7a8fa3605a489c5790d9888b740aa4b7b57124827c052b674a1f3bdebd8"
+    },
+    {
+      "path": "research/daily_review_2026-09-14/d3-lurila-3-2-1-highway.png",
+      "sha256": "e718d71f8b2c113b543636c070fac1751b81e3fb666737d3e782825b3845b66e"
+    },
+    {
+      "path": "research/daily_review_2026-09-14/d5-saga-g564-lakes-tarchen.png",
+      "sha256": "b149060ee2c32346d5b2ae532b7e4416d56a00cff90f3a13112b286533b83cd7"
+    },
+    {
+      "path": "research/daily_review_2026-09-14/d7-zanda-guge-zanda-shiquanhe.png",
+      "sha256": "b87383c99c11826e916e01f26287f85a64de063a890f786795c7d998562fce25"
+    },
+    {
+      "path": "research/guge_yamdrok_2026-09-14/both-highway.png",
+      "sha256": "723b70a2624b897abf74aeafab42e309b08a8a2a328d689a82c8210b117538ce"
+    },
+    {
+      "path": "research/guge_yamdrok_2026-09-14/classic.png",
+      "sha256": "fc041a4633a680c8eb1c483085b1b1714d467dec481d86bdeacc278c3ccb42af"
+    },
+    {
+      "path": "research/guge_yamdrok_2026-09-14/lurila-highway.png",
+      "sha256": "fd975b4bcf5467f30d7f540652b03ba33ce48bd74336156bb8b4186b69b86820"
+    },
+    {
+      "path": "research/guge_yamdrok_2026-09-14/lurila-via-gyantse.png",
+      "sha256": "16cb8c8a0fb21e08c3c7e221dd760c231b2eeef7b11b58e945e60a3462374cb2"
+    },
+    {
+      "path": "research/guge_yamdrok_2026-09-14/ritu-highway.png",
+      "sha256": "c77f484f83c7706ac87e91baf36019794079bf770d3df4c7d8fd58fb7238a288"
+    },
+    {
+      "path": "research/guge_yamdrok_2026-09-14/ritu-via-gyantse.png",
+      "sha256": "07e7dd64c631680efed3de97f81c590a40d994bba1bcb869a481c0cfa03a081e"
+    },
+    {
+      "path": "research/guge_yamdrok_2026-09-14/ritushan-via-gyantse.png",
+      "sha256": "57e08aba9cd0dbcc96924e5e9a9e78c2a9f70ea980177b5fd81a5056af443248"
+    },
+    {
+      "path": "research/other_days_2026-09-14/README.html",
+      "sha256": "e1e959e5f510e10ed35169e6fa2ec979eaa83af1fcf816c4614019b21aa44a32"
+    },
+    {
+      "path": "research/other_days_2026-09-14/d8-mumaco-route.json",
+      "sha256": "1fe66501c881f178b368ed1952aaa306acc743866ac4023ebd5cbfdbb91da1d4"
+    },
+    {
+      "path": "research/other_days_2026-09-14/d8-mumaco-route.png",
+      "sha256": "163646da7fa5c03bfe632ae2a997ec91d3f12bbaa212368f92e2939b57317a4e"
+    },
+    {
+      "path": "research/other_days_2026-09-14/d9-tree-route.json",
+      "sha256": "a494b98105402a42d95e63bae81de3aae24f263ee9f1b72cba2b19fdc7d07948"
+    },
+    {
+      "path": "research/other_days_2026-09-14/d9-tree-route.png",
+      "sha256": "3bee671b31616fc89ac2b1b03fec9706c4ca85c5ba06fe40c99363c89d683ce7"
+    },
+    {
+      "path": "research/other_days_2026-09-14/dji-air3s-spec.json",
+      "sha256": "0931f8982f00851ff6e4c9068283d9c3c11aa008711b596af3c1da86be2f8bdf"
+    },
+    {
+      "path": "research/other_days_2026-09-14/dji-mini4pro-spec.json",
+      "sha256": "a8fcd85b00ba065799195b9aa3eca5689ec31d8439b4efde7476deb77f69bc3b"
+    },
+    {
+      "path": "research/other_days_2026-09-14/uom-public-homepage.json",
+      "sha256": "283084b48ad4722bd585d3dc7584642d427e5e8a4770bc872050aef0640f0867"
+    },
+    {
+      "path": "research/siling_deep_2026-09-14/01-xuegaer-route.json",
+      "sha256": "f826eada1039799791d7993a9eac85a5316f75cba76d703a7b1143eed2509380"
+    },
+    {
+      "path": "research/siling_deep_2026-09-14/01-xuegaer-route.png",
+      "sha256": "0379febf5ca296bebcf1b4f4b3d6ffe0879b55da766527dd683963424570bc89"
+    },
+    {
+      "path": "research/siling_deep_2026-09-14/02-duoga-unverified.json",
+      "sha256": "1e7b25f15728b4bd02ee8061a5524a80bda804461508ddf9bab721f876def880"
+    },
+    {
+      "path": "research/siling_deep_2026-09-14/03-direct-baseline.json",
+      "sha256": "8181b7919c2439ce9d13c46e7f78474b7d96f317187f2c1b34deef9ab2257677"
+    },
+    {
+      "path": "research/siling_deep_2026-09-14/03-direct-baseline.png",
+      "sha256": "93a51fe92944baddef7a16ea267d170891f415d75759200ea90e3f8e23ce1628"
+    },
+    {
+      "path": "research/siling_deep_2026-09-14/04-xuegaer-to-bango.json",
+      "sha256": "3373c16c2a0fe76a727c0f177612b0726b4fe74c20606ad13bad6279bbabf788"
+    },
+    {
+      "path": "research/siling_deep_2026-09-14/04-xuegaer-to-bango.png",
+      "sha256": "760a0b994c8ad09cbcb7d065856a8eaf5c773dc8d4a0fe7c38435beb9cc232e9"
+    },
+    {
+      "path": "research/siling_deep_2026-09-14/README.html",
+      "sha256": "603f0800cd48707befdd0956645256bcf3cad1e2174b0aa9ad6424ae39434652"
+    },
+    {
+      "path": "research/xhs_dual_routes/research_report.html",
+      "sha256": "1e9794254c7b716de3b92247758f2abda80245bda419d38169c6594936494f57"
+    },
+    {
+      "path": "research/机票与住宿核查证据_2026-09-14.json",
+      "sha256": "671dac3fa1cd3682279e5a703ba23e870d87ffafd55f001959d1b92908d74184"
+    },
+    {
+      "path": "research/机票与住宿精选_2026-09-14.html",
+      "sha256": "7950302a5577edd7e0a4c6ff75a3ca73e6407325bc5ab6fa1bcff35296e44eb4"
+    },
+    {
+      "path": "research/羊湖古格实查_2026-09-14.html",
+      "sha256": "6c7fe488c38337227239d60c06cf31ec766caa7d6402cd89de98e5b07dee9477"
+    },
+    {
+      "path": "research/阿里13天逐日复核与优化建议_2026-09-14.html",
+      "sha256": "aea861fa7e064f6758b52715c9fe1efbbea600269de4b858245dac7bbf127147"
+    },
+    {
+      "path": "site/reader.css",
+      "sha256": "6512c221eeb18818b2ed3589f65907d06a1f4b0e61af2d02f21f8ed82b2612f8"
+    },
+    {
+      "path": "site/reader.js",
+      "sha256": "c2868bd7c24f8eb0a1fb0d91641b19318bd76b5ad698f9709e918c9b89d1dac8"
+    },
+    {
+      "path": "site/route-guide.css",
+      "sha256": "ff620108ce3b1013583072c52b863130ac39a191a0956fcf94280e9542eaff39"
+    },
+    {
+      "path": "site/route-guide.js",
+      "sha256": "9dc88dd10d4991755379e733387f55a350ab9e894cc02776fa606a6c7831fdb7"
+    }
+  ],
+  "excludedPrivateImages": [],
+  "deployment": "not performed by this builder"
+}

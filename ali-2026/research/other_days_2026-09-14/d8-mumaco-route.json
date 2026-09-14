@@ -1,0 +1,21 @@
+{
+  "checked": "2026-09-14",
+  "inputs": [
+    "噶尔县人民政府",
+    "物玛措",
+    "改则县人民政府"
+  ],
+  "roads": [
+    [
+      "从 噶尔县人民政府出发 ",
+      " 昆仑大道 1.9公里 红绿灯6个 ",
+      " 317国道 392.7公里 红绿灯2个 ",
+      " 317国道 93.0公里 红绿灯2个 ",
+      " 内部道路 60米 ",
+      " 到达终点 改则县人民政府"
+    ]
+  ],
+  "status": "regional_route_only_not_parking_or_flight_clearance",
+  "text": "起 \n\n经 \n\n终 \n\n清除路线\n开车去\n\n推荐方案\n躲避拥堵\n避免收费\n\n约6小时50分钟\n487.6公里\n红绿灯10个\n\n途经： 昆仑大道 317国道 317国道\n发送到手机\n收藏\n分享\n100 米\n",
+  "url": "https://www.amap.com/dir?from%5Badcode%5D=542523&from%5Bname%5D=%E5%99%B6%E5%B0%94%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C&from%5Bid%5D=B0JBOAL1TZ&from%5Bpoitype%5D=130104&from%5Blnglat%5D=80.09468600000002%2C32.488971&from%5Bmodxy%5D=80.094418%2C32.487768&to%5Badcode%5D=542526&to%5Bname%5D=%E6%94%B9%E5%88%99%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C&to%5Bid%5D=B0FFI59P51&to%5Bpoitype%5D=130104&to%5Blnglat%5D=84.05713500000002%2C32.297165&to%5Bmodxy%5D=84.056823%2C32.297734&via%5B0%5D%5Badcode%5D=542526&via%5B0%5D%5Bname%5D=%E7%89%A9%E7%8E%9B%E6%8E%AA&via%5B0%5D%5Bid%5D=B038100BD6&via%5B0%5D%5Bpoitype%5D=190205&via%5B0%5D%5Blnglat%5D=83.18516399999999%2C32.42998&via%5B0%5D%5Bmodxy%5D=&type=car&policy=1"
+}

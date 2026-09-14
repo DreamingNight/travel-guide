@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 586" class="ali-route-map" role="img">
+<title>纳木措：正规景区进出，当雄过夜</title>
+<desc>2026年9月25日至10月7日，自驾，至少两名驾驶员。连线仅表达行程顺序，不是道路导航轨迹。</desc>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif">
+<rect width="1200" height="586" rx="18" fill="#f7f3e8"/>
+<text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
+<text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">纳木措：正规景区进出，当雄过夜</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">10/5游湖，10/6返拉萨；不走圣象天门或湖岸便道</text>
+<rect x="26" y="137" width="1148" height="188" rx="12" fill="#fffdf6"/>
+<text x="46.0" y="168.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D11  10/5  班戈 → 纳木措 → 当雄</text>
+<text x="1151.0" y="168.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">207.9km · 3h19m</text>
+<g data-layer="route-a"><line x1="100" y1="210" x2="1100" y2="210" stroke="#b6c8bd" stroke-width="3"/></g>
+<g data-layer="sights-core">
+<g class="point tier-1" data-point-id="d11-stop-0" data-title="班戈" data-summary="景区另留3—4小时；车辆合同、保险与景区准入独立核验。不去圣象天门。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="100.0" cy="210" r="8" fill="#27645c"/>
+<text x="100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">班戈</text>
+</g>
+<g class="point tier-1" data-point-id="d11-stop-1" data-title="正规游客中心" data-summary="景区另留3—4小时；车辆合同、保险与景区准入独立核验。不去圣象天门。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="433.3" cy="210" r="8" fill="#27645c"/>
+<text x="433.3" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">正规游客中心</text>
+</g>
+<g class="point tier-1" data-point-id="d11-stop-2" data-title="摆渡 / 扎西半岛" data-summary="景区另留3—4小时；车辆合同、保险与景区准入独立核验。不去圣象天门。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="766.7" cy="210" r="8" fill="#27645c"/>
+<text x="766.7" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">摆渡 / 扎西半岛</text>
+</g>
+<g class="point tier-1" data-point-id="d11-stop-3" data-title="当雄" data-summary="景区另留3—4小时；车辆合同、保险与景区准入独立核验。不去圣象天门。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="1100.0" cy="210" r="8" fill="#27645c"/>
+<text x="1100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">当雄</text>
+</g>
+</g>
+<text x="46.0" y="282.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">景区另留3—4小时；车辆合同、保险与景区准入独立核验。不去圣象天门。</text>
+<rect x="26" y="342" width="1148" height="188" rx="12" fill="#fffdf6"/>
+<text x="46.0" y="373.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D12  10/6  当雄 → 拉萨</text>
+<text x="1151.0" y="373.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">173.9km · 2h19m</text>
+<g data-layer="route-a"><line x1="100" y1="415" x2="1100" y2="415" stroke="#b6c8bd" stroke-width="3"/></g>
+<g data-layer="sights-core">
+<g class="point tier-1" data-point-id="d12-stop-0" data-title="当雄" data-summary="不抵押返城缓冲；验车、油量、还车回执与机场接送优先。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="100.0" cy="415" r="8" fill="#27645c"/>
+<text x="100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">当雄</text>
+</g>
+<g class="point tier-1" data-point-id="d12-stop-1" data-title="拉萨还车" data-summary="不抵押返城缓冲；验车、油量、还车回执与机场接送优先。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="600.0" cy="415" r="8" fill="#27645c"/>
+<text x="600.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">拉萨还车</text>
+</g>
+<g class="point tier-1" data-point-id="d12-stop-2" data-title="休息 / 一项城市候选" data-summary="不抵押返城缓冲；验车、油量、还车回执与机场接送优先。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="1100.0" cy="415" r="8" fill="#27645c"/>
+<text x="1100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">休息 / 一项城市候选</text>
+</g>
+</g>
+<text x="46.0" y="487.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">不抵押返城缓冲；验车、油量、还车回执与机场接送优先。</text>
+<text x="38.0" y="560.0" font-size="15" fill="#69736b" text-anchor="start" font-weight="400">顺序示意，不按比例；高德导航为9/14快照，未计游览/休息。条件失败时删点，不靠夜驾补回。</text>
+<g data-layer="route-a"/>
+<g data-layer="route-b"/>
+<g data-layer="route-common"/>
+<g data-layer="lodging"/>
+<g data-layer="sights-core"/>
+<g data-layer="sights-secondary"/>
+<g data-layer="passes"/>
+<g data-layer="places"/>
+<g data-layer="culture"/>
+<g data-layer="water-landforms"/>
+<g data-layer="context-landmarks"/>
+<g data-layer="alternatives"/>
+</g></svg>
