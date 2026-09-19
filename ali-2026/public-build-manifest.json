@@ -4,11 +4,11 @@
   "files": [
     {
       "path": "assets/2026-current/g317.svg",
-      "sha256": "065dbde180f5d46c6850f27550d537f5173ac183cf8af551b0dd2272206beef5"
+      "sha256": "a114b9e8ddc8d9ce35fba0e0d8f0565bc2c0f87f9a19f48a5a22561fc2bf278f"
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
-      "sha256": "29fa2142f2bb2f9c6c03af1e2bfaffd347497242f3223a3af2fc3556808fbb7e"
+      "sha256": "5e0daf860e6a03079c570a4399ef35feec9d2fece571fadf315d0537833c6566"
     },
     {
       "path": "assets/2026-current/lhasa.svg",
@@ -20,7 +20,7 @@
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "0541d4e37665e5f4717d9dea8839fbdb678bcb5bfe96a8884c5d3ea5219af1f5"
+      "sha256": "2f5b90ec201ada43667759f6f2e772a20382afb05e351acceef80abe1cb0078d"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
@@ -28,7 +28,7 @@
     },
     {
       "path": "assets/2026-current/yamdrok.svg",
-      "sha256": "9eeedd73dd1f7a2b7f3dd484bfdd54d3612b163d4b4af30774fb8f53383d1c1d"
+      "sha256": "6e6711cfc34bc3b061c9d0f66fe6d96314b0db30c80c6f8ec5b3d85526062880"
     },
     {
       "path": "assets/commons/05-kailash-cover.png",
@@ -52,7 +52,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "d5f03374af14e799c0382654a7fa31f1e3743f1cf9b133d41e1df33e333f81a1"
+      "sha256": "82987e6fc2d6d4ae6dd981fba7c6e88ff4b56e0aea5e0658b789adb9cee38864"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
@@ -173,6 +173,10 @@
     {
       "path": "research/siling_deep_2026-09-14/README.html",
       "sha256": "603f0800cd48707befdd0956645256bcf3cad1e2174b0aa9ad6424ae39434652"
+    },
+    {
+      "path": "research/内容复核_2026-09-19.html",
+      "sha256": "f2f321626ea9189b0001fa7a47d3253cdb926407419739fa320648e2db092356"
     },
     {
       "path": "research/机票与住宿核查证据_2026-09-14.json",
