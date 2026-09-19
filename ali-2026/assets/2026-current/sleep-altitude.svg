@@ -5,7 +5,7 @@
 <rect width="1200" height="560" rx="18" fill="#f7f3e8"/>
 <text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
 <text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">12晚住宿海拔</text>
-<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">横轴是住宿日期，不再沿用旧路线的累计道路里程</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">白天活动与垭口高点见每日行程</text>
 <line x1="95" y1="405.0" x2="1140" y2="405.0" stroke="#d9dfd3"/>
 <text x="80.0" y="411.0" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">3500</text>
 <line x1="95" y1="330.0" x2="1140" y2="330.0" stroke="#d9dfd3"/>

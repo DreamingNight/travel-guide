@@ -1,38 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 586" class="ali-route-map" role="img">
-<title>羊湖四点：增加鲁日拉，不替换经典</title>
+<title>羊湖四点与日喀则</title>
 <desc>2026年9月25日至10月7日，自驾，至少两名驾驶员。连线仅表达行程顺序，不是道路导航轨迹。</desc>
 <g font-family="PingFang SC,Microsoft YaHei,sans-serif">
 <rect width="1200" height="586" rx="18" fill="#f7f3e8"/>
 <text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
-<text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">羊湖四点：增加鲁日拉，不替换经典</text>
-<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">已采纳高速收口 · 先核东岸连接路，再执行四点顺序</text>
+<text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">羊湖四点与日喀则</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">鲁日拉 → 3号 → 2号 → 1号 → 高速；东岸连接路待确认</text>
 <rect x="26" y="137" width="1148" height="188" rx="12" fill="#fffdf6"/>
 <text x="46.0" y="168.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D3  9/27  羊湖四点 → 日喀则</text>
 <text x="1151.0" y="168.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">430.3km · 7h43m</text>
 <g data-layer="route-a"><line x1="100" y1="210" x2="1100" y2="210" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d3-stop-0" data-title="鲁日拉" data-summary="2、3号必保；不去日托寺、卡若拉、满拉与江孜。东岸连接路待核；门到门约11—12.5小时。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d3-stop-0" data-title="鲁日拉" data-summary="2、3号优先；鲁日拉接线待确认。门到门约11—12.5小时，目标18:30—19:30到店。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="210" r="8" fill="#27645c"/>
 <text x="100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">鲁日拉</text>
 </g>
-<g class="point tier-1" data-point-id="d3-stop-1" data-title="3号近湖" data-summary="2、3号必保；不去日托寺、卡若拉、满拉与江孜。东岸连接路待核；门到门约11—12.5小时。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d3-stop-1" data-title="3号近湖" data-summary="2、3号优先；鲁日拉接线待确认。门到门约11—12.5小时，目标18:30—19:30到店。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="350.0" cy="210" r="8" fill="#27645c"/>
 <text x="350.0" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">3号近湖</text>
 </g>
-<g class="point tier-1" data-point-id="d3-stop-2" data-title="2号朗布琪" data-summary="2、3号必保；不去日托寺、卡若拉、满拉与江孜。东岸连接路待核；门到门约11—12.5小时。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d3-stop-2" data-title="2号朗布琪" data-summary="2、3号优先；鲁日拉接线待确认。门到门约11—12.5小时，目标18:30—19:30到店。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="600.0" cy="210" r="8" fill="#27645c"/>
 <text x="600.0" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">2号朗布琪</text>
 </g>
-<g class="point tier-1" data-point-id="d3-stop-3" data-title="1号岗巴拉" data-summary="2、3号必保；不去日托寺、卡若拉、满拉与江孜。东岸连接路待核；门到门约11—12.5小时。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d3-stop-3" data-title="1号岗巴拉" data-summary="2、3号优先；鲁日拉接线待确认。门到门约11—12.5小时，目标18:30—19:30到店。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="850.0" cy="210" r="8" fill="#27645c"/>
 <text x="850.0" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">1号岗巴拉</text>
 </g>
-<g class="point tier-1" data-point-id="d3-stop-4" data-title="回接高速 → 日喀则" data-summary="2、3号必保；不去日托寺、卡若拉、满拉与江孜。东岸连接路待核；门到门约11—12.5小时。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d3-stop-4" data-title="回接高速 → 日喀则" data-summary="2、3号优先；鲁日拉接线待确认。门到门约11—12.5小时，目标18:30—19:30到店。" data-day-a="D3" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="210" r="8" fill="#27645c"/>
 <text x="1100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">回接高速 → 日喀则</text>
 </g>
 </g>
-<text x="46.0" y="282.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">2、3号必保；不去日托寺、卡若拉、满拉与江孜。东岸连接路待核；门到门约11—12.5小时。</text>
+<text x="46.0" y="282.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">2、3号优先；鲁日拉接线待确认。门到门约11—12.5小时，目标18:30—19:30到店。</text>
 <rect x="26" y="342" width="1148" height="188" rx="12" fill="#fffdf6"/>
 <text x="46.0" y="373.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D4  9/28  日喀则 → 萨嘎</text>
 <text x="1151.0" y="373.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">447.7km · 8h06m</text>

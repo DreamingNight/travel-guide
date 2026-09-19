@@ -3,40 +3,32 @@
   "source": "阿里经典环线综合优化路书_2026-09-25_10-07.md",
   "files": [
     {
-      "path": "assets/10-租赁车辆合规四步.png",
-      "sha256": "3998017e6e7afb78fa7c07d5f3861cbe1b52afdfa04523fbbcead9bee53b0378"
-    },
-    {
-      "path": "assets/12-沿途景观八幕.png",
-      "sha256": "49beab8209e8cfa46affad2a18e370935e883d40bd47dcb330954da603bfc250"
-    },
-    {
       "path": "assets/2026-current/g317.svg",
-      "sha256": "9839896f1d59123348911291a3ef24e26138b225b5174960d72b632d15f73f88"
+      "sha256": "065dbde180f5d46c6850f27550d537f5173ac183cf8af551b0dd2272206beef5"
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
-      "sha256": "d0840d248356bb604d1822241c415fc025c34b2fe8198556da4f0eabc6427c80"
+      "sha256": "29fa2142f2bb2f9c6c03af1e2bfaffd347497242f3223a3af2fc3556808fbb7e"
     },
     {
       "path": "assets/2026-current/lhasa.svg",
-      "sha256": "10a0cceb7a5a556fb2d932f94a111441c083170b4737c8f27618d2c7b4ad3da2"
+      "sha256": "0533bdd8aa96cf4ffb755a2eb86c7ffb9dd985f363ae801053db94d459c772b5"
     },
     {
       "path": "assets/2026-current/namtso.svg",
-      "sha256": "c12d6065d0162250c3971db92a895b2df97ffefcaa45b4532cf6230661a72f55"
+      "sha256": "ce3f344bcd2f2faa01e6bbf9f8319c7e63e179c942ecdbad0876f1e6ece7203f"
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "ab6cbd5d7bc2e8fa968cf0284e2d6318381c18c430e2362d0dba6881738f7caa"
+      "sha256": "0541d4e37665e5f4717d9dea8839fbdb678bcb5bfe96a8884c5d3ea5219af1f5"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
-      "sha256": "ffc77d59c99e117bb1d41d602bed1869e209d8c3e5ca30b53a4dce5d78c87f84"
+      "sha256": "9411b59444ef0568490240de90ba93a5418c17b469e9b37d0fb673598bceba32"
     },
     {
       "path": "assets/2026-current/yamdrok.svg",
-      "sha256": "9229077784ee4b6c6322e1253b628293a9f56d30ae0fc3c6b19373822a9c3b3b"
+      "sha256": "9eeedd73dd1f7a2b7f3dd484bfdd54d3612b163d4b4af30774fb8f53383d1c1d"
     },
     {
       "path": "assets/commons/05-kailash-cover.png",
@@ -60,7 +52,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "e3020298d2ae16e6b47760d117f92e998a71b23c6cc99c110c4310da90dc2bde"
+      "sha256": "d5f03374af14e799c0382654a7fa31f1e3743f1cf9b133d41e1df33e333f81a1"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
@@ -183,10 +175,6 @@
       "sha256": "603f0800cd48707befdd0956645256bcf3cad1e2174b0aa9ad6424ae39434652"
     },
     {
-      "path": "research/xhs_dual_routes/research_report.html",
-      "sha256": "1e9794254c7b716de3b92247758f2abda80245bda419d38169c6594936494f57"
-    },
-    {
       "path": "research/机票与住宿核查证据_2026-09-14.json",
       "sha256": "671dac3fa1cd3682279e5a703ba23e870d87ffafd55f001959d1b92908d74184"
     },
@@ -204,7 +192,7 @@
     },
     {
       "path": "site/reader.css",
-      "sha256": "6512c221eeb18818b2ed3589f65907d06a1f4b0e61af2d02f21f8ed82b2612f8"
+      "sha256": "97ff24ab3dae082d7bc0e685078ae698cb03a7bc0628b6f18e82178ff6b1358a"
     },
     {
       "path": "site/reader.js",
@@ -217,6 +205,14 @@
     {
       "path": "site/route-guide.js",
       "sha256": "9dc88dd10d4991755379e733387f55a350ab9e894cc02776fa606a6c7831fdb7"
+    },
+    {
+      "path": "site/travel-notes.css",
+      "sha256": "743ec7305142f9f256e2f3f83a51600f3bb1fa0a7820b9aea997dcb80664e66b"
+    },
+    {
+      "path": "site/travel-notes.js",
+      "sha256": "ff385602e9988e7001337ab920300fb8d20012ede23a2d5ef8f3d66022fc779c"
     }
   ],
   "excludedPrivateImages": [],

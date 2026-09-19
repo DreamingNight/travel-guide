@@ -1,0 +1,57 @@
+.travel-intention { margin-top: 70px; padding: 35px 0 0; border-top: 1px solid var(--line); }
+.travel-intention-grid { display: grid; grid-template-columns: .9fr 1.5fr; gap: 70px; }
+.travel-intention h2, .travel-journal h2 { margin: 0 0 22px; padding: 0; border: 0; color: var(--ink); font-family: var(--serif); font-size: clamp(27px, 3vw, 40px); font-weight: 500; line-height: 1.55; }
+.travel-intention h2::before, .travel-journal h2::before, .intention-list h3::before { display: none; }
+.intention-intro { color: #576257; font-size: 14px; max-width: 30em; }
+.intention-list { list-style: none; margin: 0; padding: 0; counter-reset: intention; }
+.intention-list li { position: relative; padding: 2px 0 21px 44px; margin-bottom: 21px; border-bottom: 1px solid var(--line); counter-increment: intention; }
+.intention-list li::before { position: absolute; left: 0; top: 5px; content: "0" counter(intention); color: #8a977f; font: 18px Georgia, serif; }
+.intention-list h3 { margin: 0 0 9px; padding: 0; color: var(--ink); font-size: 17px; font-weight: 500; }
+.intention-list p { margin: 0; font-size: 13px; color: #56614f; line-height: 1.9; }
+.intention-footnote { margin: 10px 0 0; color: #67735e; font-size: 11px; }
+.intention-footnote a { margin-left: 14px; color: var(--lake); text-underline-offset: 4px; }
+.day-lens { margin: 25px 0 5px; padding: 22px 23px; background: #f3efe5; border-left: 2px solid #af9470; }
+.day-lens > summary { color: #756449; font-size: 12px; cursor: pointer; }
+.day-lens > div { margin-top: 15px; }
+.day-lens .lens-label { color: #786447; font-size: 10px; letter-spacing: .06em; }
+.day-lens h4 { margin: 9px 0 12px; color: #4c4c3e; font-family: var(--serif); font-size: 20px; font-weight: 500; }
+.day-lens p { color: #5d6253; font-size: 12px; }
+.day-lens .lens-capture { padding-top: 12px; border-top: 1px solid #ddd8c9; }
+.lens-note-link { display: inline-flex; min-height: 44px; align-items: center; font-size: 12px; color: var(--lake); text-underline-offset: 5px; }
+.travel-journal { margin-top: 85px; padding: 39px 42px; background: #efede3; border: 1px solid #d8d5c5; border-top: 3px solid #8f8564; scroll-margin-top: 95px; }
+.journal-heading { display: flex; justify-content: space-between; gap: 32px; align-items: flex-start; }
+.journal-mark { flex-shrink: 0; padding-top: 8px; color: #756449; font-size: 10px; letter-spacing: .1em; }
+.journal-deck, .journal-privacy { max-width: 70em; font-size: 12px; color: #56614f; }
+.journal-privacy { padding-top: 13px; border-top: 1px solid #d8d5c5; }
+.travel-journal fieldset { min-width: 0; padding: 0; margin: 26px 0 0; border: 0; }
+.travel-journal legend { padding: 0; margin-bottom: 18px; color: #67715c; font-size: 11px; }
+.travel-journal label { display: block; color: #4f5848; font-size: 12px; }
+.travel-journal select { display: block; width: min(100%, 460px); min-height: 45px; margin: 9px 0 23px; padding: 10px; border: 1px solid #bfc6b3; background: #fffef8; border-radius: 3px; color: var(--ink); font: inherit; }
+.journal-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 19px; }
+.journal-fields label > span { display: block; min-height: 44px; margin-bottom: 8px; }
+.journal-fields small { display: block; color: #68735c; font-size: 10px; font-weight: 400; }
+.journal-fields textarea { display: block; box-sizing: border-box; width: 100%; min-height: 180px; resize: vertical; padding: 13px; border: 1px solid #bfc6b3; border-radius: 3px; background: #fffef8; color: var(--ink); font-size: 13px; font-family: inherit; line-height: 1.85; }
+.journal-fields textarea::placeholder { color: #7c806e; }
+.journal-actions { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
+.journal-actions button { min-height: 46px; padding: 10px 20px; border: 1px solid var(--lake-deep); border-radius: 3px; color: #fffef8; background: var(--lake-deep); font-size: 12px; }
+.journal-actions p { flex: 1; min-width: 180px; margin: 0; font-size: 11px; color: #526246; }
+@media (max-width: 800px) {
+  .travel-intention-grid { grid-template-columns: 1fr; gap: 24px; }
+  .travel-intention { margin-top: 45px; padding-top: 27px; }
+  .intention-list h3 { font-size: 16px; }
+  .intention-list p { font-size: 12px; }
+  .intention-footnote a { display: inline-block; margin: 12px 0 0; }
+  .travel-journal { margin-top: 45px; padding: 25px 20px; scroll-margin-top: 145px; }
+  .journal-heading { display: block; }
+  .journal-mark { display: inline-block; margin-bottom: 10px; }
+  .journal-fields { grid-template-columns: 1fr; }
+  .journal-fields label > span { min-height: 0; }
+  .journal-fields textarea { min-height: 125px; font-size: 16px; }
+  .travel-journal select { font-size: 16px; }
+  .day-lens { padding: 17px 14px; }
+  .day-lens h4 { font-size: 18px; }
+}
+@media print {
+  .travel-intention, .travel-journal, .day-lens, .lens-note-link { display: none !important; }
+  .day-lens { padding: 10px 15px; break-inside: avoid; }
+}

@@ -151,6 +151,14 @@ button:disabled { cursor: default; }
 .planning-notes > summary { padding: 14px 19px; color: #6f5b3f; font-size: 12px; }
 .planning-notes > div { padding: 0 19px 10px; }
 .planning-notes p { font-size: 12px; }
+.reader-fold { margin: 25px 0; border: 1px solid var(--line); background: #f9f8f2; }
+.reader-fold > summary { min-height: 48px; padding: 14px 20px; color: #455843; font-size: 13px; cursor: pointer; }
+.reader-fold > div { padding: 0 20px 20px; min-width: 0; }
+.reader-fold > div > h2:first-child { margin-top: 18px; }
+.reader-notebook { margin: 44px auto 0; }
+.reader-notebook .section-width { width: 100%; }
+.reader-notebook .travel-intention { margin-top: 10px; }
+.reader-notebook .travel-journal { margin-top: 30px; }
 summary { cursor: pointer; }
 summary::marker { color: #7e8b6a; }
 .routebook blockquote { margin: 23px 0; padding: 17px 21px; border: 1px solid #dce1d3; border-left: 3px solid #78906a; border-radius: 0; color: #4c6043; background: #eef1e6; box-shadow: none; font-size: 12px; }
@@ -411,7 +419,7 @@ dialog::backdrop { background: rgb(12 28 25 / 55%); backdrop-filter: blur(5px); 
 
 @media print {
   body.editorial-reader { background: white; font-size: 9.4pt; }
-  .site-nav, .skip-link, .story-section, .trip-explorer, .trip-facts, .departure-alert, .mobile-tools, .departure-kit, .reader-footer, .search-dialog, .day-detail > summary, .planning-notes > summary { display: none !important; }
+  .site-nav, .skip-link, .story-section, .trip-explorer, .trip-facts, .departure-alert, .mobile-tools, .departure-kit, .reader-footer, .reader-notebook, .search-dialog, .day-detail > summary, .planning-notes > summary, .reader-fold > summary { display: none !important; }
   .hero { height: 245mm; min-height: 0; max-height: none; break-after: page; }
   .hero-inner { width: 88%; height: 100%; padding: 30mm 0; }
   .hero h1 { font-size: 66pt; }

@@ -5,30 +5,30 @@
 <rect width="1200" height="791" rx="18" fill="#f7f3e8"/>
 <text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
 <text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">两湖 · 神山 · 古格壁画</text>
-<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">D5不以游客中心代替湖景；D6托林寺；D7古格留足约3小时</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">两湖观景 · 神山晨观 · 早到可访托林寺 · 古格约3小时</text>
 <rect x="26" y="137" width="1148" height="188" rx="12" fill="#fffdf6"/>
 <text x="46.0" y="168.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D5  9/29  萨嘎 → 两湖 → 塔钦</text>
 <text x="1151.0" y="168.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">576.7km · 8h29m</text>
 <g data-layer="route-a"><line x1="100" y1="210" x2="1100" y2="210" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d5-stop-0" data-title="萨嘎" data-summary="玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时。超窗删减，不拿游客中心冒充湖景。" data-day-a="D5" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d5-stop-0" data-title="萨嘎" data-summary="玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时，延误先减沿途停车。" data-day-a="D5" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="210" r="8" fill="#27645c"/>
 <text x="100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">萨嘎</text>
 </g>
-<g class="point tier-1" data-point-id="d5-stop-1" data-title="玛旁G564观景点" data-summary="玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时。超窗删减，不拿游客中心冒充湖景。" data-day-a="D5" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d5-stop-1" data-title="玛旁G564观景点" data-summary="玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时，延误先减沿途停车。" data-day-a="D5" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="433.3" cy="210" r="8" fill="#27645c"/>
 <text x="433.3" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">玛旁G564观景点</text>
 </g>
-<g class="point tier-1" data-point-id="d5-stop-2" data-title="拉昂错观景台" data-summary="玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时。超窗删减，不拿游客中心冒充湖景。" data-day-a="D5" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d5-stop-2" data-title="拉昂错观景台" data-summary="玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时，延误先减沿途停车。" data-day-a="D5" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="766.7" cy="210" r="8" fill="#27645c"/>
 <text x="766.7" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">拉昂错观景台</text>
 </g>
-<g class="point tier-1" data-point-id="d5-stop-3" data-title="塔钦" data-summary="玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时。超窗删减，不拿游客中心冒充湖景。" data-day-a="D5" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d5-stop-3" data-title="塔钦" data-summary="玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时，延误先减沿途停车。" data-day-a="D5" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="210" r="8" fill="#27645c"/>
 <text x="1100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">塔钦</text>
 </g>
 </g>
-<text x="46.0" y="282.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时。超窗删减，不拿游客中心冒充湖景。</text>
+<text x="46.0" y="282.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">玛旁45—60分钟，拉昂30—40分钟；门到门约11.5—13小时，延误先减沿途停车。</text>
 <rect x="26" y="342" width="1148" height="188" rx="12" fill="#fffdf6"/>
 <text x="46.0" y="373.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D6  9/30  晨观神山 → 札达</text>
 <text x="1151.0" y="373.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">230.5km · 3h51m</text>
@@ -53,24 +53,24 @@
 <text x="1151.0" y="578.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">全天286.3km · 4h48m</text>
 <g data-layer="route-a"><line x1="100" y1="620" x2="1100" y2="620" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d7-stop-0" data-title="札达出发" data-summary="参访后余程268.4km / 4h23m，不重复加晨间路程。开殿、讲解与摄影规则临行核实。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d7-stop-0" data-title="札达出发" data-summary="古格看壁画与开放殿堂，提前确认讲解；目标18:00—19:00狮泉河。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="620" r="8" fill="#27645c"/>
 <text x="100.0" y="650.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">札达出发</text>
 </g>
-<g class="point tier-1" data-point-id="d7-stop-1" data-title="古格约3小时 · 壁画优先" data-summary="参访后余程268.4km / 4h23m，不重复加晨间路程。开殿、讲解与摄影规则临行核实。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d7-stop-1" data-title="古格约3小时 · 壁画优先" data-summary="古格看壁画与开放殿堂，提前确认讲解；目标18:00—19:00狮泉河。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="433.3" cy="620" r="8" fill="#27645c"/>
 <text x="433.3" y="650.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">古格约3小时 · 壁画优先</text>
 </g>
-<g class="point tier-1" data-point-id="d7-stop-2" data-title="G565 / G219" data-summary="参访后余程268.4km / 4h23m，不重复加晨间路程。开殿、讲解与摄影规则临行核实。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d7-stop-2" data-title="G565 / G219" data-summary="古格看壁画与开放殿堂，提前确认讲解；目标18:00—19:00狮泉河。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="766.7" cy="620" r="8" fill="#27645c"/>
 <text x="766.7" y="650.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">G565 / G219</text>
 </g>
-<g class="point tier-1" data-point-id="d7-stop-3" data-title="狮泉河" data-summary="参访后余程268.4km / 4h23m，不重复加晨间路程。开殿、讲解与摄影规则临行核实。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d7-stop-3" data-title="狮泉河" data-summary="古格看壁画与开放殿堂，提前确认讲解；目标18:00—19:00狮泉河。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="620" r="8" fill="#27645c"/>
 <text x="1100.0" y="650.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">狮泉河</text>
 </g>
 </g>
-<text x="46.0" y="692.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">参访后余程268.4km / 4h23m，不重复加晨间路程。开殿、讲解与摄影规则临行核实。</text>
+<text x="46.0" y="692.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">古格看壁画与开放殿堂，提前确认讲解；目标18:00—19:00狮泉河。</text>
 <text x="38.0" y="765.0" font-size="15" fill="#69736b" text-anchor="start" font-weight="400">顺序示意，不按比例；高德导航为9/14快照，未计游览/休息。条件失败时删点，不靠夜驾补回。</text>
 <g data-layer="route-a"/>
 <g data-layer="route-b"/>
