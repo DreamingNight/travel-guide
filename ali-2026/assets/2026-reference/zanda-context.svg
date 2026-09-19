@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img">
+<title>札达局部：土林、县城、托林寺与古格</title>
+<desc>独立重绘的路线关系示意。不按比例，不是道路导航轨迹；未表示实时开放或停车许可。</desc>
+<rect width="1200" height="680" rx="18" fill="#f6f3e9"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif">
+<text x="40" y="38" font-size="15" fill="#426651" text-anchor="start">ALI / 2026 · REFERENCE MAP</text>
+<text x="40" y="85" font-size="32" fill="#293d35" text-anchor="start">札达局部：土林、县城、托林寺与古格</text>
+<text x="40" y="120" font-size="18" fill="#66746b" text-anchor="start">D6进札达并争取托林寺；D7古格约3小时，再经G565 / G219去狮泉河。</text>
+<path d="M 42 151 H 96" stroke="#426651" stroke-width="5"/>
+<text x="108" y="158" font-size="18" fill="#426651" text-anchor="start">本次安排</text>
+<path d="M 267 151 H 321" stroke="#99958d" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="332" y="158" font-size="18" fill="#99958d" text-anchor="start">其他攻略中的方向，本次不走</text>
+<polyline points="1070,220 815,300 615,395 210,405" fill="none" stroke="#426651" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="815,300 625,235 240,235" fill="none" stroke="#426651" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="615,395 615,495" fill="none" stroke="#426651" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1070" cy="220" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="1070" y="200" font-size="23" fill="#426651" text-anchor="middle">塔钦方向</text>
+<text x="1070" y="174" font-size="16" fill="#426651" text-anchor="middle">D6出发</text>
+<circle cx="815" cy="300" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="815" y="332" font-size="23" fill="#426651" text-anchor="middle">G565 · 土林下降段</text>
+<text x="815" y="355" font-size="16" fill="#426651" text-anchor="middle">择一正式停车处观景</text>
+<circle cx="615" cy="395" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="615" y="427" font-size="23" fill="#426651" text-anchor="middle">札达县城</text>
+<text x="615" y="450" font-size="16" fill="#426651" text-anchor="middle">D6住宿 / D7午餐</text>
+<circle cx="210" cy="405" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="210" y="437" font-size="23" fill="#426651" text-anchor="middle">古格遗址</text>
+<text x="210" y="460" font-size="16" fill="#426651" text-anchor="middle">D7往返县城</text>
+<circle cx="240" cy="235" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="240" y="215" font-size="23" fill="#426651" text-anchor="middle">狮泉河方向</text>
+<text x="240" y="189" font-size="16" fill="#426651" text-anchor="middle">D7下午转场</text>
+<circle cx="615" cy="495" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="615" y="527" font-size="23" fill="#426651" text-anchor="middle">托林寺</text>
+<text x="615" y="550" font-size="16" fill="#426651" text-anchor="middle">D6争取60—90分钟</text>
+<text x="592" y="211" font-size="18" fill="#426651" text-anchor="middle">G219接线</text>
+<rect x="45" y="570" width="1090" height="76" rx="10" fill="#e8ede3"/>
+<text x="63" y="599" font-size="18" fill="#293d35" text-anchor="start">旧路线牌用于认识景区关系，不照抄其中北向短接线，也不新增香孜、皮央东嘎等遗址。</text>
+<text x="63" y="626" font-size="18" fill="#293d35" text-anchor="start">县城不是古格停车场；古格与托林寺的红殿、白殿也不是同一处。</text>
+<text x="40" y="658" font-size="16" fill="#6c746d" text-anchor="start">独立重绘 · 仅示意空间与行程关系，不按比例，不是道路导航轨迹。</text>
+</g></svg>

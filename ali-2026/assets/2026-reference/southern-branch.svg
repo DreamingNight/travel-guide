@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 690" role="img">
+<title>加乌拉在哪里：日喀则之后的分岔</title>
+<desc>独立重绘的路线关系示意。不按比例，不是道路导航轨迹；未表示实时开放或停车许可。</desc>
+<rect width="1200" height="690" rx="18" fill="#f6f3e9"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif">
+<text x="40" y="38" font-size="15" fill="#426651" text-anchor="start">ALI / 2026 · REFERENCE MAP</text>
+<text x="40" y="85" font-size="32" fill="#293d35" text-anchor="start">加乌拉在哪里：日喀则之后的分岔</text>
+<text x="40" y="120" font-size="18" fill="#66746b" text-anchor="start">D4走拉孜—桑桑—萨嘎；加乌拉不是这条路边的观景台。</text>
+<path d="M 42 151 H 96" stroke="#426651" stroke-width="5"/>
+<text x="108" y="158" font-size="18" fill="#426651" text-anchor="start">本次安排</text>
+<path d="M 267 151 H 321" stroke="#99958d" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="332" y="158" font-size="18" fill="#99958d" text-anchor="start">其他攻略中的方向，本次不走</text>
+<polyline points="120,255 390,255 770,255 1075,255" fill="none" stroke="#426651" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="390,255 450,410 760,500 1040,530" fill="none" stroke="#99958d" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  stroke-dasharray="8 7"/>
+<polyline points="450,410 810,375 1075,255" fill="none" stroke="#99958d" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  stroke-dasharray="8 7"/>
+<circle cx="120" cy="255" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="120" y="235" font-size="23" fill="#426651" text-anchor="middle">日喀则</text>
+<circle cx="390" cy="255" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="390" y="235" font-size="23" fill="#426651" text-anchor="middle">拉孜</text>
+<circle cx="770" cy="255" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="770" y="235" font-size="23" fill="#426651" text-anchor="middle">桑桑</text>
+<circle cx="1075" cy="255" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="1075" y="235" font-size="23" fill="#426651" text-anchor="middle">萨嘎</text>
+<circle cx="450" cy="410" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="450" y="442" font-size="23" fill="#99958d" text-anchor="middle">定日方向</text>
+<circle cx="760" cy="500" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="760" y="532" font-size="23" fill="#99958d" text-anchor="middle">加乌拉山垭口</text>
+<circle cx="1040" cy="530" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="1040" y="562" font-size="23" fill="#99958d" text-anchor="middle">珠峰大本营</text>
+<circle cx="810" cy="375" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="810" y="407" font-size="23" fill="#99958d" text-anchor="middle">佩枯措方向</text>
+<rect x="45" y="490" width="435" height="103" rx="10" fill="#e8ede3"/>
+<text x="63" y="519" font-size="18" fill="#293d35" text-anchor="start">若想只去加乌拉而不进大本营，</text>
+<text x="63" y="546" font-size="18" fill="#293d35" text-anchor="start">也要重算整段道路与住宿衔接。</text>
+<text x="63" y="573" font-size="18" fill="#293d35" text-anchor="start">灰线仅说明分支关系，车程未核。</text>
+<text x="40" y="668" font-size="16" fill="#6c746d" text-anchor="start">独立重绘 · 仅示意空间与行程关系，不按比例，不是道路导航轨迹。</text>
+</g></svg>

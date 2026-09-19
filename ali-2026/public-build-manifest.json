@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "assets/2026-current/g317.svg",
-      "sha256": "a114b9e8ddc8d9ce35fba0e0d8f0565bc2c0f87f9a19f48a5a22561fc2bf278f"
+      "sha256": "e899d63b02118ffc6a661833da3127c0d0a7be4b29f99e6c2adf127477eec4f7"
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
@@ -20,7 +20,7 @@
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "2f5b90ec201ada43667759f6f2e772a20382afb05e351acceef80abe1cb0078d"
+      "sha256": "39aca2e7e964e94ea1224288a930090cca52e7082865ce86c7c6828ce5140816"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
@@ -29,6 +29,22 @@
     {
       "path": "assets/2026-current/yamdrok.svg",
       "sha256": "6e6711cfc34bc3b061c9d0f66fe6d96314b0db30c80c6f8ec5b3d85526062880"
+    },
+    {
+      "path": "assets/2026-reference/ali-regions.svg",
+      "sha256": "0bd57c4d0c4f88b5831510be5b15c07867a20a23d21104aa7cce677a8fadd76b"
+    },
+    {
+      "path": "assets/2026-reference/southern-branch.svg",
+      "sha256": "98edb5f351ecabf5a12a00f478d8f3f7c035e4a2017ad08e2444a18cf6d549e9"
+    },
+    {
+      "path": "assets/2026-reference/yamdrok-context.svg",
+      "sha256": "28f84d2fac002ac41774be040b1f64c0b38390cc3d8d921d4a15fe3d000e4fce"
+    },
+    {
+      "path": "assets/2026-reference/zanda-context.svg",
+      "sha256": "b97aedb3c99a08f77caed9f6838d7b009b62e765a0a56dff9d1c514167cd9c79"
     },
     {
       "path": "assets/commons/05-kailash-cover.png",
@@ -52,7 +68,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "82987e6fc2d6d4ae6dd981fba7c6e88ff4b56e0aea5e0658b789adb9cee38864"
+      "sha256": "52e5511cc496e236811a4b988c8f67cd762bfb65dc08cb7a845fee783b79a551"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
@@ -177,6 +193,10 @@
     {
       "path": "research/内容复核_2026-09-19.html",
       "sha256": "f2f321626ea9189b0001fa7a47d3253cdb926407419739fa320648e2db092356"
+    },
+    {
+      "path": "research/小红书环线对照_2026-09-17.html",
+      "sha256": "a540e63fc693033e7a2dfba6e4192882591792cd4dad201659ec3a25b4a44d24"
     },
     {
       "path": "research/机票与住宿核查证据_2026-09-14.json",

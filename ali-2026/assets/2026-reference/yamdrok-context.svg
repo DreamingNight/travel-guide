@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img">
+<title>羊湖：东岸与经典观景台不是一条直线</title>
+<desc>独立重绘的路线关系示意。不按比例，不是道路导航轨迹；未表示实时开放或停车许可。</desc>
+<rect width="1200" height="760" rx="18" fill="#f6f3e9"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif">
+<text x="40" y="38" font-size="15" fill="#426651" text-anchor="start">ALI / 2026 · REFERENCE MAP</text>
+<text x="40" y="85" font-size="32" fill="#293d35" text-anchor="start">羊湖：东岸与经典观景台不是一条直线</text>
+<text x="40" y="120" font-size="18" fill="#66746b" text-anchor="start">本次顺序：鲁日拉 → 3号 → 2号 → 1号 → 高速回接日喀则。</text>
+<path d="M 42 151 H 96" stroke="#426651" stroke-width="5"/>
+<text x="108" y="158" font-size="18" fill="#426651" text-anchor="start">本次安排</text>
+<path d="M 267 151 H 321" stroke="#99958d" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="332" y="158" font-size="18" fill="#99958d" text-anchor="start">其他攻略中的方向，本次不走</text>
+<path d="M 425 485 C 470 420 535 443 580 390 C 625 410 620 465 675 490 C 750 520 765 570 720 607 C 648 626 610 565 550 583 C 503 600 407 573 425 485 Z" fill="#d4e5e1" stroke="#aac4bc" stroke-width="2"/>
+<text x="585" y="529" font-size="27" fill="#507a76" text-anchor="middle">羊卓雍措</text>
+<text x="585" y="556" font-size="15" fill="#507a76" text-anchor="middle">湖体仅作关系示意</text>
+<polyline points="1020,225 860,285 875,460 390,455 480,370 580,300 560,220 160,220" fill="none" stroke="#426651" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="875,460 980,580" fill="none" stroke="#99958d" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  stroke-dasharray="8 7"/>
+<polyline points="390,455 265,545 140,475 105,370 160,220" fill="none" stroke="#99958d" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  stroke-dasharray="8 7"/>
+<circle cx="1020" cy="225" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="1020" y="205" font-size="23" fill="#426651" text-anchor="middle">拉萨</text>
+<circle cx="860" cy="285" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="860" y="265" font-size="23" fill="#426651" text-anchor="middle">曲水方向</text>
+<circle cx="875" cy="460" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="875" y="492" font-size="23" fill="#426651" text-anchor="middle">鲁日拉</text>
+<circle cx="390" cy="455" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="390" y="435" font-size="23" fill="#426651" text-anchor="middle">3号 · 近湖</text>
+<circle cx="480" cy="370" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="480" y="350" font-size="23" fill="#426651" text-anchor="middle">2号 · 半山</text>
+<circle cx="580" cy="300" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="580" y="280" font-size="23" fill="#426651" text-anchor="middle">1号 · 岗巴拉</text>
+<circle cx="160" cy="220" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="160" y="200" font-size="23" fill="#426651" text-anchor="middle">日喀则</text>
+<circle cx="980" cy="580" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="980" y="612" font-size="23" fill="#99958d" text-anchor="middle">日托寺</text>
+<circle cx="265" cy="545" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="265" y="577" font-size="23" fill="#99958d" text-anchor="middle">浪卡子</text>
+<circle cx="140" cy="475" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="140" y="507" font-size="23" fill="#99958d" text-anchor="middle">卡若拉</text>
+<circle cx="105" cy="370" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="105" y="402" font-size="23" fill="#99958d" text-anchor="middle">江孜</text>
+<text x="445" y="203" font-size="18" fill="#426651" text-anchor="middle">回接高速</text>
+<text x="650" y="441" font-size="17" fill="#426651" text-anchor="middle">鲁日拉→经典点位：连接路待核</text>
+<rect x="45" y="640" width="1090" height="76" rx="10" fill="#e8ede3"/>
+<text x="63" y="669" font-size="18" fill="#293d35" text-anchor="start">这是一张点位关系图，不表示可沿图中直线开车；鲁日拉接经典线必须核实路面与通行。</text>
+<text x="63" y="696" font-size="18" fill="#293d35" text-anchor="start">喀庆拉、日托寺、卡若拉、满拉、江孜均不加入本次D3；2、3号保持优先。</text>
+<text x="40" y="738" font-size="16" fill="#6c746d" text-anchor="start">独立重绘 · 仅示意空间与行程关系，不按比例，不是道路导航轨迹。</text>
+</g></svg>

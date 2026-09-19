@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img">
+<title>阿里环线：我们走到哪里</title>
+<desc>独立重绘的路线关系示意。不按比例，不是道路导航轨迹；未表示实时开放或停车许可。</desc>
+<rect width="1200" height="760" rx="18" fill="#f6f3e9"/>
+<g font-family="PingFang SC,Microsoft YaHei,sans-serif">
+<text x="40" y="38" font-size="15" fill="#426651" text-anchor="start">ALI / 2026 · REFERENCE MAP</text>
+<text x="40" y="85" font-size="32" fill="#293d35" text-anchor="start">阿里环线：我们走到哪里</text>
+<text x="40" y="120" font-size="18" fill="#66746b" text-anchor="start">西端保留古格；回程沿G317，不穿中北线湖区。</text>
+<path d="M 42 151 H 96" stroke="#426651" stroke-width="5"/>
+<text x="108" y="158" font-size="18" fill="#426651" text-anchor="start">本次安排</text>
+<path d="M 267 151 H 321" stroke="#99958d" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="332" y="158" font-size="18" fill="#99958d" text-anchor="start">其他攻略中的方向，本次不走</text>
+<polyline points="1090,550 910,550 660,550 420,490 250,465 95,385 160,240 475,225 775,225 1030,255 1110,400 1090,550" fill="none" stroke="#426651" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="420,490 490,355 615,365 760,380 775,225" fill="none" stroke="#99958d" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  stroke-dasharray="8 7"/>
+<circle cx="1090" cy="550" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="1090" y="582" font-size="23" fill="#426651" text-anchor="middle">拉萨</text>
+<text x="1090" y="605" font-size="16" fill="#426651" text-anchor="middle">D1–2 / D12–13</text>
+<circle cx="910" cy="550" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="910" y="582" font-size="23" fill="#426651" text-anchor="middle">日喀则</text>
+<text x="910" y="605" font-size="16" fill="#426651" text-anchor="middle">D3</text>
+<circle cx="660" cy="550" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="660" y="582" font-size="23" fill="#426651" text-anchor="middle">桑桑方向</text>
+<circle cx="420" cy="490" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="420" y="522" font-size="23" fill="#426651" text-anchor="middle">萨嘎</text>
+<text x="420" y="545" font-size="16" fill="#426651" text-anchor="middle">D4</text>
+<circle cx="250" cy="465" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="250" y="497" font-size="23" fill="#426651" text-anchor="middle">塔钦 · 两湖</text>
+<text x="250" y="520" font-size="16" fill="#426651" text-anchor="middle">D5–6</text>
+<circle cx="95" cy="385" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="95" y="417" font-size="23" fill="#426651" text-anchor="middle">札达 · 古格</text>
+<text x="95" y="440" font-size="16" fill="#426651" text-anchor="middle">D6–7</text>
+<circle cx="160" cy="240" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="160" y="220" font-size="23" fill="#426651" text-anchor="middle">狮泉河</text>
+<text x="160" y="194" font-size="16" fill="#426651" text-anchor="middle">D7</text>
+<circle cx="475" cy="225" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="475" y="205" font-size="23" fill="#426651" text-anchor="middle">改则</text>
+<text x="475" y="179" font-size="16" fill="#426651" text-anchor="middle">D8 · 物玛措</text>
+<circle cx="775" cy="225" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="775" y="205" font-size="23" fill="#426651" text-anchor="middle">尼玛</text>
+<text x="775" y="179" font-size="16" fill="#426651" text-anchor="middle">D9 · 洞措</text>
+<circle cx="1030" cy="255" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="1030" y="235" font-size="23" fill="#426651" text-anchor="middle">班戈</text>
+<text x="1030" y="209" font-size="16" fill="#426651" text-anchor="middle">D10 · 色林措</text>
+<circle cx="1110" cy="400" r="7" fill="#fffdf7" stroke="#426651" stroke-width="3"/>
+<text x="1110" y="432" font-size="23" fill="#426651" text-anchor="middle">当雄</text>
+<text x="1110" y="455" font-size="16" fill="#426651" text-anchor="middle">D11 · 纳木措</text>
+<circle cx="490" cy="355" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="490" y="387" font-size="23" fill="#99958d" text-anchor="middle">措勤</text>
+<circle cx="615" cy="365" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="615" y="397" font-size="23" fill="#99958d" text-anchor="middle">扎日南木措</text>
+<circle cx="760" cy="380" r="7" fill="#fffdf7" stroke="#99958d" stroke-width="3"/>
+<text x="760" y="412" font-size="23" fill="#99958d" text-anchor="middle">当惹雍措</text>
+<rect x="55" y="630" width="1080" height="76" rx="10" fill="#e8ede3"/>
+<text x="73" y="659" font-size="18" fill="#293d35" text-anchor="start">区域认知：左侧为阿里西端，上方为G317回程，图中灰线是其他攻略的中北线。</text>
+<text x="73" y="686" font-size="18" fill="#293d35" text-anchor="start">此图不展示完整道路和所有湖泊；羊湖四点、加乌拉分岔与札达局部另见日卡。</text>
+<text x="40" y="738" font-size="16" fill="#6c746d" text-anchor="start">独立重绘 · 仅示意空间与行程关系，不按比例，不是道路导航轨迹。</text>
+</g></svg>
