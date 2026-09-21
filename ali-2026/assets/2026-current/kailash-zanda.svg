@@ -5,7 +5,7 @@
 <rect width="1200" height="791" rx="18" fill="#f7f3e8"/>
 <text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
 <text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">两湖 · 神山 · 古格壁画</text>
-<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">两湖观景 · 神山晨观 · 早到可访托林寺 · 古格约3小时</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">玛旁北岸 · 神山日出与摆渡近观 · 拉昂措同框 · 土林日落 · 古格约3小时</text>
 <rect x="26" y="137" width="1148" height="188" rx="12" fill="#fffdf6"/>
 <text x="46.0" y="168.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D5  9/29  萨嘎 → 玛旁北岸 → 塔钦</text>
 <text x="1151.0" y="168.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">576.7km · 8h29m</text>
@@ -34,32 +34,41 @@
 </g>
 <text x="46.0" y="282.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">只看玛旁10h50m—12h30m；拉昂措移出默认项，D6顺路车览。离开帕羊前重算，18:30后到霍尔就压停留。</text>
 <rect x="26" y="342" width="1148" height="188" rx="12" fill="#fffdf6"/>
-<text x="46.0" y="373.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D6  9/30  晨观神山 → 札达</text>
+<text x="46.0" y="373.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D6  9/30  神山近观、拉昂措 → 札达土林日落</text>
 <text x="1151.0" y="373.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">旧230.5km · 3h51m</text>
 <g data-layer="route-a"><line x1="100" y1="415" x2="1100" y2="415" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d6-stop-0" data-title="公路晨观60—90分钟" data-summary="先施三人间已订反馈427元、不可退。默认公路晨观；注意次日维也纳今天12:00取消截止。" data-day-a="D6" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d6-stop-0" data-title="塔钦日出60分钟" data-summary="先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7早短看。注意次日维也纳今天12:00取消截止。" data-day-a="D6" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="415" r="8" fill="#27645c"/>
-<text x="100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">公路晨观60—90分钟</text>
+<text x="100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">塔钦日出60分钟</text>
 </g>
-<g class="point tier-1" data-point-id="d6-stop-1" data-title="札达土林沿途" data-summary="先施三人间已订反馈427元、不可退。默认公路晨观；注意次日维也纳今天12:00取消截止。" data-day-a="D6" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d6-stop-1" data-title="景区摆渡近观2.5—3小时" data-summary="先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7早短看。注意次日维也纳今天12:00取消截止。" data-day-a="D6" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="350.0" cy="415" r="8" fill="#27645c"/>
+<text x="350.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">景区摆渡近观2.5—3小时</text>
+</g>
+<g class="point tier-1" data-point-id="d6-stop-2" data-title="拉昂措东岸同框30分钟" data-summary="先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7早短看。注意次日维也纳今天12:00取消截止。" data-day-a="D6" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="600.0" cy="415" r="8" fill="#27645c"/>
-<text x="600.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">札达土林沿途</text>
+<text x="600.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">拉昂措东岸同框30分钟</text>
 </g>
-<g class="point tier-1" data-point-id="d6-stop-2" data-title="托林寺60—90分钟（争取）" data-summary="先施三人间已订反馈427元、不可退。默认公路晨观；注意次日维也纳今天12:00取消截止。" data-day-a="D6" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d6-stop-3" data-title="土林段停20—30分钟" data-summary="先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7早短看。注意次日维也纳今天12:00取消截止。" data-day-a="D6" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="850.0" cy="415" r="8" fill="#27645c"/>
+<text x="850.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">土林段停20—30分钟</text>
+</g>
+<g class="point tier-1" data-point-id="d6-stop-4" data-title="札达土林日落" data-summary="先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7早短看。注意次日维也纳今天12:00取消截止。" data-day-a="D6" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="415" r="8" fill="#27645c"/>
-<text x="1100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">托林寺60—90分钟（争取）</text>
+<text x="1100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">札达土林日落</text>
 </g>
 </g>
-<text x="46.0" y="487.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">先施三人间已订反馈427元、不可退。默认公路晨观；注意次日维也纳今天12:00取消截止。</text>
+<text x="46.0" y="487.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7早短看。注意次日维也纳今天12:00取</text>
+<text x="46.0" y="510.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">消截止。</text>
 <rect x="26" y="547" width="1148" height="188" rx="12" fill="#fffdf6"/>
 <text x="46.0" y="578.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D7  10/1  古格 → 狮泉河</text>
 <text x="1151.0" y="578.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">旧286.3km · 4h48m；新店待算</text>
 <g data-layer="route-a"><line x1="100" y1="620" x2="1100" y2="620" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d7-stop-0" data-title="札达出发" data-summary="维也纳套房已订反馈1314元；9/30 12:00前可退。古格约3小时不变，新酒店接线待算。到店后确认改则、尼玛、北岸民宿三晚。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d7-stop-0" data-title="托林寺短看30分钟（可选）" data-summary="维也纳套房已订反馈1314元；9/30 12:00前可退。古格约3小时不变，新酒店接线待算。到店后确认改则、尼玛、北岸民宿三晚。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="620" r="8" fill="#27645c"/>
-<text x="100.0" y="650.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">札达出发</text>
+<text x="100.0" y="650.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">托林寺短看30分钟（可选）</text>
 </g>
 <g class="point tier-1" data-point-id="d7-stop-1" data-title="古格约3小时 · 壁画优先" data-summary="维也纳套房已订反馈1314元；9/30 12:00前可退。古格约3小时不变，新酒店接线待算。到店后确认改则、尼玛、北岸民宿三晚。" data-day-a="D7" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="433.3" cy="620" r="8" fill="#27645c"/>

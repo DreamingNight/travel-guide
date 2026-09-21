@@ -8,7 +8,7 @@
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
-      "sha256": "c4ca4a9a72d9f02ff4a2416b83e4de5e66b51cdcbc5db1131c0010c1379371de"
+      "sha256": "7ad7164ca8fb9a383e02af37bf08887dcae6032603e89796b6ba209389da4066"
     },
     {
       "path": "assets/2026-current/lhasa.svg",
@@ -20,7 +20,7 @@
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "3efa37d42e0e192b9558af76d51173e09d84cf0c29b39f5a446faa9da3ce4c07"
+      "sha256": "8af3146dc55aea9c6581d2a9e9f7738ca84d708376828a9b3d50a6eaf4bbd719"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
@@ -68,11 +68,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "705fe17852bba0eb5fa1b08d752b11a345394da2bd6bd92ede0e0e58d0378610"
+      "sha256": "dfeaa13c02453904898d02d0ffd4c6842d74332312dd6a501038fb5b8fc33ceb"
     },
     {
       "path": "research/D3江孜线与D5玛旁调整_2026-09-21.html",
-      "sha256": "91c9f5dca4366aec1ce1b8b5721aece4657ac652f38a6ca73e4046b46f4b34b5"
+      "sha256": "6df9909e7ec61ea67ea114b482c2fb149a513ce0e9b153213406930cbc41e505"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
