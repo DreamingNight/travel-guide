@@ -4,31 +4,31 @@
   "files": [
     {
       "path": "assets/2026-current/g317.svg",
-      "sha256": "ba366782b2a2a38929eeee775ded1c145c5160e2fc0fce863a9ff6a0ca610b0d"
+      "sha256": "d413f54be6843f8f48884ddefdf9ee6af86cad0a3bb8034e735ee1009c52550d"
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
-      "sha256": "cfb57ab7aa8b3863c7ed8e26392229c8f93b2a974485c624ca97b924ec8e22a6"
+      "sha256": "c4ca4a9a72d9f02ff4a2416b83e4de5e66b51cdcbc5db1131c0010c1379371de"
     },
     {
       "path": "assets/2026-current/lhasa.svg",
-      "sha256": "5f7696ff6deaaaaebebb3b1edf86fa1063a7097db1b9a198a47fc4e411237741"
+      "sha256": "e3ba31ff11e605ba217c4ddd887fe850caaeaa1914afca5c1a53ce08b939c304"
     },
     {
       "path": "assets/2026-current/namtso.svg",
-      "sha256": "22e596f58e2574f8744e7a7e5860a21dd01e585bbcbe31a3737ccef7a34f6a0e"
+      "sha256": "5f2b8a4b955213be52ed4f53d3b9c5f32bab9814e4b0377c3b05d5508017bbd4"
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "0ae8c6db50451c30b3435de5a46b265bb83fa938ef60ab447867d700ec261589"
+      "sha256": "3efa37d42e0e192b9558af76d51173e09d84cf0c29b39f5a446faa9da3ce4c07"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
-      "sha256": "07aa170e40a4ee8b90a20f244d56e56d23429ba306082bc41f0925f2305b64b8"
+      "sha256": "f1c8cc92ece7d72580e0465910e2f3e97b30d664b06107aa0f6148c94c8cecce"
     },
     {
       "path": "assets/2026-current/yamdrok.svg",
-      "sha256": "d627c6d6bdd58413f345a7de2b51d5609e8f6ed6a6b25b34343345af43a90702"
+      "sha256": "722cff773d6346a47d564c035442ff5845c7a484b20865cef5f06ed6d6fe4e00"
     },
     {
       "path": "assets/2026-reference/ali-regions.svg",
@@ -68,7 +68,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "16b461ceb3af746ed5e6d8912f8c8c6f4d85969bd0d126c8f65aebf4c040da81"
+      "sha256": "705fe17852bba0eb5fa1b08d752b11a345394da2bd6bd92ede0e0e58d0378610"
+    },
+    {
+      "path": "research/D3江孜线与D5玛旁调整_2026-09-21.html",
+      "sha256": "91c9f5dca4366aec1ce1b8b5721aece4657ac652f38a6ca73e4046b46f4b34b5"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
@@ -207,12 +211,20 @@
       "sha256": "f2f321626ea9189b0001fa7a47d3253cdb926407419739fa320648e2db092356"
     },
     {
+      "path": "research/北线中线对比_2026-09-21.html",
+      "sha256": "e8c2af56a72a76e7a132f8740036ffe8438386bc8e9b7623a3b5a292b13327ba"
+    },
+    {
       "path": "research/小红书环线对照_2026-09-17.html",
       "sha256": "a540e63fc693033e7a2dfba6e4192882591792cd4dad201659ec3a25b4a44d24"
     },
     {
       "path": "research/拉萨全季与羊湖接线_2026-09-21.html",
       "sha256": "b84ebb1fa98f956018858eb509896e6ea2cbe68beaf54f368eeb97a2cc588c65"
+    },
+    {
+      "path": "research/纳木措北岸民宿接线_2026-09-21.html",
+      "sha256": "bc327b0071c6d0e64798b1b3bfd4c86a1a77aeb2c1a3fa9b7224051c0cad3625"
     },
     {
       "path": "research/羊湖古格实查_2026-09-14.html",

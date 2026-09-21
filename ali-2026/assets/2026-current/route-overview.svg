@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" class="ali-route-map" role="img">
-<title>札达 · 古格与G317原路线</title>
+<title>札达 · 古格与G317北线</title>
 <desc>2026年9月25日至10月7日，自驾，至少两名驾驶员。连线仅表达行程顺序，不是道路导航轨迹。</desc>
 <g font-family="PingFang SC,Microsoft YaHei,sans-serif">
 <rect width="1200" height="720" rx="18" fill="#f7f3e8"/>
 <text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
-<text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">札达 · 古格与G317原路线</text>
-<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">9/21住宿更新：10/3缺房；10/4疑为北岸民宿，图中班戈不是订单定位</text>
+<text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">札达 · 古格与G317北线</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">9/21住宿更新：10/3尼玛缺房；10/4住纳木措北岸鲁特滩民宿，经班戈县城加油后南下</text>
 <g data-layer="route-a">
 <line x1="1085.9" y1="509.6" x2="898.0" y2="547.9" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
 <line x1="898.0" y1="547.9" x2="591.4" y2="541.7" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
@@ -15,26 +15,27 @@
 <line x1="160.4" y1="225.5" x2="493.0" y2="244.5" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
 <line x1="493.0" y1="244.5" x2="759.7" y2="296.3" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
 <line x1="759.7" y1="296.3" x2="992.6" y2="335.5" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
-<line x1="992.6" y1="335.5" x2="1084.4" y2="427.5" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
+<line x1="992.6" y1="335.5" x2="1013.1" y2="385.4" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
+<line x1="1013.1" y1="385.4" x2="1084.4" y2="427.5" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
 <line x1="1084.4" y1="427.5" x2="1085.9" y2="509.6" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
 </g>
 <g data-layer="lodging">
-<g class="point tier-1" data-point-id="lhasa" data-title="拉萨" data-summary="D1 北京 → 拉萨。全季9/25—9/27两晚合计649元，夜均324.50元；可退条件、机场与市内接线待核。；D2 拉萨适应。全季同单续住；先保上午项目和午休，市内往返过久则删下午轻走。；D12 当雄 → 拉萨。10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="9/25/9/26/10/6" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3660" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="lhasa" data-title="拉萨" data-summary="D1 北京 → 拉萨。全季9/25—9/27两晚合计649元，夜均324.50元；可退条件、机场与市内接线待核。；D2 拉萨适应。全季同单续住；上午大昭寺，下午博物馆；拿到布宫预约才替换上午项目。市内往返过久则删八廓街。；D12 当雄 → 拉萨。10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="9/25/9/26/10/6" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3660" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1085.9" cy="509.6" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="1080.9" y="543.6" font-size="22" fill="#243e40" text-anchor="end" font-weight="700">拉萨</text>
 <text x="1080.9" y="567.6" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">9/25/9/26/10/6</text>
 </g>
-<g class="point tier-1" data-point-id="shigatse" data-title="日喀则" data-summary="D3 羊湖四点 → 日喀则。9/21同路线对比全季少2.5km、7分钟，无明显拖累；仍留11h15m—13h20m门到门，连接路待核。" data-day-a="9/27" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3840" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="shigatse" data-title="日喀则" data-summary="D3 鲁日拉、羊湖3号、卡若拉、江孜 → 日喀则。9/21江孜线重算：比四点回高速多3km、约52分钟；门到门11h30m—13h25m。15:30后到江孜不进白居寺，17:00后不进城。" data-day-a="9/27" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3840" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="898.0" cy="547.9" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="898.0" y="580.9" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">日喀则</text>
 <text x="898.0" y="604.9" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/27</text>
 </g>
-<g class="point tier-1" data-point-id="saga" data-title="萨嘎" data-summary="D4 日喀则 → 萨嘎。扎什伦布寺仅条件短访，不挤占驾驶休息；默认07:45—08:00离城。" data-day-a="9/28" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4485" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="saga" data-title="萨嘎" data-summary="D4 日喀则 → 萨嘎。扎寺默认去，09:00进10:00出；开门晚于09:30或出发延误就取消；目标19:00前到萨嘎。" data-day-a="9/28" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4485" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="591.4" cy="541.7" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="591.4" y="574.7" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">萨嘎</text>
 <text x="591.4" y="598.7" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/28</text>
 </g>
-<g class="point tier-1" data-point-id="darchen" data-title="塔钦" data-summary="D5 萨嘎 → 两湖 → 塔钦。完整两湖11h15m—13h10m；进G564前重算，放不下先去掉拉昂，仍晚则取消近湖支线。" data-day-a="9/29" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4680" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="darchen" data-title="塔钦" data-summary="D5 萨嘎 → 玛旁北岸 → 塔钦。只看玛旁10h50m—12h30m；拉昂措移出默认项，D6顺路车览。离开帕羊前重算，18:30后到霍尔就压停留。" data-day-a="9/29" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4680" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="260.0" cy="377.2" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="260.0" y="413.2" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">塔钦</text>
 <text x="260.0" y="437.2" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/29</text>
@@ -44,27 +45,32 @@
 <text x="125.3" y="360.8" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">札达</text>
 <text x="125.3" y="384.8" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/30</text>
 </g>
-<g class="point tier-1" data-point-id="shiquanhe" data-title="狮泉河" data-summary="D7 古格 → 狮泉河。维也纳套房已订反馈1314元；9/30 12:00前可退。古格约3小时不变，新酒店接线待算。" data-day-a="10/1" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4280" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="shiquanhe" data-title="狮泉河" data-summary="D7 古格 → 狮泉河。维也纳套房已订反馈1314元；9/30 12:00前可退。古格约3小时不变，新酒店接线待算。到店后确认改则、尼玛、北岸民宿三晚。" data-day-a="10/1" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4280" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="160.4" cy="225.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="175.4" y="181.5" font-size="22" fill="#243e40" text-anchor="start" font-weight="700">狮泉河</text>
 <text x="175.4" y="205.5" font-size="16" fill="#243e40" text-anchor="start" font-weight="400">10/1</text>
 </g>
-<g class="point tier-1" data-point-id="gaize" data-title="改则" data-summary="D8 狮泉河 → 物玛措 → 改则。汉庭已订反馈858元，10/2 18:00前可退。旧目标17:30—19:15；先落实后两晚及新酒店接线。" data-day-a="10/2" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4425" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="gaize" data-title="改则" data-summary="D8 狮泉河 → 物玛措 → 改则。汉庭已订反馈858元，10/2 18:00前可退。目标17:30—19:15；10/3尼玛补房后才进北线。" data-day-a="10/2" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4425" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="493.0" cy="244.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="493.0" y="204.5" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">改则</text>
 <text x="493.0" y="228.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/2</text>
 </g>
-<g class="point tier-1" data-point-id="nyima" data-title="尼玛" data-summary="D9 改则 → 尼玛（缺房待解决）。10/3尼玛未订；不以露宿或夜赶班戈兜底。锁定可达住宿后再执行本日。" data-day-a="10/3" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4530" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="nyima" data-title="尼玛" data-summary="D9 改则 → 尼玛（缺房待解决）。10/3尼玛未订；不以露宿或夜赶兜底。锁定可达住宿后再执行本日。晚上核对D10去北岸民宿的路况与到店时间。" data-day-a="10/3" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4530" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="759.7" cy="296.3" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="759.7" y="256.3" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">尼玛</text>
 <text x="759.7" y="280.3" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/3</text>
 </g>
-<g class="point tier-1" data-point-id="bange" data-title="班戈" data-summary="D10 色林措 → 住宿接线待核。原称鲁特摊383元不可退，疑在纳木措北岸而非班戈县城；D10/D11暂停照搬旧接线。" data-day-a="10/4" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4715" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="bange" data-title="班戈" data-summary="D10途经班戈县城加油、补给；15:30前离开南下北岸民宿。" data-day-a="10/4途经加油" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4715" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="992.6" cy="335.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="992.6" y="295.5" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">班戈</text>
-<text x="992.6" y="319.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/4</text>
+<text x="992.6" y="319.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/4途经加油</text>
 </g>
-<g class="point tier-1" data-point-id="damxung" data-title="当雄" data-summary="D11 纳木措 → 当雄（起点待核）。维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="10/5" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4285" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="namtso_north" data-title="纳木措北岸民宿" data-summary="D10 色林措 → 班戈 → 纳木措北岸民宿。鲁特滩民宿已订383元、不可退，在纳木措西北岸保吉乡，不是班戈县城。9/21高德按民宿重算420.4km/5h57m，比原县城多86km、1h20m；班戈后约85km非铺装。色林措停留压到60分钟内，15:30未到班戈就改住班戈县城。" data-day-a="10/4" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<circle class="point-symbol" cx="1013.1" cy="385.4" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
+<text x="999.1" y="421.4" font-size="22" fill="#243e40" text-anchor="end" font-weight="700">纳木措北岸民宿</text>
+<text x="999.1" y="445.4" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">10/4</text>
+</g>
+<g class="point tier-1" data-point-id="damxung" data-title="当雄" data-summary="D11 圣象天门 → 北岸环湖 → 当雄。维也纳已订反馈534元，10/5 18:00前可退。9/21高德民宿→当雄182.7km/3h45m，搓板路实际按5—6小时行车；圣象天门就地看，不再去扎西半岛和巴木措。11:00前离开景区。" data-day-a="10/5" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4285" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1084.4" cy="427.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="1102.4" y="412.5" font-size="22" fill="#243e40" text-anchor="start" font-weight="700">当雄</text>
 <text x="1102.4" y="436.5" font-size="16" fill="#243e40" text-anchor="start" font-weight="400">10/5</text>

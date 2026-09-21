@@ -1,0 +1,27 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>D3 江孜线与 D5 玛旁调整（2026-09-21 高德重算） · 阿里研究笔记</title><link rel="stylesheet" href="../site/route-guide.css"><link rel="stylesheet" href="../site/reader.css"><style>.research-page .routebook{max-width:950px;margin:50px auto;padding:0 22px}.research-page .routebook>h1:first-of-type{display:block;font:34px/1.5 var(--serif)}.research-page .research-back{display:block;padding:18px 24px;border-bottom:1px solid #d9ddd2}</style></head><body class="editorial-reader research-page"><a class="research-back" href="../index.html">← 返回阿里自驾路书</a><main class="routebook"><p class="section-eyebrow">RESEARCH NOTES / 来源与研究过程</p><h1 id="d3-江孜线与-d5-玛旁调整-2026-09-21-高德重算">D3 江孜线与 D5 玛旁调整（2026-09-21 高德重算）</h1>
+<p>用途：支撑路书 D2—D5 的 9 月 21 日改动。数据为高德驾车规划，是里程与导航时长参考，不是 9 月 27—29 日的交通预测，也不代表路面、施工与开放状态。</p>
+<h2 id="d3-全季-堆龙德庆区店-鲁日拉-羊湖3号-浪卡子-卡若拉-江孜白居寺-日喀则如家精选">D3｜全季（堆龙德庆区店）→ 鲁日拉 → 羊湖3号 → 浪卡子 → 卡若拉 → 江孜白居寺 → 日喀则如家精选</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">方案</th><th scope="col">里程</th><th scope="col">导航时长</th><th scope="col">说明</th></tr></thead><tbody><tr><td data-label="方案">原方案：鲁日拉→3号→2号→1号→回接高速→日喀则</td><td data-label="里程">427.8km</td><td data-label="导航时长">7h21m</td><td data-label="说明">9/21 全季起点复核值（<code>research/yanghu_hotel_2026-09-21/ji-hotel.json</code>）</td></tr><tr><td data-label="方案"><strong>新方案：鲁日拉→3号→浪卡子→S307卡若拉→江孜白居寺→日喀则</strong></td><td data-label="里程">约431km</td><td data-label="导航时长">8h13m</td><td data-label="说明">9/21 高德分段合计；多3km、约52分钟，换来卡若拉冰川与江孜</td></tr></tbody></table></div>
+<ul>
+<li>新方案不折返 2 号半山、1 号岗巴拉，也不上高速；S307 段车速低于高速，是多出约 52 分钟的来源。</li>
+<li>门到门预算：行车 8.5—9.5h（导航 8h13m 加慢行余量）＋四点停留 120—150 分钟（鲁日拉 35—45、3 号 15—20、卡若拉 10—15、白居寺 60—70）＋午餐 30—40 分钟＋休息加油 30—45 分钟 ＝ 11h30m—13h25m；07:20—07:30 出发对应 18:50—20:55 到店。</li>
+<li>日喀则 9/27 日落约 19:35，上限已晚于日落，所以在浪卡子出发前设截止：预计 15:30 后到江孜不进白居寺，只在路边看十万佛塔外观；预计 17:00 后到江孜不进城。</li>
+<li>待核：鲁日拉连接路通行（同前）、白居寺当天开放时间与最晚入场、卡若拉路边停车区是否开放。</li>
+</ul>
+<h2 id="d4-扎什伦布寺改为默认-60-分钟">D4｜扎什伦布寺改为默认 60 分钟</h2>
+<ul>
+<li>寺院起点到萨嘎 447.7km / 8h06m（9/14 快照，未变）。</li>
+<li>时间线：08:45 离店 → 09:00 开门进寺 → 10:00 出寺 → 10:15 离城 → 纯导航 18:20 到萨嘎；加午餐与加油 45—75 分钟，约 19:05—19:35 到店，萨嘎日落约 19:40。</li>
+<li>取消条件：开门晚于 09:30，或早上出发已延误。今天除扎寺外没有别的可删项，因此进寺只给 60 分钟硬上限。</li>
+</ul>
+<h2 id="d5-拉昂措移出默认项">D5｜拉昂措移出默认项</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">项目</th><th scope="col">数据</th></tr></thead><tbody><tr><td data-label="项目">萨嘎 → 帕羊 → 马攸木拉 → 霍尔 → 塔钦</td><td data-label="数据">约577km / 8h29m（9/14 快照口径，与含拉昂措绕行版本里程相近，因原 576.7km 已含近湖支线；只看玛旁北岸不增加里程）</td></tr><tr><td data-label="项目">拉昂措观景台绕行</td><td data-label="数据">约 55—80km、至少 1—2h（见 <code>research/xhs_dual_routes/research_report.md</code>），末段沙土路</td></tr><tr><td data-label="项目">D6 塔钦 → 札达</td><td data-label="数据">经 G219 拉昂措东岸，顺路车览</td></tr></tbody></table></div>
+<ul>
+<li>门到门预算：行车 9—10h ＋ 玛旁北岸 40—50 分钟 ＋ 马攸木拉 10 分钟 ＋ 用餐加油休息 60—90 分钟 ＝ 10h50m—12h30m；07:30—07:45 出发对应 18:20—20:15 到店。塔钦 9/29 日落约 19:50。</li>
+<li>取舍点改到“离开帕羊前”：预计 18:30 后到霍尔，玛旁停留压到 20 分钟；19:00 后到霍尔只车内看湖。</li>
+</ul>
+<h2 id="d2-d12-市内安排">D2 / D12 市内安排</h2>
+<ul>
+<li>D2 上午大昭寺＋八廓街、下午西藏博物馆（已预约）；拿到 9/26 布宫预约才替换上午项目。</li>
+<li>D12 早到默认补色拉寺辩经（周一至周六约 15:00—17:00，10/6 为周二），其次罗布林卡；D2 若未进成大昭寺则补大昭寺。开放与辩经是否照常，前晚核。</li>
+</ul></main></body></html>
