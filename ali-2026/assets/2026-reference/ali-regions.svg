@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img">
-<title>阿里环线：我们走到哪里</title>
+<title>阿里环线：原计划区域关系</title>
 <desc>独立重绘的路线关系示意。不按比例，不是道路导航轨迹；未表示实时开放或停车许可。</desc>
 <rect width="1200" height="760" rx="18" fill="#f6f3e9"/>
 <g font-family="PingFang SC,Microsoft YaHei,sans-serif">
 <text x="40" y="38" font-size="15" fill="#426651" text-anchor="start">ALI / 2026 · REFERENCE MAP</text>
-<text x="40" y="85" font-size="32" fill="#293d35" text-anchor="start">阿里环线：我们走到哪里</text>
-<text x="40" y="120" font-size="18" fill="#66746b" text-anchor="start">西端保留古格；回程沿G317，不穿中北线湖区。</text>
+<text x="40" y="85" font-size="32" fill="#293d35" text-anchor="start">阿里环线：原计划区域关系</text>
+<text x="40" y="120" font-size="18" fill="#66746b" text-anchor="start">9/21：10/3缺房、10/4民宿疑在纳木措北岸，图中班戈非订单定位。</text>
 <path d="M 42 151 H 96" stroke="#426651" stroke-width="5"/>
 <text x="108" y="158" font-size="18" fill="#426651" text-anchor="start">本次安排</text>
 <path d="M 267 151 H 321" stroke="#99958d" stroke-width="3" stroke-dasharray="8 7"/>

@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" class="ali-route-map" role="img">
-<title>札达 · 古格与G317北线</title>
+<title>札达 · 古格与G317原路线</title>
 <desc>2026年9月25日至10月7日，自驾，至少两名驾驶员。连线仅表达行程顺序，不是道路导航轨迹。</desc>
 <g font-family="PingFang SC,Microsoft YaHei,sans-serif">
 <rect width="1200" height="720" rx="18" fill="#f7f3e8"/>
 <text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
-<text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">札达 · 古格与G317北线</text>
-<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">13天12晚 · 10/7北京到家 · 双司机自驾</text>
+<text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">札达 · 古格与G317原路线</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">9/21住宿更新：10/3缺房；10/4疑为北岸民宿，图中班戈不是订单定位</text>
 <g data-layer="route-a">
 <line x1="1085.9" y1="509.6" x2="898.0" y2="547.9" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
 <line x1="898.0" y1="547.9" x2="591.4" y2="541.7" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
@@ -19,12 +19,12 @@
 <line x1="1084.4" y1="427.5" x2="1085.9" y2="509.6" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
 </g>
 <g data-layer="lodging">
-<g class="point tier-1" data-point-id="lhasa" data-title="拉萨" data-summary="D1 北京 → 拉萨。入住、晚餐、休息，留意身体状态。；D2 拉萨适应。只锁一个主要人文项目；身体状态优先。；D12 当雄 → 拉萨。目标12:00—14:00返拉萨；还车、休息、确认次日送机。早到再逛市区。" data-day-a="9/25/9/26/10/6" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3660" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="lhasa" data-title="拉萨" data-summary="D1 北京 → 拉萨。全季9/25—9/27已订反馈，报649元，计价/可退待核；机场与市内接线重算。；D2 拉萨适应。全季同单续住；先保上午项目和午休，市内往返过久则删下午轻走。；D12 当雄 → 拉萨。10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="9/25/9/26/10/6" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3660" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1085.9" cy="509.6" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="1080.9" y="543.6" font-size="22" fill="#243e40" text-anchor="end" font-weight="700">拉萨</text>
 <text x="1080.9" y="567.6" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">9/25/9/26/10/6</text>
 </g>
-<g class="point tier-1" data-point-id="shigatse" data-title="日喀则" data-summary="D3 羊湖四点 → 日喀则。完整四点11h15m—13h20m，不保证19:30前到店；进鲁日拉支线前重算，优先保2、3号。" data-day-a="9/27" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3840" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="shigatse" data-title="日喀则" data-summary="D3 羊湖四点 → 日喀则。如家精选已订反馈250元，9/27 18:00前可退。旧基线11h15m—13h20m；新起点重算，保2、3号。" data-day-a="9/27" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3840" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="898.0" cy="547.9" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="898.0" y="580.9" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">日喀则</text>
 <text x="898.0" y="604.9" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/27</text>
@@ -39,32 +39,32 @@
 <text x="260.0" y="413.2" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">塔钦</text>
 <text x="260.0" y="437.2" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/29</text>
 </g>
-<g class="point tier-1" data-point-id="zanda" data-title="札达" data-summary="D6 晨观神山 → 札达。默认公路晨观＋争取托林寺；若选摆渡则替换，不叠加寺院。" data-day-a="9/30" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3730" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="zanda" data-title="札达" data-summary="D6 晨观神山 → 札达。先施三人间已订反馈427元、不可退。默认公路晨观；注意次日维也纳今天12:00取消截止。" data-day-a="9/30" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3730" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="135.3" cy="326.8" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="125.3" y="360.8" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">札达</text>
 <text x="125.3" y="384.8" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/30</text>
 </g>
-<g class="point tier-1" data-point-id="shiquanhe" data-title="狮泉河" data-summary="D7 古格 → 狮泉河。古格看壁画与开放殿堂，提前确认讲解；目标18:00—19:00狮泉河。" data-day-a="10/1" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4280" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="shiquanhe" data-title="狮泉河" data-summary="D7 古格 → 狮泉河。维也纳套房已订反馈1314元；9/30 12:00前可退。古格约3小时不变，新酒店接线待算。" data-day-a="10/1" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4280" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="160.4" cy="225.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="175.4" y="181.5" font-size="22" fill="#243e40" text-anchor="start" font-weight="700">狮泉河</text>
 <text x="175.4" y="205.5" font-size="16" fill="#243e40" text-anchor="start" font-weight="400">10/1</text>
 </g>
-<g class="point tier-1" data-point-id="gaize" data-title="改则" data-summary="D8 狮泉河 → 物玛措 → 改则。地面看浅滩与湖岸；完整双湖构图偏航拍，不能飞不另找便道。目标17:30—19:15改则。" data-day-a="10/2" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4425" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="gaize" data-title="改则" data-summary="D8 狮泉河 → 物玛措 → 改则。汉庭已订反馈858元，10/2 18:00前可退。旧目标17:30—19:15；先落实后两晚及新酒店接线。" data-day-a="10/2" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4425" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="493.0" cy="244.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="493.0" y="204.5" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">改则</text>
 <text x="493.0" y="228.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/2</text>
 </g>
-<g class="point tier-1" data-point-id="nyima" data-title="尼玛" data-summary="D9 改则 → 洞措一带 → 尼玛。不能飞就取消大地之树专停，洞措可留45—60分钟；不必补满时间。目标16:00—18:00尼玛。" data-day-a="10/3" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4530" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="nyima" data-title="尼玛" data-summary="D9 改则 → 尼玛（缺房待解决）。10/3尼玛未订；不以露宿或夜赶班戈兜底。锁定可达住宿后再执行本日。" data-day-a="10/3" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4530" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="759.7" cy="296.3" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="759.7" y="256.3" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">尼玛</text>
 <text x="759.7" y="280.3" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/3</text>
 </g>
-<g class="point tier-1" data-point-id="bange" data-title="班戈" data-summary="D10 尼玛 → 色林措 → 班戈。默认湖岸慢看＋一处公路视角，14:30前离开学嘎尔；美人尖提前核准才加，接线另算。" data-day-a="10/4" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4715" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="bange" data-title="班戈" data-summary="D10 色林措 → 住宿接线待核。原称鲁特摊383元不可退，疑在纳木措北岸而非班戈县城；D10/D11暂停照搬旧接线。" data-day-a="10/4" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4715" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="992.6" cy="335.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="992.6" y="295.5" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">班戈</text>
 <text x="992.6" y="319.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/4</text>
 </g>
-<g class="point tier-1" data-point-id="damxung" data-title="当雄" data-summary="D11 班戈 → 纳木措 → 当雄。景区留3—4小时；道路、景区与车辆准入须确认。目标17:00—19:30当雄。" data-day-a="10/5" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4285" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="damxung" data-title="当雄" data-summary="D11 纳木措 → 当雄（起点待核）。维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="10/5" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4285" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1084.4" cy="427.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="1102.4" y="412.5" font-size="22" fill="#243e40" text-anchor="start" font-weight="700">当雄</text>
 <text x="1102.4" y="436.5" font-size="16" fill="#243e40" text-anchor="start" font-weight="400">10/5</text>

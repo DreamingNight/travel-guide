@@ -4,35 +4,35 @@
   "files": [
     {
       "path": "assets/2026-current/g317.svg",
-      "sha256": "e899d63b02118ffc6a661833da3127c0d0a7be4b29f99e6c2adf127477eec4f7"
+      "sha256": "39b8dfdb5ed96ac59895955a9934810e0757a3622299e5d6e2759ffd2b90e3ed"
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
-      "sha256": "5e0daf860e6a03079c570a4399ef35feec9d2fece571fadf315d0537833c6566"
+      "sha256": "fa63f46a074e0b4d743e34e6f5ebb9f114d860f30b95f57f354a77989b218d72"
     },
     {
       "path": "assets/2026-current/lhasa.svg",
-      "sha256": "0533bdd8aa96cf4ffb755a2eb86c7ffb9dd985f363ae801053db94d459c772b5"
+      "sha256": "7159640dd160acbc235cddecd6641fe40647171c656c2dcb7da22e6920d4bd20"
     },
     {
       "path": "assets/2026-current/namtso.svg",
-      "sha256": "ce3f344bcd2f2faa01e6bbf9f8319c7e63e179c942ecdbad0876f1e6ece7203f"
+      "sha256": "a59feba91f5482431d4b2a8a51de9c151b4efb02e20a3cf54ccbfe1fe4992270"
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "39aca2e7e964e94ea1224288a930090cca52e7082865ce86c7c6828ce5140816"
+      "sha256": "4bc0bc97e1b83ec53ebc8a0301ec380a6b59a1c31ee161b1fdf0892b37d06aa6"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
-      "sha256": "9411b59444ef0568490240de90ba93a5418c17b469e9b37d0fb673598bceba32"
+      "sha256": "07aa170e40a4ee8b90a20f244d56e56d23429ba306082bc41f0925f2305b64b8"
     },
     {
       "path": "assets/2026-current/yamdrok.svg",
-      "sha256": "6e6711cfc34bc3b061c9d0f66fe6d96314b0db30c80c6f8ec5b3d85526062880"
+      "sha256": "9a6de5aabdef7bab4575baeb33c11d135325362eca0df8e9ff6df60205acb769"
     },
     {
       "path": "assets/2026-reference/ali-regions.svg",
-      "sha256": "0bd57c4d0c4f88b5831510be5b15c07867a20a23d21104aa7cce677a8fadd76b"
+      "sha256": "3839349d1d0f392308650248c519c456ca7ebd387c41ad77824a2c28996a83da"
     },
     {
       "path": "assets/2026-reference/southern-branch.svg",
@@ -68,7 +68,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "52e5511cc496e236811a4b988c8f67cd762bfb65dc08cb7a845fee783b79a551"
+      "sha256": "6f2d07283a671f96507d944d0e8635962e3e2b4efd7febc3617d17c2543e7d0a"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
@@ -191,20 +191,16 @@
       "sha256": "603f0800cd48707befdd0956645256bcf3cad1e2174b0aa9ad6424ae39434652"
     },
     {
+      "path": "research/住宿清单复核_2026-09-21.html",
+      "sha256": "2c43b28db33a2d9646891c6f8860b7698d46432895fec594f3f6961b382d2e2d"
+    },
+    {
       "path": "research/内容复核_2026-09-19.html",
       "sha256": "f2f321626ea9189b0001fa7a47d3253cdb926407419739fa320648e2db092356"
     },
     {
       "path": "research/小红书环线对照_2026-09-17.html",
       "sha256": "a540e63fc693033e7a2dfba6e4192882591792cd4dad201659ec3a25b4a44d24"
-    },
-    {
-      "path": "research/机票与住宿核查证据_2026-09-14.json",
-      "sha256": "671dac3fa1cd3682279e5a703ba23e870d87ffafd55f001959d1b92908d74184"
-    },
-    {
-      "path": "research/机票与住宿精选_2026-09-14.html",
-      "sha256": "7950302a5577edd7e0a4c6ff75a3ca73e6407325bc5ab6fa1bcff35296e44eb4"
     },
     {
       "path": "research/羊湖古格实查_2026-09-14.html",
