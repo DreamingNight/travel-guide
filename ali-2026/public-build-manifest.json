@@ -4,23 +4,23 @@
   "files": [
     {
       "path": "assets/2026-current/g317.svg",
-      "sha256": "39b8dfdb5ed96ac59895955a9934810e0757a3622299e5d6e2759ffd2b90e3ed"
+      "sha256": "ba366782b2a2a38929eeee775ded1c145c5160e2fc0fce863a9ff6a0ca610b0d"
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
-      "sha256": "fa63f46a074e0b4d743e34e6f5ebb9f114d860f30b95f57f354a77989b218d72"
+      "sha256": "cfb57ab7aa8b3863c7ed8e26392229c8f93b2a974485c624ca97b924ec8e22a6"
     },
     {
       "path": "assets/2026-current/lhasa.svg",
-      "sha256": "7159640dd160acbc235cddecd6641fe40647171c656c2dcb7da22e6920d4bd20"
+      "sha256": "5f7696ff6deaaaaebebb3b1edf86fa1063a7097db1b9a198a47fc4e411237741"
     },
     {
       "path": "assets/2026-current/namtso.svg",
-      "sha256": "a59feba91f5482431d4b2a8a51de9c151b4efb02e20a3cf54ccbfe1fe4992270"
+      "sha256": "22e596f58e2574f8744e7a7e5860a21dd01e585bbcbe31a3737ccef7a34f6a0e"
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "4bc0bc97e1b83ec53ebc8a0301ec380a6b59a1c31ee161b1fdf0892b37d06aa6"
+      "sha256": "0ae8c6db50451c30b3435de5a46b265bb83fa938ef60ab447867d700ec261589"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
@@ -28,7 +28,7 @@
     },
     {
       "path": "assets/2026-current/yamdrok.svg",
-      "sha256": "9a6de5aabdef7bab4575baeb33c11d135325362eca0df8e9ff6df60205acb769"
+      "sha256": "d627c6d6bdd58413f345a7de2b51d5609e8f6ed6a6b25b34343345af43a90702"
     },
     {
       "path": "assets/2026-reference/ali-regions.svg",
@@ -68,7 +68,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "6f2d07283a671f96507d944d0e8635962e3e2b4efd7febc3617d17c2543e7d0a"
+      "sha256": "16b461ceb3af746ed5e6d8912f8c8c6f4d85969bd0d126c8f65aebf4c040da81"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
@@ -191,8 +191,16 @@
       "sha256": "603f0800cd48707befdd0956645256bcf3cad1e2174b0aa9ad6424ae39434652"
     },
     {
+      "path": "research/yanghu_hotel_2026-09-21/ji-hotel.json",
+      "sha256": "c3f78447cbd479c1053338c9089f19157ebd5932163cf726d2e3c9dff7a7562e"
+    },
+    {
+      "path": "research/yanghu_hotel_2026-09-21/yiweite.json",
+      "sha256": "eeea0ec9af3b8404b521d735ad27ed7bdd9abf262f40af4f46619a79ed5ad430"
+    },
+    {
       "path": "research/住宿清单复核_2026-09-21.html",
-      "sha256": "2c43b28db33a2d9646891c6f8860b7698d46432895fec594f3f6961b382d2e2d"
+      "sha256": "4b053755dd705192d08c6b5bf25c2ba958fe263004cb1262d88e089c016ae06f"
     },
     {
       "path": "research/内容复核_2026-09-19.html",
@@ -201,6 +209,10 @@
     {
       "path": "research/小红书环线对照_2026-09-17.html",
       "sha256": "a540e63fc693033e7a2dfba6e4192882591792cd4dad201659ec3a25b4a44d24"
+    },
+    {
+      "path": "research/拉萨全季与羊湖接线_2026-09-21.html",
+      "sha256": "b84ebb1fa98f956018858eb509896e6ea2cbe68beaf54f368eeb97a2cc588c65"
     },
     {
       "path": "research/羊湖古格实查_2026-09-14.html",

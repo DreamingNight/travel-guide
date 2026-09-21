@@ -11,19 +11,19 @@
 <text x="1151.0" y="168.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">原207.9km；按10/4落点重算</text>
 <g data-layer="route-a"><line x1="100" y1="210" x2="1100" y2="210" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d11-stop-0" data-title="实际出发点待定" data-summary="维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d11-stop-0" data-title="实际出发点待定" data-summary="维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="210" r="8" fill="#27645c"/>
 <text x="100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">实际出发点待定</text>
 </g>
-<g class="point tier-1" data-point-id="d11-stop-1" data-title="原计划南岸游客中心" data-summary="维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d11-stop-1" data-title="原计划南岸游客中心" data-summary="维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="433.3" cy="210" r="8" fill="#27645c"/>
 <text x="433.3" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">原计划南岸游客中心</text>
 </g>
-<g class="point tier-1" data-point-id="d11-stop-2" data-title="摆渡 / 扎西半岛（待重排）" data-summary="维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d11-stop-2" data-title="摆渡 / 扎西半岛（待重排）" data-summary="维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="766.7" cy="210" r="8" fill="#27645c"/>
 <text x="766.7" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">摆渡 / 扎西半岛（待重排）</text>
 </g>
-<g class="point tier-1" data-point-id="d11-stop-3" data-title="当雄维也纳" data-summary="维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d11-stop-3" data-title="当雄维也纳" data-summary="维也纳已订反馈534元，10/5 18:00前可退；若前晚住北岸，重算道路与游湖，不套原里程。" data-day-a="D11" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="210" r="8" fill="#27645c"/>
 <text x="1100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">当雄维也纳</text>
 </g>
@@ -34,21 +34,21 @@
 <text x="1151.0" y="373.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">旧173.9km；酒店未报订</text>
 <g data-layer="route-a"><line x1="100" y1="415" x2="1100" y2="415" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d12-stop-0" data-title="当雄" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d12-stop-0" data-title="当雄" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="415" r="8" fill="#27645c"/>
 <text x="100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">当雄</text>
 </g>
-<g class="point tier-1" data-point-id="d12-stop-1" data-title="拉萨还车" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d12-stop-1" data-title="拉萨还车" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="600.0" cy="415" r="8" fill="#27645c"/>
 <text x="600.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">拉萨还车</text>
 </g>
-<g class="point tier-1" data-point-id="d12-stop-2" data-title="拉萨住宿（未报订）" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d12-stop-2" data-title="拉萨住宿（未报订）" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="415" r="8" fill="#27645c"/>
 <text x="1100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">拉萨住宿（未报订）</text>
 </g>
 </g>
 <text x="46.0" y="487.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。</text>
-<text x="38.0" y="560.0" font-size="15" fill="#69736b" text-anchor="start" font-weight="400">原路线顺序示意；9/21换店后接线待算。10/4民宿不按班戈县城接线执行，先核定位。</text>
+<text x="38.0" y="560.0" font-size="15" fill="#69736b" text-anchor="start" font-weight="400">D3全季四点接线已于9/21重算，其余换店接线待核；10/4民宿不按班戈县城接线执行。</text>
 <g data-layer="route-a"/>
 <g data-layer="route-b"/>
 <g data-layer="route-common"/>

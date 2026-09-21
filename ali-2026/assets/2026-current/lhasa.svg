@@ -11,34 +11,34 @@
 <text x="1151.0" y="168.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">全季机场接线待算；旧58km</text>
 <g data-layer="route-a"><line x1="100" y1="210" x2="1100" y2="210" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d1-stop-0" data-title="北京出发" data-summary="全季9/25—9/27已订反馈，报649元，计价/可退待核；机场与市内接线重算。" data-day-a="D1" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d1-stop-0" data-title="北京出发" data-summary="全季9/25—9/27两晚合计649元，夜均324.50元；可退条件、机场与市内接线待核。" data-day-a="D1" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="210" r="8" fill="#27645c"/>
 <text x="100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">北京出发</text>
 </g>
-<g class="point tier-1" data-point-id="d1-stop-1" data-title="贡嘎机场" data-summary="全季9/25—9/27已订反馈，报649元，计价/可退待核；机场与市内接线重算。" data-day-a="D1" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d1-stop-1" data-title="贡嘎机场" data-summary="全季9/25—9/27两晚合计649元，夜均324.50元；可退条件、机场与市内接线待核。" data-day-a="D1" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="600.0" cy="210" r="8" fill="#27645c"/>
 <text x="600.0" y="240.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">贡嘎机场</text>
 </g>
-<g class="point tier-1" data-point-id="d1-stop-2" data-title="全季堆龙德庆区店" data-summary="全季9/25—9/27已订反馈，报649元，计价/可退待核；机场与市内接线重算。" data-day-a="D1" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d1-stop-2" data-title="全季堆龙德庆区店" data-summary="全季9/25—9/27两晚合计649元，夜均324.50元；可退条件、机场与市内接线待核。" data-day-a="D1" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="210" r="8" fill="#27645c"/>
 <text x="1100.0" y="240.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">全季堆龙德庆区店</text>
 </g>
 </g>
-<text x="46.0" y="282.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">全季9/25—9/27已订反馈，报649元，计价/可退待核；机场与市内接线重算。</text>
+<text x="46.0" y="282.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">全季9/25—9/27两晚合计649元，夜均324.50元；可退条件、机场与市内接线待核。</text>
 <rect x="26" y="342" width="1148" height="188" rx="12" fill="#fffdf6"/>
 <text x="46.0" y="373.0" font-size="22" fill="#243e40" text-anchor="start" font-weight="600">D2  9/26  拉萨适应</text>
 <text x="1151.0" y="373.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">全季往返市区待算</text>
 <g data-layer="route-a"><line x1="100" y1="415" x2="1100" y2="415" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d2-stop-0" data-title="博物馆 / 布宫二选一" data-summary="全季同单续住；先保上午项目和午休，市内往返过久则删下午轻走。" data-day-a="D2" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d2-stop-0" data-title="博物馆 / 布宫二选一" data-summary="全季同单续住；先保上午项目和午休，市内往返过久则删下午轻走。" data-day-a="D2" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="415" r="8" fill="#27645c"/>
 <text x="100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">博物馆 / 布宫二选一</text>
 </g>
-<g class="point tier-1" data-point-id="d2-stop-1" data-title="午休1.5—2小时" data-summary="全季同单续住；先保上午项目和午休，市内往返过久则删下午轻走。" data-day-a="D2" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d2-stop-1" data-title="午休1.5—2小时" data-summary="全季同单续住；先保上午项目和午休，市内往返过久则删下午轻走。" data-day-a="D2" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="600.0" cy="415" r="8" fill="#27645c"/>
 <text x="600.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">午休1.5—2小时</text>
 </g>
-<g class="point tier-1" data-point-id="d2-stop-2" data-title="老城轻走（条件）" data-summary="全季同单续住；先保上午项目和午休，市内往返过久则删下午轻走。" data-day-a="D2" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d2-stop-2" data-title="老城轻走（条件）" data-summary="全季同单续住；先保上午项目和午休，市内往返过久则删下午轻走。" data-day-a="D2" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="415" r="8" fill="#27645c"/>
 <text x="1100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">老城轻走（条件）</text>
 </g>
@@ -49,15 +49,15 @@
 <text x="1151.0" y="578.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">旧173.9km；酒店未报订</text>
 <g data-layer="route-a"><line x1="100" y1="620" x2="1100" y2="620" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d12-stop-0" data-title="当雄" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d12-stop-0" data-title="当雄" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="620" r="8" fill="#27645c"/>
 <text x="100.0" y="650.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">当雄</text>
 </g>
-<g class="point tier-1" data-point-id="d12-stop-1" data-title="拉萨还车" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d12-stop-1" data-title="拉萨还车" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="600.0" cy="620" r="8" fill="#27645c"/>
 <text x="600.0" y="650.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">拉萨还车</text>
 </g>
-<g class="point tier-1" data-point-id="d12-stop-2" data-title="拉萨住宿（未报订）" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d12-stop-2" data-title="拉萨住宿（未报订）" data-summary="10/6拉萨返程夜清单未列，需补房并重算还车/送机接线；这晚不删除。" data-day-a="D12" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="620" r="8" fill="#27645c"/>
 <text x="1100.0" y="650.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">拉萨住宿（未报订）</text>
 </g>
@@ -68,21 +68,21 @@
 <text x="1151.0" y="783.0" font-size="16" fill="#27645c" text-anchor="end" font-weight="400">机场接线待酒店落实；旧59.6km</text>
 <g data-layer="route-a"><line x1="100" y1="825" x2="1100" y2="825" stroke="#b6c8bd" stroke-width="3"/></g>
 <g data-layer="sights-core">
-<g class="point tier-1" data-point-id="d13-stop-0" data-title="最终酒店" data-summary="10月7日到北京；10/6酒店确定后重算机场接线，并满足航司到场要求。" data-day-a="D13" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d13-stop-0" data-title="最终酒店" data-summary="10月7日到北京；10/6酒店确定后重算机场接线，并满足航司到场要求。" data-day-a="D13" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="100.0" cy="825" r="8" fill="#27645c"/>
 <text x="100.0" y="855.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">最终酒店</text>
 </g>
-<g class="point tier-1" data-point-id="d13-stop-1" data-title="贡嘎机场" data-summary="10月7日到北京；10/6酒店确定后重算机场接线，并满足航司到场要求。" data-day-a="D13" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d13-stop-1" data-title="贡嘎机场" data-summary="10月7日到北京；10/6酒店确定后重算机场接线，并满足航司到场要求。" data-day-a="D13" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="600.0" cy="825" r="8" fill="#27645c"/>
 <text x="600.0" y="855.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">贡嘎机场</text>
 </g>
-<g class="point tier-1" data-point-id="d13-stop-2" data-title="北京到家" data-summary="10月7日到北京；10/6酒店确定后重算机场接线，并满足航司到场要求。" data-day-a="D13" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="2026-09-14规划；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d13-stop-2" data-title="北京到家" data-summary="10月7日到北京；10/6酒店确定后重算机场接线，并满足航司到场要求。" data-day-a="D13" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1100.0" cy="825" r="8" fill="#27645c"/>
 <text x="1100.0" y="855.0" font-size="19" fill="#243e40" text-anchor="end" font-weight="500">北京到家</text>
 </g>
 </g>
 <text x="46.0" y="897.0" font-size="17" fill="#5e6a65" text-anchor="start" font-weight="400">10月7日到北京；10/6酒店确定后重算机场接线，并满足航司到场要求。</text>
-<text x="38.0" y="970.0" font-size="15" fill="#69736b" text-anchor="start" font-weight="400">原路线顺序示意；9/21换店后接线待算。10/4民宿不按班戈县城接线执行，先核定位。</text>
+<text x="38.0" y="970.0" font-size="15" fill="#69736b" text-anchor="start" font-weight="400">D3全季四点接线已于9/21重算，其余换店接线待核；10/4民宿不按班戈县城接线执行。</text>
 <g data-layer="route-a"/>
 <g data-layer="route-b"/>
 <g data-layer="route-common"/>
