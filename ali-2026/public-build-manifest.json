@@ -4,11 +4,11 @@
   "files": [
     {
       "path": "assets/2026-current/g317.svg",
-      "sha256": "ea7ec345a9c2bc11c02d6fd8dc4095138ee2f95f56185bfcc5900a14b08df74e"
+      "sha256": "7f7e84ddde9eba47a72ced6347c8df26446afb3f6bcaf9e0da18db6bcf75554e"
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
-      "sha256": "dbd51f1fd053f9f3cb2045fa33e574202c5f7e9332f31cfca950f1291b329a6d"
+      "sha256": "7f8d455f35ed3eb0f205864fcf5e7d0e448f958a1cb4198a7c9ed53657628217"
     },
     {
       "path": "assets/2026-current/lhasa.svg",
@@ -16,11 +16,11 @@
     },
     {
       "path": "assets/2026-current/namtso.svg",
-      "sha256": "5f2b8a4b955213be52ed4f53d3b9c5f32bab9814e4b0377c3b05d5508017bbd4"
+      "sha256": "215a32e1b1c27f33999defc208694259be6248349aee2764a22a4858c5501901"
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "c186d2e69b4fdb90c65e4c1bf6cf26ef749aa130beb38524ac2fd46f27ed7e60"
+      "sha256": "f135117a0cd69059a9d30358e2bf25cb5319f64becb5a385571d013ceb9bc17d"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
@@ -28,7 +28,7 @@
     },
     {
       "path": "assets/2026-current/yamdrok.svg",
-      "sha256": "722cff773d6346a47d564c035442ff5845c7a484b20865cef5f06ed6d6fe4e00"
+      "sha256": "6271ce58353e7c8d7802647e447da7e5acb9e1832d0c0008256ee910298ac1fb"
     },
     {
       "path": "assets/2026-reference/ali-regions.svg",
@@ -68,7 +68,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "d00c85f4ceec89e0484ee0f570ca5ea8d7e73fcc4ba157b47e35fed4db132260"
+      "sha256": "2a4495d401a0ba7c17b0712913e0cb483c3835a265daba44d6d71adc8cca5b81"
     },
     {
       "path": "research/D3江孜线与D5玛旁调整_2026-09-21.html",
@@ -224,11 +224,11 @@
     },
     {
       "path": "research/日出日落_2026-09-22.html",
-      "sha256": "61ef8527429090acafb2236bb817b8a1fae50a478468c3a1d9792b2334e65386"
+      "sha256": "b555c363b269b93e15de2f0f1f107bc8f44d74d00a65ae3d71c15a5113ca7e38"
     },
     {
       "path": "research/纳木措北岸民宿接线_2026-09-21.html",
-      "sha256": "f4a97b4fa29a196e8a44d52b580caf51f0b07eef8bd79ca6a409771689951e33"
+      "sha256": "a99ae0226a62ab1356416f8db4a603f3c4f3e66b18bd32025ae896ae4897ff36"
     },
     {
       "path": "research/羊湖古格实查_2026-09-14.html",

@@ -47,9 +47,9 @@
 <circle class="point-symbol" cx="100.0" cy="415" r="8" fill="#27645c"/>
 <text x="100.0" y="445.0" font-size="19" fill="#243e40" text-anchor="start" font-weight="500">扎什伦布寺60分钟</text>
 </g>
-<g class="point tier-1" data-point-id="d4-stop-1" data-title="10:15离城" data-summary="扎寺默认去，09:00进10:00出；开门晚于09:30或出发延误就取消；目标19:00前到萨嘎。" data-day-a="D4" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="d4-stop-1" data-title="10:45离城" data-summary="扎寺默认去，09:00进10:00出；开门晚于09:30或出发延误就取消；目标19:00前到萨嘎。" data-day-a="D4" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="350.0" cy="415" r="8" fill="#27645c"/>
-<text x="350.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">10:15离城</text>
+<text x="350.0" y="445.0" font-size="19" fill="#243e40" text-anchor="middle" font-weight="500">10:45离城</text>
 </g>
 <g class="point tier-1" data-point-id="d4-stop-2" data-title="拉孜" data-summary="扎寺默认去，09:00进10:00出；开门晚于09:30或出发延误就取消；目标19:00前到萨嘎。" data-day-a="D4" data-kind="viewpoint" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="600.0" cy="415" r="8" fill="#27645c"/>

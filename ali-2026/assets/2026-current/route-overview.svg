@@ -40,7 +40,7 @@
 <text x="260.0" y="413.2" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">塔钦</text>
 <text x="260.0" y="437.2" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/29</text>
 </g>
-<g class="point tier-1" data-point-id="zanda" data-title="札达" data-summary="D6 神山近观、拉昂措 → 札达土林日落。先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7午后短看。注意次日维也纳今天12:00取消截止。" data-day-a="9/30" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="zanda" data-title="札达" data-summary="D6 神山近观、拉昂措 → 札达土林日落。先施三人间已订反馈427元、不可退。默认摆渡近观，12:45最晚离镇；托林寺移到D7午后短看。注意次日维也纳今天12:00取消截止。" data-day-a="9/30" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="135.3" cy="326.8" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="125.3" y="360.8" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">札达</text>
 <text x="125.3" y="384.8" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/30</text>
@@ -50,7 +50,7 @@
 <text x="175.4" y="181.5" font-size="22" fill="#243e40" text-anchor="start" font-weight="700">狮泉河</text>
 <text x="175.4" y="205.5" font-size="16" fill="#243e40" text-anchor="start" font-weight="400">10/1</text>
 </g>
-<g class="point tier-1" data-point-id="gaize" data-title="改则" data-summary="D8 狮泉河 → 物玛措 → 改则。汉庭已订反馈858元，10/2 18:00前可退。目标17:30—19:15；10/3尼玛补房后才进北线。" data-day-a="10/2" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4425" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="gaize" data-title="改则" data-summary="D8 狮泉河 → 物玛措 → 改则。汉庭已订反馈858元，10/2 18:00前可退。08:30出发，目标18:00—19:30；10/3尼玛补房后才进北线。" data-day-a="10/2" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4425" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="493.0" cy="244.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="493.0" y="204.5" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">改则</text>
 <text x="493.0" y="228.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/2</text>
@@ -70,7 +70,7 @@
 <text x="999.1" y="421.4" font-size="22" fill="#243e40" text-anchor="end" font-weight="700">纳木措北岸民宿</text>
 <text x="999.1" y="445.4" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">10/4</text>
 </g>
-<g class="point tier-1" data-point-id="damxung" data-title="当雄" data-summary="D11 圣象天门 → 北岸环湖 → 当雄。维也纳已订反馈534元，10/5 18:00前可退。9/21高德民宿→当雄182.7km/3h45m，搓板路实际按5—6小时行车；圣象天门就地看，不再去扎西半岛和巴木措。11:00前离开景区。" data-day-a="10/5" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4285" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="damxung" data-title="当雄" data-summary="D11 圣象天门 → 北岸环湖 → 当雄。维也纳已订反馈534元，10/5 18:00前可退。9/21高德民宿→当雄182.7km/3h45m，搓板路实际按5—6小时行车；圣象天门就地看，不再去扎西半岛和巴木措。12:30前离开景区。" data-day-a="10/5" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4285" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1084.4" cy="427.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="1102.4" y="412.5" font-size="22" fill="#243e40" text-anchor="start" font-weight="700">当雄</text>
 <text x="1102.4" y="436.5" font-size="16" fill="#243e40" text-anchor="start" font-weight="400">10/5</text>
