@@ -40,7 +40,7 @@
 <text x="260.0" y="413.2" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">塔钦</text>
 <text x="260.0" y="437.2" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/29</text>
 </g>
-<g class="point tier-1" data-point-id="zanda" data-title="札达" data-summary="D6 神山近观、拉昂措 → 札达土林日落。先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7早短看。注意次日维也纳今天12:00取消截止。" data-day-a="9/30" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="zanda" data-title="札达" data-summary="D6 神山近观、拉昂措 → 札达土林日落。先施三人间已订反馈427元、不可退。默认摆渡近观，12:00最晚离镇；托林寺移到D7午后短看。注意次日维也纳今天12:00取消截止。" data-day-a="9/30" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="3730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="135.3" cy="326.8" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="125.3" y="360.8" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">札达</text>
 <text x="125.3" y="384.8" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">9/30</text>
@@ -60,12 +60,12 @@
 <text x="759.7" y="256.3" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">尼玛</text>
 <text x="759.7" y="280.3" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/3</text>
 </g>
-<g class="point tier-1" data-point-id="bange" data-title="班戈" data-summary="D10途经班戈县城加油、补给；15:30前离开南下北岸民宿。" data-day-a="10/4途经加油" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4715" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="bange" data-title="班戈" data-summary="D10途经班戈县城加油、补给；16:00前离开南下北岸民宿。" data-day-a="10/4途经加油" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4715" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="992.6" cy="335.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="992.6" y="295.5" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">班戈</text>
 <text x="992.6" y="319.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/4途经加油</text>
 </g>
-<g class="point tier-1" data-point-id="namtso_north" data-title="纳木措北岸民宿" data-summary="D10 色林措 → 班戈 → 纳木措北岸民宿。鲁特滩民宿已订383元、不可退，在纳木措西北岸保吉乡，不是班戈县城。9/21高德按民宿重算420.4km/5h57m，比原县城多86km、1h20m；班戈后约85km非铺装。色林措停留压到60分钟内，15:30未到班戈就改住班戈县城。" data-day-a="10/4" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="namtso_north" data-title="纳木措北岸民宿" data-summary="D10 色林措 → 班戈 → 纳木措北岸民宿。鲁特滩民宿已订383元、不可退，在纳木措西北岸保吉乡，不是班戈县城。9/21高德按民宿重算420.4km/5h57m，比原县城多86km、1h20m；班戈后约85km非铺装。色林措停留压到60分钟内，16:00未到班戈就改住班戈县城。" data-day-a="10/4" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1013.1" cy="385.4" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="999.1" y="421.4" font-size="22" fill="#243e40" text-anchor="end" font-weight="700">纳木措北岸民宿</text>
 <text x="999.1" y="445.4" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">10/4</text>

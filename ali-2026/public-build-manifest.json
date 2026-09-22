@@ -4,11 +4,11 @@
   "files": [
     {
       "path": "assets/2026-current/g317.svg",
-      "sha256": "d413f54be6843f8f48884ddefdf9ee6af86cad0a3bb8034e735ee1009c52550d"
+      "sha256": "ea7ec345a9c2bc11c02d6fd8dc4095138ee2f95f56185bfcc5900a14b08df74e"
     },
     {
       "path": "assets/2026-current/kailash-zanda.svg",
-      "sha256": "7ad7164ca8fb9a383e02af37bf08887dcae6032603e89796b6ba209389da4066"
+      "sha256": "dbd51f1fd053f9f3cb2045fa33e574202c5f7e9332f31cfca950f1291b329a6d"
     },
     {
       "path": "assets/2026-current/lhasa.svg",
@@ -20,7 +20,7 @@
     },
     {
       "path": "assets/2026-current/route-overview.svg",
-      "sha256": "8af3146dc55aea9c6581d2a9e9f7738ca84d708376828a9b3d50a6eaf4bbd719"
+      "sha256": "c186d2e69b4fdb90c65e4c1bf6cf26ef749aa130beb38524ac2fd46f27ed7e60"
     },
     {
       "path": "assets/2026-current/sleep-altitude.svg",
@@ -68,11 +68,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "4edd961a8e22faf25aaabd2674da080b6c1b95f4afdd6171dc972f64b3e701c4"
+      "sha256": "d00c85f4ceec89e0484ee0f570ca5ea8d7e73fcc4ba157b47e35fed4db132260"
     },
     {
       "path": "research/D3江孜线与D5玛旁调整_2026-09-21.html",
-      "sha256": "3ed94d4097a57ae556e189e069be9ed778a1bd5fa668754ac33cce1816b70b78"
+      "sha256": "8d7d3fe3cbf1f0ca0af60d26c332a92ba3f0c9bf06403066e13fe1a378cfe899"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
@@ -224,11 +224,11 @@
     },
     {
       "path": "research/日出日落_2026-09-22.html",
-      "sha256": "c6c04544760820daa621edeb83422d3cf760e774e15848089a5bc4833af1d44b"
+      "sha256": "61ef8527429090acafb2236bb817b8a1fae50a478468c3a1d9792b2334e65386"
     },
     {
       "path": "research/纳木措北岸民宿接线_2026-09-21.html",
-      "sha256": "bc327b0071c6d0e64798b1b3bfd4c86a1a77aeb2c1a3fa9b7224051c0cad3625"
+      "sha256": "f4a97b4fa29a196e8a44d52b580caf51f0b07eef8bd79ca6a409771689951e33"
     },
     {
       "path": "research/羊湖古格实查_2026-09-14.html",
