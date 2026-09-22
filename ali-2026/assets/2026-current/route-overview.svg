@@ -5,7 +5,7 @@
 <rect width="1200" height="720" rx="18" fill="#f7f3e8"/>
 <text x="38.0" y="34.0" font-size="14" fill="#27645c" text-anchor="start" font-weight="600">ALI / 2026     SELF-DRIVE · 13 DAYS</text>
 <text x="38.0" y="78.0" font-size="31" fill="#243e40" text-anchor="start" font-weight="700">札达 · 古格与G317北线</text>
-<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">9/21住宿更新：10/3尼玛缺房；10/4住纳木措北岸鲁特滩民宿，经班戈县城加油后南下</text>
+<text x="38.0" y="111.0" font-size="17" fill="#5b6c67" text-anchor="start" font-weight="400">9/22住宿更新：10/3尼玛秘境庄园已订；10/4住纳木措北岸鲁特滩民宿，经班戈县城加油后南下</text>
 <g data-layer="route-a">
 <line x1="1085.9" y1="509.6" x2="898.0" y2="547.9" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
 <line x1="898.0" y1="547.9" x2="591.4" y2="541.7" stroke="#27645c" stroke-width="4" stroke-dasharray="9 7"/>
@@ -50,12 +50,12 @@
 <text x="175.4" y="181.5" font-size="22" fill="#243e40" text-anchor="start" font-weight="700">狮泉河</text>
 <text x="175.4" y="205.5" font-size="16" fill="#243e40" text-anchor="start" font-weight="400">10/1</text>
 </g>
-<g class="point tier-1" data-point-id="gaize" data-title="改则" data-summary="D8 狮泉河 → 物玛措 → 改则。汉庭已订反馈858元，10/2 18:00前可退。08:30出发，目标18:00—19:30；10/3尼玛补房后才进北线。" data-day-a="10/2" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4425" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="gaize" data-title="改则" data-summary="D8 狮泉河 → 物玛措 → 改则。汉庭已订反馈858元，10/2 18:00前可退。08:30出发，目标18:00—19:30；10/3尼玛秘境庄园已订，北线成立。" data-day-a="10/2" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4425" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="493.0" cy="244.5" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="493.0" y="204.5" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">改则</text>
 <text x="493.0" y="228.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/2</text>
 </g>
-<g class="point tier-1" data-point-id="nyima" data-title="尼玛" data-summary="D9 改则 → 尼玛（缺房待解决）。10/3尼玛未订；不以露宿或夜赶兜底。锁定可达住宿后再执行本日。晚上核对D10去北岸民宿的路况与到店时间。" data-day-a="10/3" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4530" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="nyima" data-title="尼玛" data-summary="D9 改则 → 尼玛（缺房待解决）。尼玛秘境庄园民宿已订（9/22反馈，县城迎宾路），金额与取消条件未报。晚上给鲁特滩民宿打电话核最晚接待与接应，并存班戈未挂网宾馆电话备用。" data-day-a="10/3" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4530" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="759.7" cy="296.3" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="759.7" y="256.3" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">尼玛</text>
 <text x="759.7" y="280.3" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/3</text>
@@ -65,7 +65,7 @@
 <text x="992.6" y="295.5" font-size="22" fill="#243e40" text-anchor="middle" font-weight="700">班戈</text>
 <text x="992.6" y="319.5" font-size="16" fill="#243e40" text-anchor="middle" font-weight="400">10/4途经加油</text>
 </g>
-<g class="point tier-1" data-point-id="namtso_north" data-title="纳木措北岸民宿" data-summary="D10 色林措 → 班戈 → 纳木措北岸民宿。鲁特滩民宿已订383元、不可退，在纳木措西北岸保吉乡，不是班戈县城。9/21高德按民宿重算420.4km/5h57m，比原县城多86km、1h20m；班戈后约85km非铺装。色林措停留压到60分钟内，16:00未到班戈就改住班戈县城。" data-day-a="10/4" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
+<g class="point tier-1" data-point-id="namtso_north" data-title="纳木措北岸民宿" data-summary="D10 色林措 → 班戈 → 纳木措北岸民宿。鲁特滩民宿已订383元、不可退，在纳木措西北岸保吉乡，不是班戈县城。9/21高德按民宿重算420.4km/5h57m，比原县城多86km、1h20m；班戈后约85km非铺装。班戈10/4已无房：07:45—08:00出发，色林措停留压到45分钟内，16:30前离开班戈是硬闸门；17:00后不走，用前晚存的班戈未挂网宾馆电话现场找房。" data-day-a="10/4" data-kind="place" data-tier="1" data-action="core" data-status="documented" data-route-scope="A" data-elevation="4730" data-cost-basis="导航核查日期见日卡；点位与连线不是停车、准入或飞行许可。">
 <circle class="point-symbol" cx="1013.1" cy="385.4" r="9" fill="#ad6240" stroke="#fffdf6" stroke-width="3"/>
 <text x="999.1" y="421.4" font-size="22" fill="#243e40" text-anchor="end" font-weight="700">纳木措北岸民宿</text>
 <text x="999.1" y="445.4" font-size="16" fill="#243e40" text-anchor="end" font-weight="400">10/4</text>
