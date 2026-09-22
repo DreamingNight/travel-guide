@@ -68,11 +68,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "dfeaa13c02453904898d02d0ffd4c6842d74332312dd6a501038fb5b8fc33ceb"
+      "sha256": "4edd961a8e22faf25aaabd2674da080b6c1b95f4afdd6171dc972f64b3e701c4"
     },
     {
       "path": "research/D3江孜线与D5玛旁调整_2026-09-21.html",
-      "sha256": "6df9909e7ec61ea67ea114b482c2fb149a513ce0e9b153213406930cbc41e505"
+      "sha256": "3ed94d4097a57ae556e189e069be9ed778a1bd5fa668754ac33cce1816b70b78"
     },
     {
       "path": "research/daily_review_2026-09-14/amap_evidence.json",
@@ -221,6 +221,10 @@
     {
       "path": "research/拉萨全季与羊湖接线_2026-09-21.html",
       "sha256": "b84ebb1fa98f956018858eb509896e6ea2cbe68beaf54f368eeb97a2cc588c65"
+    },
+    {
+      "path": "research/日出日落_2026-09-22.html",
+      "sha256": "c6c04544760820daa621edeb83422d3cf760e774e15848089a5bc4833af1d44b"
     },
     {
       "path": "research/纳木措北岸民宿接线_2026-09-21.html",
